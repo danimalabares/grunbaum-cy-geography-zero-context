@@ -14,9 +14,10 @@ MANIFEST = ROOT / "computations" / "SHA256SUMS"
 def entries() -> list[tuple[str, str]]:
     result = []
     for path in sorted(ROOT.rglob("*")):
-        if not path.is_file() or path == MANIFEST:
+        rel_path = path.relative_to(ROOT)
+        if ".git" in rel_path.parts or not path.is_file() or path == MANIFEST:
             continue
-        rel = path.relative_to(ROOT).as_posix()
+        rel = rel_path.as_posix()
         result.append((hashlib.sha256(path.read_bytes()).hexdigest(), rel))
     return result
 
