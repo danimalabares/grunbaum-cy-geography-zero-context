@@ -1,0 +1,5 @@
+PUBLICATION_AUDIT_PASSED
+files_inspected=57
+largest_file=equations/six_jet.m2
+largest_file_bytes=218079
+license_files=[]

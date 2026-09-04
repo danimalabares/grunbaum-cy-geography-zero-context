@@ -1,0 +1,193 @@
+claims:
+  - claim_id: DEF-001
+    title: Embedded tangent basis dimension and order
+    mode: full-audit
+    input:
+      path: ../grunbaum-zero-context-proof (or GS_ZERO_CONTEXT_SOURCE)
+      git_commit: ee984e9541e9cb9259728e6dc7b3a1bc0fda8a9b
+    normalized_claim: normalMatrix({0},F0) is 16 by 109 in the exported order.
+    diagnostic_class: supporting-check
+    supplied_proof_state: succeeds
+    claim_state: established
+    evidence:
+      - kind: exact-computation
+        locator: scripts/extract_deformation.m2
+        summary: Recomputed over QQ and exported all 109 columns.
+    confidence: {level: high, rationale: Exact dimensions and every entry exported with fail-fast assertions.}
+    human_verification: {status: not-claimed}
+
+  - claim_id: DEF-002
+    title: Coordinate orbit and intrinsic complement
+    mode: full-audit
+    normalized_claim: The coordinate-action image has dimension 56 and the listed 53 columns are its selected complement.
+    diagnostic_class: supporting-check
+    supplied_proof_state: succeeds
+    claim_state: established
+    evidence:
+      - kind: exact-computation
+        locator: scripts/verify_coordinate_split.m2
+        summary: Recomputed pivot rows from the Jacobian coordinate action.
+    dependencies: {prerequisites: [DEF-001], direct_consumers: [DEF-003, GEO-002]}
+    confidence: {level: high, rationale: Exact rank/pivot calculation agrees literally with the frozen list.}
+    human_verification: {status: not-claimed}
+
+  - claim_id: DEF-003
+    title: Generic invariant first jet
+    mode: full-audit
+    normalized_claim: The ten stated orbits and orbit weights 1 through 10 produce the stated 53-vector and sixteen cubics g_i.
+    diagnostic_class: supporting-check
+    supplied_proof_state: succeeds
+    claim_state: established
+    evidence:
+      - kind: exact-computation
+        locator: equations/deformation_data.json
+        summary: Exact orbit partition, vector, basis and T1*y output.
+    dependencies: {prerequisites: [DEF-002], direct_consumers: [DEF-004]}
+    confidence: {level: high, rationale: Partition and generator ordering are asserted before coefficient export.}
+    human_verification: {status: not-claimed}
+
+  - claim_id: DEF-004
+    title: First coefficient equals stored six-jet coefficient
+    mode: full-audit
+    normalized_claim: The independently recomputed g_i equal coefficient_q of every stored generic equivariant generator.
+    diagnostic_class: supporting-check
+    supplied_proof_state: succeeds
+    claim_state: established
+    evidence:
+      - kind: exact-computation
+        locator: computations/extract_deformation.stdout.txt
+        summary: Literal coefficientwise equality over QQ.
+    dependencies: {prerequisites: [DEF-003], direct_consumers: [DEF-005]}
+    confidence: {level: high, rationale: Exact polynomial equality in Macaulay2, all sixteen slots.}
+    human_verification: {status: not-claimed}
+
+  - claim_id: DEF-005
+    title: Explicitness boundary
+    mode: full-audit
+    normalized_claim: The packet contains a finite six-jet and abstract all-orders/existential algebraization, but no finite explicit algebraic smoothing.
+    diagnostic_class: supporting-check
+    supplied_proof_state: succeeds
+    claim_state: established
+    evidence:
+      - kind: derivation
+        locator: reports/DEFORMATION_EQUATIONS.md
+        summary: Formal theorem and curve-selection argument distinguished from absent finite equations.
+      - kind: exact-computation
+        locator: computations/failed_truncation.stdout.txt
+        summary: Quarantined order-four candidate has wrong q=1 dimension and degree.
+    dependencies: {prerequisites: [DEF-004], direct_consumers: [OPEN-001]}
+    confidence: {level: high, rationale: Expected exact-family artifacts are absent and the sole failed truncation is exactly checked.}
+    human_verification: {status: not-claimed}
+
+  - claim_id: GEO-001
+    title: Hilbert polynomial and degree
+    mode: full-audit
+    normalized_claim: The special fiber has degree 20 and Hilbert polynomial (10/3)m^3+(14/3)m.
+    diagnostic_class: supporting-check
+    supplied_proof_state: succeeds
+    claim_state: established
+    evidence:
+      - kind: exact-computation
+        locator: scripts/verify_geography.m2
+        summary: Exact resolution, Hilbert series, dimension and degree.
+      - kind: derivation
+        locator: scripts/verify_formulas.py
+        summary: Exact rational expansion and coefficient comparison.
+    confidence: {level: high, rationale: Two exact computations from the ideal/h-vector.}
+    human_verification: {status: not-claimed}
+
+  - claim_id: GEO-002
+    title: Local Hilbert upper bound
+    mode: full-audit
+    normalized_claim: The local embedded Hilbert dimension at the Stanley-Reisner point is at most 94.
+    diagnostic_class: supporting-check
+    supplied_proof_state: succeeds
+    claim_state: established
+    evidence:
+      - kind: exact-computation
+        locator: scripts/verify_full_kuranishi.m2
+        summary: Fresh all-109-direction order-two calculation gives 94 parameter dimensions.
+    dependencies: {prerequisites: [DEF-001], direct_consumers: [GEO-004, LIT-001]}
+    limitations:
+      - Relies on the VersalDeformations package contract for the complete embedded Kuranishi obstruction output.
+    confidence: {level: high, rationale: Fresh exact full-direction rerun; package internals not formally verified.}
+    human_verification: {status: not-claimed}
+
+  - claim_id: GEO-003
+    title: Smooth-fiber polarized invariants
+    mode: full-audit
+    normalized_claim: Any smooth nearby fiber has K=0, H^3=20, c2.H=56 and complete |H| embedding.
+    diagnostic_class: supporting-check
+    supplied_proof_state: succeeds
+    claim_state: established
+    evidence:
+      - kind: derivation
+        locator: reports/GEOGRAPHY.md
+        summary: Semicontinuity, RR, Serre duality, ampleness and Kodaira vanishing.
+    dependencies: {prerequisites: [GEO-001], direct_consumers: [GEO-004, GEO-005]}
+    confidence: {level: high, rationale: Standard deductions with smoothness explicitly retained as a hypothesis.}
+    human_verification: {status: not-claimed}
+
+  - claim_id: GEO-004
+    title: Hodge-number bound
+    mode: full-audit
+    normalized_claim: Every smooth fiber on a component through the point has h21 at most 31.
+    diagnostic_class: supporting-check
+    supplied_proof_state: succeeds
+    claim_state: established
+    evidence:
+      - kind: derivation
+        locator: reports/GEOGRAPHY.md
+        summary: Smooth embedded Hilbert dimension 63+h21 combined with local bound 94.
+    dependencies: {prerequisites: [GEO-002, GEO-003], direct_consumers: [LIT-001]}
+    confidence: {level: high, rationale: Exact bound plus standard unobstructed polarized CY deformation theory.}
+    human_verification: {status: not-claimed}
+
+  - claim_id: GEO-005
+    title: Primitive polarization
+    mode: full-audit
+    normalized_claim: H is not a positive integral multiple of another line bundle.
+    diagnostic_class: supporting-check
+    supplied_proof_state: not-applicable
+    claim_state: established
+    evidence:
+      - kind: derivation
+        locator: reports/GEOGRAPHY.md
+        summary: H=nL implies n^3 divides H^3=20, so n=1.
+    dependencies: {prerequisites: [GEO-003], direct_consumers: []}
+    confidence: {level: high, rationale: Integral intersection-number divisibility.}
+    human_verification: {status: not-claimed}
+
+  - claim_id: LIT-001
+    title: Exclusion of known determinantal component
+    mode: full-audit
+    normalized_claim: Under the full-Kuranishi-output hypothesis, the known smooth degree-20 determinantal family with h21=34 cannot contain this point.
+    diagnostic_class: supporting-check
+    supplied_proof_state: succeeds
+    claim_state: established
+    evidence:
+      - kind: external-primary-source
+        locator: https://arxiv.org/abs/1609.01195
+        summary: Known determinantal family has Hodge pair (2,34).
+      - kind: derivation
+        locator: reports/GEOGRAPHY.md
+        summary: Its smooth Hilbert dimension 97 contradicts the local bound 94.
+    dependencies: {prerequisites: [GEO-002, GEO-004], direct_consumers: []}
+    limitations:
+      - Conditional on the VersalDeformations package output giving the full embedded Kuranishi equations used for the local bound 94.
+    confidence: {level: high, rationale: Primary-source invariant and exact local dimension inequality.}
+    human_verification: {status: not-claimed}
+
+  - claim_id: OPEN-001
+    title: Exact geography and rational liaison
+    mode: full-audit
+    normalized_claim: Exact Hodge numbers, Picard group, fundamental group and rational liaison are not presently determined.
+    diagnostic_class: unresolved-concern
+    supplied_proof_state: incomplete
+    claim_state: unresolved
+    evidence:
+      - kind: derivation
+        locator: reports/GEOGRAPHY.md
+        summary: Packet and inspected literature do not supply the required explicit model or topology.
+    confidence: {level: high, rationale: This is a precise record of absent conclusions, not a nonexistence claim.}
+    human_verification: {status: not-claimed}

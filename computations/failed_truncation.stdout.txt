@@ -1,0 +1,3 @@
+FAILED_CONTROL|q1_affine_dimension|0
+FAILED_CONTROL|q1_degree|567
+FAILED_CONTROL|interpretation|nonflat_not_a_smoothing

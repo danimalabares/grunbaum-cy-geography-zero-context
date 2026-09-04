@@ -1,0 +1,11 @@
+CHECK|dimension_projective_scheme|3
+CHECK|degree|20
+CHECK|resolution|1,16,30,16,1;shifts=0,3,4,5,8
+CHECK|hilbert_series|new Divide from {1+4*T+10*T^2+4*T^3+T^4,new Product from {new Power from {1-T,4}}}
+CHECK|hilbert_polynomial|new ProjectiveHilbertPolynomial from {0 => -8, 1 => 28, 2 => -40, 3 => 20}
+CHECK|h0_O|1
+CHECK|h0_H|8
+CHECK|embedded_tangent_dimension|109
+CHECK|complete_obstruction_dimension|27
+CHECK|quadratic_cone_in_36_variables_dimension|21
+CHECK|quadratic_upper_bound_full_embedded|94

@@ -1,0 +1,116 @@
+# Embedded tangent basis
+
+This is the exact one-based column order returned by
+`normalMatrix({0},F0)` over `QQ[a,b,c,d,e,f,g,h]`. Each `b_j`
+is recorded by its nonzero images of the ordered generators; omitted
+images are zero in the chosen polynomial representatives.
+
+- `b_1`: f_1 -> a*c*e
+- `b_2`: f_1 -> b*c*e
+- `b_3`: f_1 -> c^2*e
+- `b_4`: f_1 -> c*e^2
+- `b_5`: f_1 -> c*e*f
+- `b_6`: f_4 -> a*d*f
+- `b_7`: f_4 -> c*d*f
+- `b_8`: f_4 -> d^2*f
+- `b_9`: f_4 -> d*f^2
+- `b_10`: f_4 -> d*f*g
+- `b_11`: f_1 -> b^2*f; f_2 -> b^2*g; f_3 -> b^2*h; f_4 -> b*c*g; f_5 -> b*c*h; f_6 -> b*d*h
+- `b_12`: f_1 -> b*c*f; f_2 -> b*c*g; f_3 -> b*c*h; f_4 -> c^2*g; f_5 -> c^2*h; f_6 -> c*d*h
+- `b_13`: f_1 -> b*d*f; f_2 -> b*d*g; f_3 -> b*d*h; f_4 -> c*d*g; f_5 -> c*d*h; f_6 -> d^2*h
+- `b_14`: f_1 -> b*e*f; f_2 -> b*e*g; f_3 -> b*e*h; f_4 -> c*e*g; f_5 -> c*e*h; f_6 -> d*e*h
+- `b_15`: f_1 -> b*f^2; f_2 -> b*f*g; f_3 -> b*f*h; f_4 -> c*f*g; f_5 -> c*f*h; f_6 -> d*f*h
+- `b_16`: f_1 -> b*f*g; f_2 -> b*g^2; f_3 -> b*g*h; f_4 -> c*g^2; f_5 -> c*g*h; f_6 -> d*g*h
+- `b_17`: f_1 -> b*f*h; f_2 -> b*g*h; f_3 -> b*h^2; f_4 -> c*g*h; f_5 -> c*h^2; f_6 -> d*h^2
+- `b_18`: f_6 -> a*e*g
+- `b_19`: f_6 -> d*e*g
+- `b_20`: f_6 -> e^2*g
+- `b_21`: f_6 -> e*g^2
+- `b_22`: f_6 -> e*g*h
+- `b_23`: f_8 -> b*c*h
+- `b_24`: f_8 -> c^2*h
+- `b_25`: f_8 -> c*d*h
+- `b_26`: f_8 -> c*g*h
+- `b_27`: f_8 -> c*h^2
+- `b_28`: f_1 -> a^2*f; f_2 -> a^2*g; f_3 -> a^2*h; f_7 -> a*d*f; f_8 -> a*d*g; f_9 -> a*e*g
+- `b_29`: f_1 -> a*c*f; f_2 -> a*c*g; f_3 -> a*c*h; f_7 -> c*d*f; f_8 -> c*d*g; f_9 -> c*e*g
+- `b_30`: f_1 -> a*d*f; f_2 -> a*d*g; f_3 -> a*d*h; f_7 -> d^2*f; f_8 -> d^2*g; f_9 -> d*e*g
+- `b_31`: f_1 -> a*e*f; f_2 -> a*e*g; f_3 -> a*e*h; f_7 -> d*e*f; f_8 -> d*e*g; f_9 -> e^2*g
+- `b_32`: f_1 -> a*f^2; f_2 -> a*f*g; f_3 -> a*f*h; f_7 -> d*f^2; f_8 -> d*f*g; f_9 -> e*f*g
+- `b_33`: f_1 -> a*f*g; f_2 -> a*g^2; f_3 -> a*g*h; f_7 -> d*f*g; f_8 -> d*g^2; f_9 -> e*g^2
+- `b_34`: f_1 -> a*f*h; f_2 -> a*g*h; f_3 -> a*h^2; f_7 -> d*f*h; f_8 -> d*g*h; f_9 -> e*g*h
+- `b_35`: f_10 -> a^2*b
+- `b_36`: f_10 -> a*b^2
+- `b_37`: f_10 -> a*b*c
+- `b_38`: f_10 -> a*b*d
+- `b_39`: f_10 -> a*b*e
+- `b_40`: f_4 -> a^2*g; f_5 -> a^2*h; f_10 -> a*d*e; f_11 -> a*e*g; f_12 -> a*e*h; f_13 -> a*f*h
+- `b_41`: f_4 -> a*b*g; f_5 -> a*b*h; f_10 -> b*d*e; f_11 -> b*e*g; f_12 -> b*e*h; f_13 -> b*f*h
+- `b_42`: f_4 -> a*d*g; f_5 -> a*d*h; f_10 -> d^2*e; f_11 -> d*e*g; f_12 -> d*e*h; f_13 -> d*f*h
+- `b_43`: f_4 -> a*e*g; f_5 -> a*e*h; f_10 -> d*e^2; f_11 -> e^2*g; f_12 -> e^2*h; f_13 -> e*f*h
+- `b_44`: f_4 -> a*f*g; f_5 -> a*f*h; f_10 -> d*e*f; f_11 -> e*f*g; f_12 -> e*f*h; f_13 -> f^2*h
+- `b_45`: f_4 -> a*g^2; f_5 -> a*g*h; f_10 -> d*e*g; f_11 -> e*g^2; f_12 -> e*g*h; f_13 -> f*g*h
+- `b_46`: f_4 -> a*g*h; f_5 -> a*h^2; f_10 -> d*e*h; f_11 -> e*g*h; f_12 -> e*h^2; f_13 -> f*h^2
+- `b_47`: f_13 -> b^2*g
+- `b_48`: f_13 -> b*c*g
+- `b_49`: f_13 -> b*f*g
+- `b_50`: f_13 -> b*g^2
+- `b_51`: f_13 -> b*g*h
+- `b_52`: f_6 -> a^2*h; f_7 -> a*b*f; f_8 -> a*b*g; f_10 -> a*c*e; f_14 -> a*e*f; f_15 -> a*f*h
+- `b_53`: f_6 -> a*b*h; f_7 -> b^2*f; f_8 -> b^2*g; f_10 -> b*c*e; f_14 -> b*e*f; f_15 -> b*f*h
+- `b_54`: f_6 -> a*c*h; f_7 -> b*c*f; f_8 -> b*c*g; f_10 -> c^2*e; f_14 -> c*e*f; f_15 -> c*f*h
+- `b_55`: f_6 -> a*e*h; f_7 -> b*e*f; f_8 -> b*e*g; f_10 -> c*e^2; f_14 -> e^2*f; f_15 -> e*f*h
+- `b_56`: f_6 -> a*f*h; f_7 -> b*f^2; f_8 -> b*f*g; f_10 -> c*e*f; f_14 -> e*f^2; f_15 -> f^2*h
+- `b_57`: f_6 -> a*g*h; f_7 -> b*f*g; f_8 -> b*g^2; f_10 -> c*e*g; f_14 -> e*f*g; f_15 -> f*g*h
+- `b_58`: f_6 -> a*h^2; f_7 -> b*f*h; f_8 -> b*g*h; f_10 -> c*e*h; f_14 -> e*f*h; f_15 -> f*h^2
+- `b_59`: f_3 -> a^2*b; f_5 -> a^2*c; f_6 -> a^2*d; f_12 -> a*c*e; f_13 -> a*c*f; f_15 -> a*d*f
+- `b_60`: f_3 -> a*b^2; f_5 -> a*b*c; f_6 -> a*b*d; f_12 -> b*c*e; f_13 -> b*c*f; f_15 -> b*d*f
+- `b_61`: f_3 -> a*b*c; f_5 -> a*c^2; f_6 -> a*c*d; f_12 -> c^2*e; f_13 -> c^2*f; f_15 -> c*d*f
+- `b_62`: f_3 -> a*b*d; f_5 -> a*c*d; f_6 -> a*d^2; f_12 -> c*d*e; f_13 -> c*d*f; f_15 -> d^2*f
+- `b_63`: f_3 -> a*b*e; f_5 -> a*c*e; f_6 -> a*d*e; f_12 -> c*e^2; f_13 -> c*e*f; f_15 -> d*e*f
+- `b_64`: f_3 -> a*b*f; f_5 -> a*c*f; f_6 -> a*d*f; f_12 -> c*e*f; f_13 -> c*f^2; f_15 -> d*f^2
+- `b_65`: f_3 -> a*b*g; f_5 -> a*c*g; f_6 -> a*d*g; f_12 -> c*e*g; f_13 -> c*f*g; f_15 -> d*f*g
+- `b_66`: f_16 -> a^2*h
+- `b_67`: f_16 -> a*e*h
+- `b_68`: f_16 -> a*f*h
+- `b_69`: f_16 -> a*g*h
+- `b_70`: f_16 -> a*h^2
+- `b_71`: f_9 -> a*b*g; f_10 -> a*c*d; f_11 -> a*c*g; f_12 -> a*c*h; f_14 -> a*d*f; f_16 -> a*f*g
+- `b_72`: f_9 -> b^2*g; f_10 -> b*c*d; f_11 -> b*c*g; f_12 -> b*c*h; f_14 -> b*d*f; f_16 -> b*f*g
+- `b_73`: f_9 -> b*c*g; f_10 -> c^2*d; f_11 -> c^2*g; f_12 -> c^2*h; f_14 -> c*d*f; f_16 -> c*f*g
+- `b_74`: f_9 -> b*d*g; f_10 -> c*d^2; f_11 -> c*d*g; f_12 -> c*d*h; f_14 -> d^2*f; f_16 -> d*f*g
+- `b_75`: f_9 -> b*f*g; f_10 -> c*d*f; f_11 -> c*f*g; f_12 -> c*f*h; f_14 -> d*f^2; f_16 -> f^2*g
+- `b_76`: f_9 -> b*g^2; f_10 -> c*d*g; f_11 -> c*g^2; f_12 -> c*g*h; f_14 -> d*f*g; f_16 -> f*g^2
+- `b_77`: f_9 -> b*g*h; f_10 -> c*d*h; f_11 -> c*g*h; f_12 -> c*h^2; f_14 -> d*f*h; f_16 -> f*g*h
+- `b_78`: f_1 -> a^2*b; f_7 -> a*b*d; f_13 -> a*c*h; f_14 -> a*d*e; f_15 -> a*d*h; f_16 -> a*e*g
+- `b_79`: f_1 -> a*b^2; f_7 -> b^2*d; f_13 -> b*c*h; f_14 -> b*d*e; f_15 -> b*d*h; f_16 -> b*e*g
+- `b_80`: f_1 -> a*b*c; f_7 -> b*c*d; f_13 -> c^2*h; f_14 -> c*d*e; f_15 -> c*d*h; f_16 -> c*e*g
+- `b_81`: f_1 -> a*b*d; f_7 -> b*d^2; f_13 -> c*d*h; f_14 -> d^2*e; f_15 -> d^2*h; f_16 -> d*e*g
+- `b_82`: f_1 -> a*b*e; f_7 -> b*d*e; f_13 -> c*e*h; f_14 -> d*e^2; f_15 -> d*e*h; f_16 -> e^2*g
+- `b_83`: f_1 -> a*b*g; f_7 -> b*d*g; f_13 -> c*g*h; f_14 -> d*e*g; f_15 -> d*g*h; f_16 -> e*g^2
+- `b_84`: f_1 -> a*b*h; f_7 -> b*d*h; f_13 -> c*h^2; f_14 -> d*e*h; f_15 -> d*h^2; f_16 -> e*g*h
+- `b_85`: f_2 -> a^2*b; f_4 -> a^2*c; f_8 -> a*b*d; f_9 -> a*b*e; f_11 -> a*c*e; f_16 -> a*e*f
+- `b_86`: f_2 -> a*b^2; f_4 -> a*b*c; f_8 -> b^2*d; f_9 -> b^2*e; f_11 -> b*c*e; f_16 -> b*e*f
+- `b_87`: f_2 -> a*b*c; f_4 -> a*c^2; f_8 -> b*c*d; f_9 -> b*c*e; f_11 -> c^2*e; f_16 -> c*e*f
+- `b_88`: f_2 -> a*b*d; f_4 -> a*c*d; f_8 -> b*d^2; f_9 -> b*d*e; f_11 -> c*d*e; f_16 -> d*e*f
+- `b_89`: f_2 -> a*b*e; f_4 -> a*c*e; f_8 -> b*d*e; f_9 -> b*e^2; f_11 -> c*e^2; f_16 -> e^2*f
+- `b_90`: f_2 -> a*b*f; f_4 -> a*c*f; f_8 -> b*d*f; f_9 -> b*e*f; f_11 -> c*e*f; f_16 -> e*f^2
+- `b_91`: f_2 -> a*b*h; f_4 -> a*c*h; f_8 -> b*d*h; f_9 -> b*e*h; f_11 -> c*e*h; f_16 -> e*f*h
+- `b_92`: f_1 -> f^2*h; f_2 -> f*g*h; f_3 -> f*h^2
+- `b_93`: f_1 -> e*f^2; f_3 -> e*f*h
+- `b_94`: f_3 -> b*d*e; f_6 -> d^2*e
+- `b_95`: f_3 -> b^2*d; f_5 -> b*c*d; f_6 -> b*d^2
+- `b_96`: f_1 -> a^2*c; f_7 -> a*c*d
+- `b_97`: f_7 -> c*f*g; f_8 -> c*g^2
+- `b_98`: f_8 -> d^2*h; f_9 -> d*e*h
+- `b_99`: f_2 -> a*d*e; f_8 -> d^2*e; f_9 -> d*e^2
+- `b_100`: f_10 -> d^2*h; f_11 -> d*g*h; f_12 -> d*h^2
+- `b_101`: f_10 -> b*d^2; f_12 -> b*d*h
+- `b_102`: f_5 -> a*e*f; f_12 -> e^2*f; f_13 -> e*f^2
+- `b_103`: f_12 -> b*e*f; f_13 -> b*f^2
+- `b_104`: f_10 -> a*c^2; f_14 -> a*c*f
+- `b_105`: f_6 -> a^2*g; f_15 -> a*f*g
+- `b_106`: f_13 -> c^2*g; f_15 -> c*d*g
+- `b_107`: f_9 -> b*f*h; f_16 -> f^2*h
+- `b_108`: f_14 -> a*d*g; f_16 -> a*g^2
+- `b_109`: f_9 -> b^2*f; f_11 -> b*c*f; f_16 -> b*f^2

@@ -1,0 +1,7 @@
+Warning: calculation terminated since HighestOrder has been reached.
+CHECK|full_kuranishi_T1_shape|16x109
+CHECK|full_kuranishi_T2_shape|30x27
+CHECK|full_kuranishi_G2_shape|27x1
+CHECK|full_kuranishi_raw_dimension|102
+CHECK|full_kuranishi_parameter_dimension|94
+CHECK|full_kuranishi_x_derivatives_zero|true

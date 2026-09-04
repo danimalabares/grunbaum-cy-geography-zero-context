@@ -1,0 +1,4 @@
+EXTRACTION_AND_VERIFICATION_PASSED
+embedded tangent basis 109; coordinate orbit 56; intrinsic complement 53
+stored q coefficient equals independently recomputed T1*y
+six-jet orders 0..6 and all 16 generator slots exported

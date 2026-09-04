@@ -1,0 +1,9 @@
+EXPLICITNESS_BOUNDARY_CHECK_PASSED
+present finite six-jet F/R state: true
+present explicit finite algebraic smoothing equations: false
+absent guard artifact: certificates/gs_smoothing_family_matrix.txt
+absent guard artifact: certificates/gs_smoothing_relations_matrix.txt
+absent guard artifact: reconstruct/p1_sparse_line_family_exact.txt
+absent guard artifact: reconstruct/p1_sparse_line_relations_exact.txt
+absent guard artifact: reconstruct/p1_sparse_line_certificate.txt
+absent guard artifact: enumerate/exact_p1_hodge_certificate.txt

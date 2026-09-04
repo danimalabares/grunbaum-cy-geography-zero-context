@@ -1,0 +1,4 @@
+FORMULA_CHECKS_PASSED
+Hilbert polynomial: (10/3)m^3+(14/3)m
+smooth CY consequences: H^3=20, c2.H=56, h0(H)=8
+conditional Hilbert bound: h21<=31
