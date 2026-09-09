@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-computation-2026-09-08/scripts/build_fixed_chart.py", line 123, in <module>
+    if __name__=='__main__': main()
+                             ~~~~^^
+  File "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-computation-2026-09-08/scripts/build_fixed_chart.py", line 113, in main
+    assert json.loads(dest.read_text())==data, 'existing chart differs; preserve it'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: existing chart differs; preserve it

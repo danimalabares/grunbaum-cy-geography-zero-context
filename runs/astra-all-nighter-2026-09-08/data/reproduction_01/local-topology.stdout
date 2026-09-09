@@ -1,0 +1,30 @@
+{
+  "basis": [
+    "1",
+    "s"
+  ],
+  "field": "Q[s]/(s^2-7), irreducible since 7 is not a rational square",
+  "norm_p_v": "-448",
+  "norm_v": "9/2",
+  "p_at_point": [
+    "0",
+    "0"
+  ],
+  "p_v_at_point": [
+    "0",
+    "-8"
+  ],
+  "source_hashes": {
+    "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-all-nighter-2026-09-08/data/smoothness_transfer_checks.json": "f3f7a52ee7147da7f34e4a058453ffccefddfe48ccb6599083b3d4ef7ffef2b4",
+    "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-all-nighter-2026-09-08/scripts/check_topology_local_point.py": "09ae0b79b2a662764bd08531c5a2ac829b8945da806b83d9b00da658584369c2"
+  },
+  "status": "COMPUTER-CERTIFIED exact point/transversality; topology proof is separate",
+  "u": [
+    "1",
+    "0"
+  ],
+  "v": [
+    "-5/2",
+    "1/2"
+  ]
+}

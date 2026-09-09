@@ -1,0 +1,24 @@
+VERIFIED_ORIGINAL_ROW_COMBINATIONS 979
+VERIFIED_PEELS 10
+VERIFIED_PEELS 20
+VERIFIED_PEELS 30
+VERIFIED_PEELS 40
+VERIFIED_PEELS 50
+{
+  "status": "COMPUTER-CERTIFIED exact characteristic-zero contradiction",
+  "original_unknowns": 123,
+  "original_equations": 1160,
+  "necessary_row_combinations_verified": 979,
+  "constant_unit_eliminations_verified": 54,
+  "remaining_variables": 18,
+  "remaining_equations": 502,
+  "literal_one_verified": true,
+  "seconds": 19.439801210999576,
+  "proof": "Every initial constraint is a checked rational linear combination of the original equations with G2 canceled. At each step a present equation solves one variable with a nonzero rational constant coefficient; substitution is exact. The final necessary equations include 1=0.",
+  "input_hashes": {
+    "runs/astra-all-nighter-2026-09-08/data/combined_matrix_QQ/original_system_QQ.json": "a09dfab5b6f6809f9726af9828b8d4facf6136463bf46b5243477da2d5b3f63a",
+    "runs/astra-all-nighter-2026-09-08/data/combined_matrix_QQ/G2_elimination_QQ.json": "8bff661b2381e72d74d4266b12c58cb20af26214f1b92b1dbf23f44c38aa2bcb",
+    "runs/astra-all-nighter-2026-09-08/data/combined_matrix_QQ/reduced_locus_QQ.json": "dca13a4c5c08223b8e09e9c8bc1ded49880c2a2bf2c76154ec5e2fbedf7f7417",
+    "runs/astra-all-nighter-2026-09-08/scripts/verify_combined_QQ_contradiction.py": "75357a5914ce2fe50250c29a32628f893c214f41861bb41cf85949705dc5ecd8"
+  }
+}

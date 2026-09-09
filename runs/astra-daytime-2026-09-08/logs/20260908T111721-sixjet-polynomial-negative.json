@@ -1,0 +1,30 @@
+{
+  "command": [
+    "python3",
+    "scripts/check_rational_closure.py",
+    "logs/20260908T111640-curve-sixjet-final.artifacts/fixed_curve_p101_order6.json",
+    "--max-denominator",
+    "0"
+  ],
+  "cwd": "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-daytime-2026-09-08",
+  "limits": {
+    "seconds": 120,
+    "memory_mb": 1500,
+    "tag": "sixjet-polynomial-negative",
+    "command": [
+      "--",
+      "python3",
+      "scripts/check_rational_closure.py",
+      "logs/20260908T111640-curve-sixjet-final.artifacts/fixed_curve_p101_order6.json",
+      "--max-denominator",
+      "0"
+    ]
+  },
+  "start": "20260908T111721",
+  "single_thread": true,
+  "output": "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-daytime-2026-09-08/logs/20260908T111721-sixjet-polynomial-negative.artifacts",
+  "seconds": 6.3,
+  "peak_rss_kb": 25040,
+  "reason": "completed",
+  "exit_code": 0
+}

@@ -18,3 +18,9 @@ No source repository was modified by the 2026-09-04 work.
 - `runs/cp2-nine-vertex-equivariant-t2-2026-09-09/`: for the nine-vertex triangulation of CP² (a fourfold in P⁸, not the sphere's threefold), dim Hom_S(I,A)₀ = 93, intrinsic T¹ = 21, dim (T²)₀ = 126; invariant obstructions: 14 for the vertex stabiliser S₃, 0 for the order-54 automorphism group; 5 invariant embedded tangent directions, 3 of them coordinate changes, 2 genuine, each extending to all orders equivariantly. Smoothability undecided. Verifiers re-run before publication with byte-identical outputs (`PUBLICATION_VERIFICATION.md`); four textual corrections to `RESULTS.md` are marked inline.
 - Optional quadratic-obstruction cross-check in that run: unfinished, not restarted, not used.
 - `scripts/make_manifest.py` now excludes `runs/` (each run has its own manifest); `computations/SHA256SUMS` regenerated accordingly.
+
+## 2026-09-09 — publication of all existing proof material
+
+- `PROOFS.md` added as the proof index (statement, location, certificates, reproduction, status for every result; labels as recorded, none upgraded).
+- The three 2026-09-08 runs (`runs/astra-*`) are now committed, minus 1431 large search-checkpoint files (GitHub Release `historical-runs-2026-09-08-large-artifacts`) and six withheld files; see `runs/PUBLICATION_OMISSIONS.json`. `scripts/verify_runs.py` verifies every run manifest allowing exactly those omissions.
+- Verified in this pass: all four run manifests (100, 1943, 270, 38 entries; 0 mismatches), the two independent Python checks of the computation run (product minor, ramified export; certificates identical to the shipped ones), the sphere check suite `run_checks.py` (nine mathematical checks pass), the publication audit, and the presence of all six external commits on GitHub. Not re-run: the guarded replay entry points of the 2026-09-08 runs (they refuse by their historical date guards, as designed) and every heavy search.

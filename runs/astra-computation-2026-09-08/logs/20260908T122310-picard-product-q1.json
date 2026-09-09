@@ -1,0 +1,33 @@
+{
+  "command": [
+    "python3",
+    "scripts/picard_product_first_order.py"
+  ],
+  "cwd": "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-computation-2026-09-08",
+  "limits": {
+    "seconds": 300,
+    "memory_mb": 2800,
+    "tag": "picard-product-q1",
+    "command": [
+      "--",
+      "python3",
+      "scripts/picard_product_first_order.py"
+    ]
+  },
+  "start": "20260908T122310",
+  "single_thread": true,
+  "output": "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-computation-2026-09-08/logs/20260908T122310-picard-product-q1.artifacts",
+  "effective_seconds": 300,
+  "start_local": "2026-09-08T12:23:10.512337-03:00",
+  "absolute_computation_cutoff": "2026-09-08T16:35:00-03:00",
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "seconds": 1.316,
+  "peak_rss_kb": 388,
+  "reason": "completed",
+  "exit_code": 0
+}

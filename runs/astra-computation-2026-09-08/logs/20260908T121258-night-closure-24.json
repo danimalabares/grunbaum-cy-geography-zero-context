@@ -1,0 +1,39 @@
+{
+  "command": [
+    "/usr/local/opt/python@3.13/bin/python3.13",
+    "scripts/check_rational_closure.py",
+    "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-computation-2026-09-08/logs/20260908T121238-night-curve-24.artifacts/fixed_curve_p101_order24.json",
+    "--max-denominator",
+    "10"
+  ],
+  "cwd": "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-computation-2026-09-08",
+  "limits": {
+    "seconds": 1800,
+    "memory_mb": 2800,
+    "tag": "night-closure-24",
+    "command": [
+      "--",
+      "/usr/local/opt/python@3.13/bin/python3.13",
+      "scripts/check_rational_closure.py",
+      "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-computation-2026-09-08/logs/20260908T121238-night-curve-24.artifacts/fixed_curve_p101_order24.json",
+      "--max-denominator",
+      "10"
+    ]
+  },
+  "start": "20260908T121258",
+  "single_thread": true,
+  "output": "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-computation-2026-09-08/logs/20260908T121258-night-closure-24.artifacts",
+  "effective_seconds": 1800,
+  "start_local": "2026-09-08T12:12:58.853686-03:00",
+  "absolute_computation_cutoff": "2026-09-08T16:35:00-03:00",
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "seconds": 2.362,
+  "peak_rss_kb": 24120,
+  "reason": "completed",
+  "exit_code": 0
+}

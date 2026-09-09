@@ -1,0 +1,26 @@
+FIT 7 remove_initial_q_power 2 2 RANK 9 NULLITY 0
+FIT 7 remove_initial_q_power 2 3 RANK 12 NULLITY 0
+FIT 7 remove_initial_q_power 3 2 RANK 12 NULLITY 0
+FIT 7 remove_initial_q_power 4 1 RANK 10 NULLITY 0
+FIT 7 remove_initial_q_power_then_constant_and_s_power 2 2 RANK 9 NULLITY 0
+FIT 101 remove_initial_q_power 2 2 RANK 9 NULLITY 0
+FIT 101 remove_initial_q_power 2 3 RANK 12 NULLITY 0
+FIT 101 remove_initial_q_power 3 2 RANK 12 NULLITY 0
+FIT 101 remove_initial_q_power 4 1 RANK 10 NULLITY 0
+FIT 101 remove_initial_q_power_then_constant_and_s_power 2 2 RANK 9 NULLITY 0
+FIT 109 remove_initial_q_power 2 2 RANK 9 NULLITY 0
+FIT 109 remove_initial_q_power 2 3 RANK 12 NULLITY 0
+FIT 109 remove_initial_q_power 3 2 RANK 12 NULLITY 0
+FIT 109 remove_initial_q_power 4 1 RANK 10 NULLITY 0
+FIT 109 remove_initial_q_power_then_constant_and_s_power 2 2 RANK 9 NULLITY 0
+FIT 35 remove_initial_q_power 2 2 RANK 9 NULLITY 0
+FIT 35 remove_initial_q_power 2 3 RANK 12 NULLITY 0
+FIT 35 remove_initial_q_power 3 2 RANK 12 NULLITY 0
+FIT 35 remove_initial_q_power 4 1 RANK 10 NULLITY 0
+FIT 35 remove_initial_q_power_then_constant_and_s_power 2 2 RANK 9 NULLITY 0
+FIT 39 remove_initial_q_power 2 2 RANK 9 NULLITY 0
+FIT 39 remove_initial_q_power 2 3 RANK 12 NULLITY 0
+FIT 39 remove_initial_q_power 3 2 RANK 12 NULLITY 0
+FIT 39 remove_initial_q_power 4 1 RANK 10 NULLITY 0
+FIT 39 remove_initial_q_power_then_constant_and_s_power 2 2 RANK 9 NULLITY 0
+CANDIDATE_TESTS 0 SECONDS 0.03259659500008638

@@ -1,0 +1,47 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "scripts/probe_linear_kernel_graph.py",
+    "--max-order",
+    "2",
+    "--max-seconds",
+    "120",
+    "--output",
+    "data/linear_U_probe_mod101.json"
+  ],
+  "cwd": "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-computation-2026-09-08",
+  "limits": {
+    "seconds": 180,
+    "memory_mb": 2800,
+    "tag": "linear-U-q2",
+    "command": [
+      "--",
+      "python3",
+      "-B",
+      "scripts/probe_linear_kernel_graph.py",
+      "--max-order",
+      "2",
+      "--max-seconds",
+      "120",
+      "--output",
+      "data/linear_U_probe_mod101.json"
+    ]
+  },
+  "start": "20260908T124452",
+  "single_thread": true,
+  "output": "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-computation-2026-09-08/logs/20260908T124452-linear-U-q2.artifacts",
+  "effective_seconds": 180,
+  "start_local": "2026-09-08T12:44:52.310194-03:00",
+  "absolute_computation_cutoff": "2026-09-08T16:35:00-03:00",
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "seconds": 2.395,
+  "peak_rss_kb": 25524,
+  "reason": "completed",
+  "exit_code": 0
+}

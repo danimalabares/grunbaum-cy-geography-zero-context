@@ -1,0 +1,43 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "scripts/certify_degeneration_lines.py",
+    "--only-rational-residues",
+    "--output",
+    "data/line_certificate_pilot"
+  ],
+  "cwd": "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-all-nighter-2026-09-08",
+  "limits": {
+    "seconds": 300,
+    "memory_mb": 2800,
+    "tag": "line-certificate-pilot",
+    "command": [
+      "--",
+      "python3",
+      "-B",
+      "scripts/certify_degeneration_lines.py",
+      "--only-rational-residues",
+      "--output",
+      "data/line_certificate_pilot"
+    ]
+  },
+  "start": "20260908T222612179561",
+  "guard_sha256": "48d5aa983d21593ab881c66ec493f931e5118b418cfddd7ec1444018366e1f6a",
+  "sampling_note": "1-second RSS sampling can miss short-lived peaks",
+  "single_thread": true,
+  "output": "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-all-nighter-2026-09-08/logs/20260908T222612179561-line-certificate-pilot.artifacts",
+  "effective_seconds": 300,
+  "start_local": "2026-09-08T22:26:12.137491-03:00",
+  "absolute_computation_cutoff": "2026-09-09T06:30:00-03:00",
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "seconds": 3.149,
+  "peak_rss_kb": 59432,
+  "reason": "completed",
+  "exit_code": 0
+}

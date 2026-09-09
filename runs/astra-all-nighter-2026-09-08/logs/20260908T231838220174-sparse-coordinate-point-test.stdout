@@ -1,0 +1,383 @@
+[
+  {
+    "vertex": "a",
+    "potential_pure_cube_coefficients": [
+      [
+        7,
+        3
+      ],
+      [
+        12,
+        3
+      ],
+      [
+        9,
+        48
+      ],
+      [
+        15,
+        48
+      ],
+      [
+        0,
+        103
+      ],
+      [
+        5,
+        103
+      ],
+      [
+        1,
+        107
+      ],
+      [
+        4,
+        107
+      ],
+      [
+        10,
+        138
+      ],
+      [
+        8,
+        162
+      ],
+      [
+        11,
+        162
+      ],
+      [
+        2,
+        213
+      ],
+      [
+        3,
+        217
+      ],
+      [
+        6,
+        239
+      ],
+      [
+        14,
+        239
+      ],
+      [
+        13,
+        270
+      ]
+    ],
+    "point_contained_exactly_by_support": false,
+    "structural_rank_upper_bound": 7,
+    "singularity_proved_by_support": false
+  },
+  {
+    "vertex": "b",
+    "potential_pure_cube_coefficients": [],
+    "point_contained_exactly_by_support": true,
+    "structural_rank_upper_bound": 3,
+    "singularity_proved_by_support": true
+  },
+  {
+    "vertex": "c",
+    "potential_pure_cube_coefficients": [
+      [
+        5,
+        3
+      ],
+      [
+        15,
+        3
+      ],
+      [
+        0,
+        48
+      ],
+      [
+        7,
+        48
+      ],
+      [
+        9,
+        103
+      ],
+      [
+        12,
+        103
+      ],
+      [
+        4,
+        107
+      ],
+      [
+        10,
+        107
+      ],
+      [
+        1,
+        138
+      ],
+      [
+        2,
+        162
+      ],
+      [
+        8,
+        162
+      ],
+      [
+        11,
+        213
+      ],
+      [
+        3,
+        217
+      ],
+      [
+        13,
+        239
+      ],
+      [
+        14,
+        239
+      ],
+      [
+        6,
+        270
+      ]
+    ],
+    "point_contained_exactly_by_support": false,
+    "structural_rank_upper_bound": 7,
+    "singularity_proved_by_support": false
+  },
+  {
+    "vertex": "d",
+    "potential_pure_cube_coefficients": [
+      [
+        5,
+        9
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        0,
+        31
+      ],
+      [
+        12,
+        31
+      ],
+      [
+        15,
+        31
+      ],
+      [
+        1,
+        113
+      ],
+      [
+        4,
+        113
+      ],
+      [
+        10,
+        113
+      ],
+      [
+        2,
+        168
+      ],
+      [
+        8,
+        168
+      ],
+      [
+        11,
+        168
+      ],
+      [
+        3,
+        223
+      ],
+      [
+        6,
+        245
+      ],
+      [
+        13,
+        245
+      ],
+      [
+        14,
+        245
+      ]
+    ],
+    "point_contained_exactly_by_support": false,
+    "structural_rank_upper_bound": 7,
+    "singularity_proved_by_support": false
+  },
+  {
+    "vertex": "e",
+    "potential_pure_cube_coefficients": [],
+    "point_contained_exactly_by_support": true,
+    "structural_rank_upper_bound": 3,
+    "singularity_proved_by_support": true
+  },
+  {
+    "vertex": "f",
+    "potential_pure_cube_coefficients": [
+      [
+        0,
+        9
+      ],
+      [
+        12,
+        9
+      ],
+      [
+        15,
+        9
+      ],
+      [
+        5,
+        31
+      ],
+      [
+        7,
+        31
+      ],
+      [
+        9,
+        31
+      ],
+      [
+        1,
+        113
+      ],
+      [
+        4,
+        113
+      ],
+      [
+        10,
+        113
+      ],
+      [
+        2,
+        168
+      ],
+      [
+        8,
+        168
+      ],
+      [
+        11,
+        168
+      ],
+      [
+        3,
+        223
+      ],
+      [
+        6,
+        245
+      ],
+      [
+        13,
+        245
+      ],
+      [
+        14,
+        245
+      ]
+    ],
+    "point_contained_exactly_by_support": false,
+    "structural_rank_upper_bound": 7,
+    "singularity_proved_by_support": false
+  },
+  {
+    "vertex": "g",
+    "potential_pure_cube_coefficients": [
+      [
+        0,
+        3
+      ],
+      [
+        9,
+        3
+      ],
+      [
+        5,
+        48
+      ],
+      [
+        12,
+        48
+      ],
+      [
+        7,
+        103
+      ],
+      [
+        15,
+        103
+      ],
+      [
+        1,
+        107
+      ],
+      [
+        10,
+        107
+      ],
+      [
+        4,
+        138
+      ],
+      [
+        2,
+        162
+      ],
+      [
+        11,
+        162
+      ],
+      [
+        8,
+        213
+      ],
+      [
+        3,
+        217
+      ],
+      [
+        6,
+        239
+      ],
+      [
+        13,
+        239
+      ],
+      [
+        14,
+        270
+      ]
+    ],
+    "point_contained_exactly_by_support": false,
+    "structural_rank_upper_bound": 7,
+    "singularity_proved_by_support": false
+  },
+  {
+    "vertex": "h",
+    "potential_pure_cube_coefficients": [],
+    "point_contained_exactly_by_support": true,
+    "structural_rank_upper_bound": 3,
+    "singularity_proved_by_support": true
+  }
+]

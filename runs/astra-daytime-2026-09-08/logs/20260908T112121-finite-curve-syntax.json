@@ -1,0 +1,26 @@
+{
+  "command": [
+    "/usr/local/bin/Singular",
+    "-q",
+    "equations/fixed_curve_QQ.sing"
+  ],
+  "cwd": "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-daytime-2026-09-08",
+  "limits": {
+    "seconds": 90,
+    "memory_mb": 1200,
+    "tag": "finite-curve-syntax",
+    "command": [
+      "--",
+      "/usr/local/bin/Singular",
+      "-q",
+      "equations/fixed_curve_QQ.sing"
+    ]
+  },
+  "start": "20260908T112121",
+  "single_thread": true,
+  "output": "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-daytime-2026-09-08/logs/20260908T112121-finite-curve-syntax.artifacts",
+  "seconds": 11.071,
+  "peak_rss_kb": 328308,
+  "reason": "completed",
+  "exit_code": 0
+}

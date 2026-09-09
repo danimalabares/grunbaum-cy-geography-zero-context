@@ -1,0 +1,47 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "scripts/enumerate_padic_height_box.py",
+    "--output",
+    "data/theta1_cubic_height1000_enumeration",
+    "--max-nodes",
+    "100000",
+    "--max-seconds",
+    "120"
+  ],
+  "cwd": "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-computation-2026-09-08",
+  "limits": {
+    "seconds": 300,
+    "memory_mb": 2800,
+    "tag": "exact-cubic-height-box",
+    "command": [
+      "--",
+      "python3",
+      "-B",
+      "scripts/enumerate_padic_height_box.py",
+      "--output",
+      "data/theta1_cubic_height1000_enumeration",
+      "--max-nodes",
+      "100000",
+      "--max-seconds",
+      "120"
+    ]
+  },
+  "start": "20260908T141710",
+  "single_thread": true,
+  "output": "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-computation-2026-09-08/logs/20260908T141710-exact-cubic-height-box.artifacts",
+  "effective_seconds": 300,
+  "start_local": "2026-09-08T14:17:09.949359-03:00",
+  "absolute_computation_cutoff": "2026-09-08T16:35:00-03:00",
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "seconds": 1.216,
+  "peak_rss_kb": 388,
+  "reason": "completed",
+  "exit_code": 0
+}

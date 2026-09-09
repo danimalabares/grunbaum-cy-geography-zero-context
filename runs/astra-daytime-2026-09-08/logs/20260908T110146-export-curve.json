@@ -1,0 +1,24 @@
+{
+  "command": [
+    "python3",
+    "scripts/export_fixed_curve.py"
+  ],
+  "cwd": "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-daytime-2026-09-08",
+  "limits": {
+    "seconds": 120,
+    "memory_mb": 1200,
+    "tag": "export-curve",
+    "command": [
+      "--",
+      "python3",
+      "scripts/export_fixed_curve.py"
+    ]
+  },
+  "start": "20260908T110146",
+  "single_thread": true,
+  "output": "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-daytime-2026-09-08/logs/20260908T110146-export-curve.artifacts",
+  "seconds": 3.679,
+  "peak_rss_kb": 23196,
+  "reason": "completed",
+  "exit_code": 0
+}

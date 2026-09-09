@@ -1,0 +1,35 @@
+CURVE sixjet F_ONLY_DEN 0 NUM 6 FIT False
+CURVE sixjet F_ONLY_DEN 1 NUM 7 FIT False
+CURVE sixjet F_ONLY_DEN 2 NUM 8 FIT False
+CURVE sixjet F_ONLY_DEN 3 NUM 9 FIT False
+CURVE sixjet F_ONLY_DEN 4 NUM 10 FIT False
+CURVE sixjet F_ONLY_DEN 5 NUM 11 FIT False
+CURVE sixjet F_ONLY_DEN 6 NUM 12 FIT False
+CURVE sixjet F_ONLY_DEN 7 NUM 13 FIT False
+CURVE sixjet F_ONLY_DEN 8 NUM 14 FIT False
+CURVE sixjet F_ONLY_DEN 9 NUM 15 FIT False
+CURVE sixjet F_ONLY_DEN 10 NUM 16 FIT False
+SCREEN_SAVED /Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-computation-2026-09-08/logs/20260908T124245-generator-only-existing32.artifacts/generator_only_p101_f8db805d71ce.json
+CURVE linear F_ONLY_DEN 0 NUM 1 FIT False
+CURVE linear F_ONLY_DEN 1 NUM 2 FIT False
+CURVE linear F_ONLY_DEN 2 NUM 3 FIT False
+CURVE linear F_ONLY_DEN 3 NUM 4 FIT False
+CURVE linear F_ONLY_DEN 4 NUM 5 FIT False
+CURVE linear F_ONLY_DEN 5 NUM 6 FIT False
+CURVE linear F_ONLY_DEN 6 NUM 7 FIT False
+CURVE linear F_ONLY_DEN 7 NUM 8 FIT False
+CURVE linear F_ONLY_DEN 8 NUM 9 FIT False
+CURVE linear F_ONLY_DEN 9 NUM 10 FIT False
+CURVE linear F_ONLY_DEN 10 NUM 11 FIT False
+CURVE linear F_ONLY_DEN 0 NUM 6 FIT False
+CURVE linear F_ONLY_DEN 1 NUM 7 FIT False
+CURVE linear F_ONLY_DEN 2 NUM 8 FIT False
+CURVE linear F_ONLY_DEN 3 NUM 9 FIT False
+CURVE linear F_ONLY_DEN 4 NUM 10 FIT False
+CURVE linear F_ONLY_DEN 5 NUM 11 FIT False
+CURVE linear F_ONLY_DEN 6 NUM 12 FIT False
+CURVE linear F_ONLY_DEN 7 NUM 13 FIT False
+CURVE linear F_ONLY_DEN 8 NUM 14 FIT False
+CURVE linear F_ONLY_DEN 9 NUM 15 FIT False
+CURVE linear F_ONLY_DEN 10 NUM 16 FIT False
+SCREEN_SAVED /Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-computation-2026-09-08/logs/20260908T124245-generator-only-existing32.artifacts/generator_only_p101_8f10fbda24e4.json

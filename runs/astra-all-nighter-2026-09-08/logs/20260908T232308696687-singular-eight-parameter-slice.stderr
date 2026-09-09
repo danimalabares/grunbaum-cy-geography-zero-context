@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-all-nighter-2026-09-08/scripts/certify_singular_eight_parameter_slice.py", line 77, in <module>
+    main()
+  File "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-all-nighter-2026-09-08/scripts/certify_singular_eight_parameter_slice.py", line 36, in main
+    assert len(v) == 781 and all(not x or i in active for i, x in enumerate(v))
+           ^^^^^^^^^^^^^
+AssertionError

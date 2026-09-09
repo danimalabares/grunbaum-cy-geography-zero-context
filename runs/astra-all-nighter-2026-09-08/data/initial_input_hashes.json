@@ -1,0 +1,10 @@
+{
+  "runs/astra-computation-2026-09-08/data/ramified_fibre_coefficients.json": "0e8c3bb4a62a77af4beb22182bc8e7dc771dabd09514a0597aaed5d8b61f0616",
+  "runs/astra-computation-2026-09-08/data/fixed_chart.json": "74c2059066518c95a5b4f3f46427aa7731ce705062b6d858db12bbc1bd9523fd",
+  "runs/astra-computation-2026-09-08/data/equivariant_blocks_QQ.json": "1e815bc09cc42ecdede6e756ab1e12e332bcd456ff1e4523c705b9538c19b4ac",
+  "runs/astra-computation-2026-09-08/data/ramified_hensel_pi56.json": "693a9a4636d7f8fcf472c61a95202fa3ed783950b9539853d9b218d5a5c6aef2",
+  "runs/astra-computation-2026-09-08/scripts/verify_ramified_export.py": "daacfe49fca03817038ca68eb80e4d04105ca9e6e5e86062d21b5ff0e79afb04",
+  "runs/astra-computation-2026-09-08/scripts/replay_certificates.py": "85af7cfa60aa4c5bac5cd07a103bd33a84af5213465a3a86f12bdb0720eb790f",
+  "runs/astra-computation-2026-09-08/scripts/verify_product_minor.py": "48e2b126e19d354471869e2141943218aa7e47b0359eef87cd931a9c99b33cba",
+  "equations/deformation_data.json": "8e01ffc5cec0ecb5859e6a81aa7d0076b8f9c59ef1c7513578b65f993048a59f"
+}

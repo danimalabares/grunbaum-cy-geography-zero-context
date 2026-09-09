@@ -1,0 +1,1 @@
+{"checkpoint_sha256": "f8db805d71ce607aa3c0be7911abbbb40b65ed1f22313eb43ae71b2fc1a5e1a1", "checker_sha256": "c42c33b075c0a8fb45d0459f6d75176589f7baa90f5d6818626d3b2bf9c1ecdd", "prime": 101, "denominator_bound": 0, "numerator_bound": 6, "fit_exists": false, "matches_selected_normalized_sixjet": true, "status": "FAILED: inconsistent linear Pad\u00e9 fit at these bounds"}

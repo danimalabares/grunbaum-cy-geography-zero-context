@@ -1,0 +1,45 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "scripts/equation_reduction_combined_QQ_audit.py",
+    "--max-seconds",
+    "120",
+    "--output",
+    "data/combined_matrix_QQ"
+  ],
+  "cwd": "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-all-nighter-2026-09-08",
+  "limits": {
+    "seconds": 180,
+    "memory_mb": 2800,
+    "tag": "combined-matrix-Q-audit",
+    "command": [
+      "--",
+      "python3",
+      "-B",
+      "scripts/equation_reduction_combined_QQ_audit.py",
+      "--max-seconds",
+      "120",
+      "--output",
+      "data/combined_matrix_QQ"
+    ]
+  },
+  "start": "20260908T231147134751",
+  "guard_sha256": "48d5aa983d21593ab881c66ec493f931e5118b418cfddd7ec1444018366e1f6a",
+  "sampling_note": "1-second RSS sampling can miss short-lived peaks",
+  "single_thread": true,
+  "output": "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-all-nighter-2026-09-08/logs/20260908T231147134751-combined-matrix-Q-audit.artifacts",
+  "effective_seconds": 180,
+  "start_local": "2026-09-08T23:11:47.079570-03:00",
+  "absolute_computation_cutoff": "2026-09-09T06:30:00-03:00",
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "seconds": 62.28,
+  "peak_rss_kb": 95564,
+  "reason": "completed",
+  "exit_code": 0
+}

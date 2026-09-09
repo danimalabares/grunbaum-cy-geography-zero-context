@@ -1,0 +1,20 @@
+CURVE sixjet CHOSEN_COORDINATES_ZERO_BASED [0, 1, 2, 3, 4, 5, 6, 7]
+COORDINATE_DONE 0 candidate_count 0 seconds 1.46
+COORDINATE_DONE 1 candidate_count 0 seconds 1.53
+COORDINATE_DONE 2 candidate_count 0 seconds 1.59
+COORDINATE_DONE 3 candidate_count 0 seconds 1.64
+COORDINATE_DONE 4 candidate_count 0 seconds 1.71
+COORDINATE_DONE 5 candidate_count 0 seconds 1.77
+COORDINATE_DONE 6 candidate_count 0 seconds 1.84
+COORDINATE_DONE 7 candidate_count 0 seconds 1.91
+FINAL /Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-computation-2026-09-08/logs/20260908T125017-primitive-field-existing32.artifacts/primitive_p101_f8db805d71ce_FINAL.json FAILED bounded primitive-algebraic recognition; no exact model found
+CURVE linear CHOSEN_COORDINATES_ZERO_BASED [0, 1, 2, 3, 4, 5, 6, 7]
+COORDINATE_DONE 0 candidate_count 0 seconds 2.02
+COORDINATE_DONE 1 candidate_count 0 seconds 2.09
+COORDINATE_DONE 2 candidate_count 0 seconds 2.15
+COORDINATE_DONE 3 candidate_count 0 seconds 2.22
+COORDINATE_DONE 4 candidate_count 0 seconds 2.31
+COORDINATE_DONE 5 candidate_count 0 seconds 2.37
+COORDINATE_DONE 6 candidate_count 0 seconds 2.44
+COORDINATE_DONE 7 candidate_count 0 seconds 2.54
+FINAL /Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-computation-2026-09-08/logs/20260908T125017-primitive-field-existing32.artifacts/primitive_p101_8f10fbda24e4_FINAL.json FAILED bounded primitive-algebraic recognition; no exact model found

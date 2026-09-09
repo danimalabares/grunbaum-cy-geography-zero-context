@@ -33,3 +33,11 @@ part of the publication set.
 ## License
 
 No license is present, and none was added during publication preparation.
+
+## 2026-09-09 addendum — historical runs
+
+- Committed: `runs/astra-daytime-2026-09-08`, `runs/astra-computation-2026-09-08`, `runs/astra-all-nighter-2026-09-08`, `runs/cp2-nine-vertex-equivariant-t2-2026-09-09`, excluding `__pycache__`, `.cas.lock` and `.DS_Store`.
+- Not committed but published as a Release asset: 1431 large search-checkpoint files (`runs/PUBLICATION_OMISSIONS.json`, disposition `release-asset`).
+- Withheld: a machine process listing (`logs/environment.json`), a session budget file (`BUDGET_STATE.json`), one compiled binary (`artifacts/render_lineage_pdf`; sources published) and three rendered pages of third-party documents (disposition `withheld`).
+- The historical runs' frozen metadata contains absolute paths of the original machine; they were not rewritten. `scripts/publication_audit.py` now reports, rather than enforces, the machine-path check for those three directories, skips the omitted files and local caches, and still enforces the secret, size, binary and file-name checks everywhere.
+- Run documents also name the author's collaborators and a meeting date in planning notes (`OVERNIGHT_PROMPT.md`, `FRIDAY_*BRIEF*.md`). These were kept as part of the frozen record.

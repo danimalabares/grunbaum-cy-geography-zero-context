@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import json
 import re
 from pathlib import Path
 
@@ -34,15 +35,35 @@ MACHINE_PATH_PATTERNS = {
 }
 
 
+# Manifest-covered run files deliberately not committed (see runs/PUBLICATION_OMISSIONS.json).
+OMISSIONS_FILE = ROOT / "runs" / "PUBLICATION_OMISSIONS.json"
+OMITTED = set(json.loads(OMISSIONS_FILE.read_text())["files"]) if OMISSIONS_FILE.exists() else set()
+# Frozen, manifest-locked historical run records (2026-09-08).  Their guarded-job metadata
+# records the absolute paths of the machine they ran on; rewriting them would break their
+# manifests, so the machine-path check is reported but not enforced for these directories.
+# Secret, size, binary and file-name checks still apply to them.
+# Local caches and lock files excluded by .gitignore; never part of the publication set.
+IGNORED_CACHE_PARTS = {"__pycache__", ".cas.lock"}
+HISTORICAL_RUN_PREFIXES = (
+    "runs/astra-daytime-2026-09-08/",
+    "runs/astra-computation-2026-09-08/",
+    "runs/astra-all-nighter-2026-09-08/",
+)
+
+
 def workspace_files() -> list[Path]:
     return [
         item for item in sorted(ROOT.rglob("*"))
-        if item.is_file() and ".git" not in item.relative_to(ROOT).parts
+        if item.is_file()
+        and ".git" not in item.relative_to(ROOT).parts
+        and item.relative_to(ROOT).as_posix() not in OMITTED
+        and not (set(item.relative_to(ROOT).parts) & IGNORED_CACHE_PARTS)
     ]
 
 
 def main() -> None:
     problems: list[str] = []
+    historical_machine_paths: set[str] = set()
     files = workspace_files()
     max_size = 0
     max_name = ""
@@ -74,9 +95,13 @@ def main() -> None:
         for label, pattern in SECRET_PATTERNS.items():
             if pattern.search(content):
                 problems.append(f"{label}: {rel}")
+        historical = rel.startswith(HISTORICAL_RUN_PREFIXES)
         for label, pattern in MACHINE_PATH_PATTERNS.items():
             if pattern.search(content):
-                problems.append(f"{label}: {rel}")
+                if historical:
+                    historical_machine_paths.add(rel)
+                else:
+                    problems.append(f"{label}: {rel}")
 
     licenses = [item.relative_to(ROOT).as_posix() for item in files if item.name.upper().startswith("LICENSE")]
     if problems:
@@ -89,6 +114,7 @@ def main() -> None:
     print(f"largest_file={max_name}")
     print(f"largest_file_bytes={max_size}")
     print(f"license_files={licenses}")
+    print(f"historical_run_files_with_machine_paths_allowed={len(historical_machine_paths)}")
 
 
 if __name__ == "__main__":

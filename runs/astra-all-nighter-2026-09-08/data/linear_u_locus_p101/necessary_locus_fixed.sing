@@ -1,0 +1,68 @@
+// Necessary q^2 locus only. No finite fibre is produced.
+ring r=101,(t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,w),dp;
+ideal J=50*t8*t9,
+50*t9*t9,
+100*t5*t6,
+50*t1*t9,
+1*t9*t10,
+50*t1*t6,
+100*t1*t7+1*t8*t9+1*t9*t9,
+50*t2*t6+51*t4*t6,
+1*t6*t10,
+2*t7*t10,
+1*t2*t6+99*t4*t6,
+99*t2*t8+52*t2*t9+100*t4*t8,
+3*t1*t6+48*t5*t9,
+97*t1*t7+2*t8*t8+2*t8*t9+6*t9*t9,
+100*t1*t8+51*t1*t9+100*t3*t8+1*t3*t9,
+88*t1*t6+2*t3*t6+9*t5*t9,
+100*t8*t10,
+99*t2*t8+3*t2*t9+100*t4*t8+53*t4*t9,
+49*t1*t9+1*t3*t8+47*t3*t9,
+45*t2*t8+7*t2*t9+96*t4*t8+98*t4*t9,
+1*t3*t5,
+100*t1*t8,
+100*t2*t5+1*t4*t5,
+100*t5*t8+100*t5*t9,
+1*t5*t5,
+88*t2*t8+19*t2*t9+95*t4*t8+100*t4*t9,
+100*t2*t2+1*t2*t4+100*t4*t4,
+1*t1*t2+100*t1*t4+100*t2*t3+1*t3*t4,
+1*t2*t5,
+4*t1*t5+99*t3*t5,
+99*t2*t2+99*t2*t4+99*t4*t4,
+99*t1*t2+99*t3*t4,
+2*t1*t1+95*t1*t3+1*t2*t10+2*t3*t3+2*t4*t10,
+2*t1*t3,
+2*t1*t10+1*t3*t10,
+2*t1*t3+2*t4*t10,
+2*t5*t10,
+2*t1*t1+99*t1*t3+2*t3*t3+2*t4*t10,
+2*t1*t10,
+50*t6*t8+51*t6*t9,
+100*t6*t8+50*t6*t9;
+matrix M[12][12];
+M[1,1]=100*t3;
+M[1,2]=100*t2;
+M[2,2]=100*t3;
+M[2,3]=100*t2;
+M[3,3]=100*t3;
+M[4,4]=100*t8;
+M[5,5]=100*t8;
+M[6,6]=100*t8;
+M[7,1]=100*t2;
+M[7,7]=1*t8;
+M[8,8]=100*t8;
+M[9,9]=100*t8;
+M[10,10]=100*t8;
+M[11,11]=100*t8;
+M[12,12]=100*t8;
+poly delta=det(M);
+print("PRODUCT_MINOR"); delta;
+ideal G=std(J);
+print("QUADRATIC_LOCUS_DIM_WITH_EXTRA_W"); dim(G);
+print("QUADRATIC_LOCUS_BASIS"); G;
+ideal H=J,1-w*delta; H=std(H);
+print("PRODUCT_OPEN_LOCUS_DIM"); dim(H);
+print("PRODUCT_OPEN_LOCUS_BASIS"); H;
+quit;

@@ -1,0 +1,24 @@
+{
+  "command": [
+    "python3",
+    "scripts/build_fixed_chart.py"
+  ],
+  "cwd": "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-daytime-2026-09-08",
+  "limits": {
+    "seconds": 180,
+    "memory_mb": 1500,
+    "tag": "fixed-chart",
+    "command": [
+      "--",
+      "python3",
+      "scripts/build_fixed_chart.py"
+    ]
+  },
+  "start": "20260908T104521",
+  "single_thread": true,
+  "output": "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-daytime-2026-09-08/logs/20260908T104521-fixed-chart.artifacts",
+  "seconds": 1.317,
+  "peak_rss_kb": 824,
+  "reason": "completed",
+  "exit_code": 0
+}

@@ -1,0 +1,13 @@
+PASS_CHECKPOINT_AUDIT 1 fresh_GSO_last25_matches
+PASS_FRESH_GSO 10100 k 15 seconds 0.22
+PASS_FRESH_GSO 10200 k 15 seconds 0.494
+PASS_FRESH_GSO 10300 k 17 seconds 0.718
+PASS_FRESH_GSO 10400 k 14 seconds 0.928
+PASS_FRESH_GSO 10500 k 12 seconds 1.154
+PASS_FRESH_GSO 10600 k 24 seconds 1.377
+PASS_FRESH_GSO 10700 k 22 seconds 1.619
+PASS_FRESH_GSO 10800 k 26 seconds 1.828
+PASS_FRESH_GSO 10900 k 22 seconds 2.069
+PASS_FRESH_GSO 11000 k 12 seconds 2.28
+PASS_FRESH_GSO 11084 k 28 seconds 2.475
+{"status": "PASS_EXACT_CHECKPOINT_PROGRESS_AND_LAST25_REPLAY", "audited_resume": {"status": "LLL_completed", "iterations_added": 1084, "candidate_count": 0, "GSO_exclusions": [{"height_bound": 100, "squared_threshold": 280000, "status": "COMPUTER_CERTIFIED_no_nonzero_bounded_modular_relation", "exhaustive_exclusion": true}, {"height_bound": 1000, "squared_threshold": 28000000, "status": "INCONCLUSIVE_GSO_lower_bound", "exhaustive_exclusion": false}], "elapsed_seconds": 2.641}}

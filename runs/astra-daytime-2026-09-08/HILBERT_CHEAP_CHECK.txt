@@ -1,0 +1,25 @@
+Command (2026-09-08):
+env OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 python3 scripts/check_hilbert_tangent.py
+Exit status: 0. Tool wall time including the shell and hash command: 1.7 seconds.
+CAS: none. Arithmetic: Python integers; no third-party modules.
+
+A rows agree identically on the S3-fixed ten-plane
+A proof tangent matrix: [[1, 4, 8, 10, 3, 2], [1, 4, 8, 10, 3, 2]] ; all 15 minors zero
+B rows agree identically on the S3-fixed ten-plane
+B proof tangent matrix: [[1, 4, 8, 10, 3, 2], [1, 4, 8, 10, 3, 2]] ; all 15 minors zero
+C rows agree identically on the S3-fixed ten-plane
+C proof tangent matrix: [[4, 1, 10, 8, 2, 3], [4, 1, 10, 8, 2, 3]] ; all 15 minors zero
+proof orbit weights: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+sparse orbit weights: [1, 1, 1, 1, 0, 0, 1, 1, 0, 1]
+distinct tangents; neither jet equality nor component equality follows
+quadratic component dimension: 38
+embedded upper bound: 94
+
+Frozen input SHA-256:
+708d5dbb0d5ee43d2869af2ae47e165c9c91810b698fc38198afa8decdc02fb5  deformation/build_equivariant_sixjet.m2
+b0db87bf5ded99fb38bf8587ada0c72c5f8f4e9d87d9a8b2821dd0f84fb83157  reconstruct/p1_quartic_component.m2
+Both relative paths are under /Users/daniel/github/grunbaum-zero-context-proof.
+
+The script confirms orbit pairing, zero rank-one minors, nonzero block entries,
+and the difference of tangents. The report supplies the localized-ideal ratio
+proof. This calculation alone says nothing about higher Kuranishi equations.

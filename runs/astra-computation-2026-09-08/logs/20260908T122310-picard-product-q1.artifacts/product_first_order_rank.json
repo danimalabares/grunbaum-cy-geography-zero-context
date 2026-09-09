@@ -1,0 +1,549 @@
+{
+  "status": "COMPUTER-CERTIFIED degree-eight ideal-square image rank lower bound",
+  "source_sha256": "8e01ffc5cec0ecb5859e6a81aa7d0076b8f9c59ef1c7513578b65f993048a59f",
+  "script_sha256": "417266f19741bd74f0dfa8d0a1f4d9f42f8e80580c34cc1e772ee842dd6c2e7f",
+  "source_commit": "ee984e9541e9cb9259728e6dc7b3a1bc0fda8a9b",
+  "prime": 101,
+  "matrix_shape": [
+    6435,
+    4896
+  ],
+  "central_rank": 1829,
+  "schur_shape": [
+    4606,
+    3067
+  ],
+  "extra_q1_rank_lower_bound": 12,
+  "generic_product_rank_lower_bound": 1841,
+  "all_extra_columns_scanned": false,
+  "extra_columns_scanned": 1311,
+  "first_order_schur_minor_integer_matrix": [
+    [
+      -3,
+      -2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      -3,
+      -2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      -3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      -8,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      -8,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      -8,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      -2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      8,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -8,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -8,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -8
+    ]
+  ],
+  "first_order_schur_minor_integer_determinant": -3623878656,
+  "full_minor_leading_q_valuation": 12,
+  "minor_rows_exponents": [
+    [
+      0,
+      3,
+      2,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      2,
+      3,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      4,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      4,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      3,
+      0,
+      1,
+      1,
+      2,
+      0,
+      0,
+      1
+    ],
+    [
+      2,
+      0,
+      1,
+      1,
+      3,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      4,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      1,
+      1,
+      4,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      4,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      3,
+      2
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      2,
+      3
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      4
+    ]
+  ],
+  "minor_columns": [
+    {
+      "index": 764,
+      "generator_pair_1_based": [
+        2,
+        7
+      ],
+      "quadratic_monomial": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "central_representative_column": 260
+    },
+    {
+      "index": 765,
+      "generator_pair_1_based": [
+        2,
+        7
+      ],
+      "quadratic_monomial": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "central_representative_column": 261
+    },
+    {
+      "index": 771,
+      "generator_pair_1_based": [
+        2,
+        7
+      ],
+      "quadratic_monomial": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "central_representative_column": 267
+    },
+    {
+      "index": 1152,
+      "generator_pair_1_based": [
+        3,
+        4
+      ],
+      "quadratic_monomial": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "central_representative_column": 684
+    },
+    {
+      "index": 1156,
+      "generator_pair_1_based": [
+        3,
+        4
+      ],
+      "quadratic_monomial": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "central_representative_column": 688
+    },
+    {
+      "index": 1178,
+      "generator_pair_1_based": [
+        3,
+        4
+      ],
+      "quadratic_monomial": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      "central_representative_column": 710
+    },
+    {
+      "index": 1341,
+      "generator_pair_1_based": [
+        3,
+        9
+      ],
+      "quadratic_monomial": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "central_representative_column": 944
+    },
+    {
+      "index": 1430,
+      "generator_pair_1_based": [
+        3,
+        11
+      ],
+      "quadratic_monomial": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      "central_representative_column": 962
+    },
+    {
+      "index": 1833,
+      "generator_pair_1_based": [
+        4,
+        9
+      ],
+      "quadratic_monomial": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      "central_representative_column": 933
+    },
+    {
+      "index": 1834,
+      "generator_pair_1_based": [
+        4,
+        9
+      ],
+      "quadratic_monomial": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "central_representative_column": 934
+    },
+    {
+      "index": 1835,
+      "generator_pair_1_based": [
+        4,
+        9
+      ],
+      "quadratic_monomial": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "central_representative_column": 935
+    },
+    {
+      "index": 2267,
+      "generator_pair_1_based": [
+        5,
+        9
+      ],
+      "quadratic_monomial": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "central_representative_column": 971
+    }
+  ],
+  "pivot_units_mod101": [
+    98,
+    98,
+    98,
+    93,
+    93,
+    93,
+    8,
+    93,
+    93,
+    93,
+    93,
+    93
+  ],
+  "independent_of_unknown_higher_corrections": true,
+  "picard_hodge_theorem_is_separate": true,
+  "seconds": 0.18893920600021374
+}

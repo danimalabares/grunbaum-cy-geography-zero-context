@@ -1,0 +1,22 @@
+{
+  "event": "frozen_packet_manifest_verification",
+  "time": "2026-09-09T01:56:10.774435+00:00",
+  "results": [
+    {
+      "packet": "astra-computation-2026-09-08",
+      "checked_files": 1943,
+      "bytes_read": 142449163,
+      "mismatches": [],
+      "manifest_sha256": "51daa31332bf6fb44cf56ab2be9c4aa5b48d95a382bacc67cef162458b18153b"
+    },
+    {
+      "packet": "astra-daytime-2026-09-08",
+      "checked_files": 100,
+      "bytes_read": 4425081,
+      "mismatches": [],
+      "manifest_sha256": "db84fcca1ff51ffb84a024663a3eb5a9a238eabae4ba37bdadffdeed9c4063d7"
+    }
+  ],
+  "elapsed_seconds": 1.2816572570000062,
+  "max_rss_platform_units": 16969728
+}

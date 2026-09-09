@@ -1,0 +1,13 @@
+{
+  "status": "COMPUTER-CERTIFIED tiny exact sphere enumeration and resume tests",
+  "command": "env OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 python3 runs/astra-computation-2026-09-08/scripts/enumerate_padic_height_box.py --smoke-test",
+  "exit_code": 0,
+  "process_seconds": 0.484568165,
+  "actual_project_point_enumerated": false,
+  "cases": [
+    {"basis": [[2,1],[1,2]], "radius_squared": 20, "nodes": 32, "nonzero_vector_count": 24, "brute_force_coefficient_bound": 4, "resume_matches": true},
+    {"basis": [[3,0],[1,2]], "radius_squared": 20, "nodes": 18, "nonzero_vector_count": 12, "brute_force_coefficient_bound": 4, "resume_matches": true},
+    {"basis": [[1,1,0],[0,1,1],[0,0,1]], "radius_squared": 5, "nodes": 87, "nonzero_vector_count": 56, "brute_force_coefficient_bound": 4, "resume_matches": true}
+  ],
+  "brute_force_bound_justification": "The inverse bases give coefficient bounds strictly below4 for all vectors in each selected sphere. Thus [-4,4]^n is exhaustive, not a sample."
+}

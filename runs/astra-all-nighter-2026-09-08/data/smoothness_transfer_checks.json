@@ -1,0 +1,73 @@
+{
+  "bezout_identity_mod101": true,
+  "central_critical_jacobian_determinant": "u^4*v^4",
+  "central_local_ideal_equalities": true,
+  "critical_value_mod101": 48,
+  "critical_value_pi2_from_actual_twojet_QQ": "-8*u^2-20*u*v-8*v^2-20*u-20*v-8",
+  "edge_orbit": [
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      4,
+      7
+    ]
+  ],
+  "edge_selected_rows_one_based": [
+    9,
+    1,
+    3,
+    10,
+    12,
+    7
+  ],
+  "first_order_constrained_critical_displacement": "zero",
+  "remaining_plane": "P2_(b,e,h)",
+  "source_hashes": {
+    "/Users/daniel/github/grunbaum-cy-geography-zero-context/equations/deformation_data.json": "8e01ffc5cec0ecb5859e6a81aa7d0076b8f9c59ef1c7513578b65f993048a59f",
+    "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-all-nighter-2026-09-08/scripts/check_smoothness_transfer.py": "7dbf46f4cf199f44f2bc6b1005a9874a0fd3e2c702aa195bccb609e71369c9ab",
+    "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-computation-2026-09-08/RAMIFIED_POINT_REVIEW.md": "b2773ac43708f8bc43c8441bfd94e4c6c90620989048c9130cce96bc37649f3d",
+    "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-daytime-2026-09-08/data/fixed_chart.json": "74c2059066518c95a5b4f3f46427aa7731ce705062b6d858db12bbc1bd9523fd",
+    "/Users/daniel/github/grunbaum-zero-context-proof/PROOF.md": "f662287d41f5667cbe9bdc5774834a18e990b235c66f1902530ccf5cbac10c8f",
+    "/Users/daniel/github/grunbaum-zero-context-proof/deformation/Q5_REDUCED_COVER_REFEREE_AUDIT.md": "aefb37cffc03a97266a292278cf272bcdcd337de4fa7680b5caec9c2eda0e806",
+    "/Users/daniel/github/grunbaum-zero-context-proof/deformation/audit_triangle258_mod101.m2": "25e0d585b06c8fab6019e2174c1b0098716322baa1bfc26f8618fee37f3a98ce",
+    "/Users/daniel/github/grunbaum-zero-context-proof/deformation/triangle258_mod101_output.txt": "5cfcc952ae8a176f6ae6f38b56cd4aefb5719ee06fba255c4ae85616268d6295",
+    "/Users/daniel/github/grunbaum-zero-context-proof/enumerate/audit_edge25_q4_certificate_sources.py": "0dd909c70542928dbfe477e39d012461cd63b57fc0e3ea114b130db480a59637",
+    "/Users/daniel/github/grunbaum-zero-context-proof/enumerate/audit_edge_c5_central_presentations_output.txt": "5e3bc9f7c346b69eb3b54318134d2cdb07e399fe68134f54fb198e0afd68a266",
+    "/Users/daniel/github/grunbaum-zero-context-proof/enumerate/export_edge_c5_q2_local_module.m2": "73c519d8a2a4552ece0c3c7760d717794b561f6b350e1790fdf9c57821cd71a4",
+    "/Users/daniel/github/grunbaum-zero-context-proof/enumerate/generic_q4_edge25_full_local_module_mod101_lowpos_nored.sing": "a6dbabd2bc59b042a121d8954bdb46d62cc6005a71505852845927e9cd6a007a",
+    "/Users/daniel/github/grunbaum-zero-context-proof/enumerate/generic_q4_edge25_full_local_module_mod101_lowpos_nored_direct_lift_interrupted_output.txt": "b01a6bdfdf0b282892029c94e90b0161005335efbb2482b2b77a4d0a31560b2b"
+  },
+  "status": "COMPUTER-CERTIFIED exact finite checks; source Singular standard bases accepted, not replayed",
+  "triangle_selected_rows_one_based": [
+    3,
+    12,
+    9,
+    7
+  ],
+  "unique_critical_point_mod101": [
+    78,
+    78
+  ],
+  "vertex_orbits": [
+    [
+      0,
+      2,
+      6
+    ],
+    [
+      1,
+      4,
+      7
+    ],
+    [
+      3,
+      5
+    ]
+  ]
+}

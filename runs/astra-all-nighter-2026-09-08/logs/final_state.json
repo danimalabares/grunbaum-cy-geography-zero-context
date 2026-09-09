@@ -1,0 +1,39 @@
+{
+  "event": "final_source_and_process_audit",
+  "utc": "2026-09-09T02:34:08.668139+00:00",
+  "command": [
+    "python3",
+    "-B",
+    "runs/astra-all-nighter-2026-09-08/scripts/final_source_process_audit.py"
+  ],
+  "head": "4f75a9ae930a5cb645e06b4b8da79fa7b78a394a",
+  "working_tree_status": "?? runs/\n",
+  "source_state_matches_start": true,
+  "frozen_packets": [
+    {
+      "packet": "astra-computation-2026-09-08",
+      "manifest_sha256": "51daa31332bf6fb44cf56ab2be9c4aa5b48d95a382bacc67cef162458b18153b",
+      "files_checked": 1943,
+      "bytes_checked": 142449163,
+      "mismatches": []
+    },
+    {
+      "packet": "astra-daytime-2026-09-08",
+      "manifest_sha256": "db84fcca1ff51ffb84a024663a3eb5a9a238eabae4ba37bdadffdeed9c4063d7",
+      "files_checked": 100,
+      "bytes_checked": 4425081,
+      "mismatches": []
+    }
+  ],
+  "owned_background_processes": [],
+  "other_visible_CAS_processes": [],
+  "guarded_jobs_completed": 31,
+  "guarded_jobs_time_limited": 0,
+  "maximum_sampled_group_RSS_KiB": 1480532,
+  "maximum_guarded_job_seconds": 241.257,
+  "sampling_limit": "One-second sampling can miss short-lived peaks; this is not an exact high-water mark.",
+  "seconds": 1.8858241280004222,
+  "redemptions_attempted": 0,
+  "redemptions_confirmed": 0,
+  "script_sha256": "2766e1855ffb199ee22ea13268d824c8dfacf140f3f3ae7930fac9cb8203be41"
+}

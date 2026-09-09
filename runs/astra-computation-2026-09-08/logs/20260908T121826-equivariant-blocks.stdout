@@ -1,0 +1,4 @@
+BLOCK trivial DIMENSIONS 21 5 47 seconds 1.203
+BLOCK sign DIMENSIONS 13 5 35 seconds 1.752
+BLOCK standard DIMENSIONS 32 10 75 seconds 3.992
+PASS_EXACT_BLOCKS_AUX490_LOWER1160_RANK270 /Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-computation-2026-09-08/data/equivariant_blocks_QQ.json

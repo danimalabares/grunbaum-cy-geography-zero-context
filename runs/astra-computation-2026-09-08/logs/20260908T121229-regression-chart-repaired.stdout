@@ -1,0 +1,33 @@
+{
+  "linear_rank": 270,
+  "jacobian_minor": "-1",
+  "free_coordinates": [
+    37,
+    38,
+    46,
+    64,
+    89,
+    163,
+    172,
+    196,
+    203,
+    229,
+    230,
+    232,
+    233,
+    234,
+    255,
+    256,
+    262,
+    266,
+    276,
+    281,
+    285
+  ]
+}
+invariant_generator_coefficients 291
+normalized_fixed_Hilbert_tangent 21
+coordinate_orbit_fixed_dimension 11
+intrinsic_fixed_dimension 10
+full_Schur_equations 6960 selected 270
+PASS: constant Jacobian minor is a 101-adic unit

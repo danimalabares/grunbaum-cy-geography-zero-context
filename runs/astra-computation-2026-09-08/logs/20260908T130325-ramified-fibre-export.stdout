@@ -1,0 +1,5 @@
+PASS_RAMIFIED_POINT_271_UNKNOWNS_270_BORDERED_DETERMINANTS
+JACOBIAN_DETERMINANT_MOD101 19 DENOMINATORS [1, 2, 3, 4, 6, 8, 9, 12, 16, 18, 24, 27, 36, 48, 54, 72, 81, 108, 144, 162, 216, 243, 324, 432, 486, 648, 972, 1296, 1944, 2592, 3888, 7776]
+CENTRAL16_CUBICS_30_LINEAR_SYZYGIES_VERIFIED
+JSON /Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-computation-2026-09-08/data/ramified_fibre_coefficients.json bytes 335808
+ALL16_CUBIC_EQUATIONS /Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-computation-2026-09-08/RAMIFIED_FIBRE_EQUATIONS.md bytes 33269

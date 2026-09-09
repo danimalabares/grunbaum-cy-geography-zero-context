@@ -20,6 +20,12 @@ The CP²₉ computation reuses only the *method* (the lemma in the packet's
 `deformation/EQUIVARIANT_FORMAL_LIFT.md` §3). It is not part of the sphere's
 smoothing argument and proves nothing about the threefold.
 
+## Proof index
+
+**[`PROOFS.md`](PROOFS.md)** lists every result in this repository with its statement, proof
+location, certificates, reproduction command and status (established, PROVED within a stated
+trust boundary, CONDITIONAL, OPEN, FAILED). Start there.
+
 ## Index
 
 ### Principal results on the sphere problem
@@ -65,15 +71,19 @@ smoothness of any generic fibre, the identification of the full Hilbert deformat
 undecided.** An optional cross-check (rank of the second-order Kuranishi quadrics) was left
 unfinished and is not used.
 
-### Historical runs (2026-09-08)
+### Historical runs on the sphere problem (2026-09-08)
 
-Three earlier exploratory runs on the sphere problem live under `runs/`:
-`astra-daytime-2026-09-08`, `astra-computation-2026-09-08`, `astra-all-nighter-2026-09-08`
-(fixed S₃-Hilbert chart, a specified smooth algebraic-number fibre within the source-certificate
-trust boundary, fifteen isolated (−1,−1) lines, exact exclusions of several finite-ansatz
-models). They carry their own hash manifests and `REPRODUCE.md`. Their publication and indexing
-is being completed in a following commit; until then they are present only in the local
-workspace, and nothing in the sphere reports or in the CP²₉ run depends on them.
+Three exploratory runs, published in full with their own manifests and `REPRODUCE.md` files
+(status labels unchanged; see [`PROOFS.md`](PROOFS.md) §2–§4):
+
+- [`runs/astra-daytime-2026-09-08/`](runs/astra-daytime-2026-09-08/) — finite `S₃`-fixed Hilbert chart (270 × 270 minor of determinant −1, 21 free directions), Picard/Hodge reductions, exact inequivalence of the DGLA and zero-context tangent classes; claims D01–D17 in its `CLAIM_LEDGER.md`.
+- [`runs/astra-computation-2026-09-08/`](runs/astra-computation-2026-09-08/) — the geography theorem `(h¹¹,h²¹) = (1,31)`, `ρ = 1`, component dimension 94, and a specified smooth number-field fibre with all sixteen cubics displayed, both **within the accepted zero-context smoothing trust boundary**; several exact negative results.
+- [`runs/astra-all-nighter-2026-09-08/`](runs/astra-all-nighter-2026-09-08/) — audit of that fibre, fifteen isolated `(−1,−1)` lines, exact exclusion of several finite-ansatz models; no new manageable exact model.
+
+1431 large search-checkpoint files of the computation run (about 116 MB) are in the GitHub Release
+`historical-runs-2026-09-08-large-artifacts` rather than in Git, and six files are withheld; both
+sets are listed with their manifest hashes in [`runs/PUBLICATION_OMISSIONS.json`](runs/PUBLICATION_OMISSIONS.json).
+Nothing in the sphere reports or in the CP²₉ run depends on them.
 
 ## Reproduction
 
@@ -92,9 +102,12 @@ python3 scripts/run_checks.py
 
 Then verify the frozen core-workspace outputs with
 `python3 scripts/make_manifest.py --verify` (this manifest covers everything
-outside `runs/`; each run carries its own manifest). The CP²₉ run is
-reproduced by the commands in its `REPRODUCE.md` (about five minutes with
-Macaulay2 1.20 and Python 3).
+outside `runs/`) and every run's own manifest with
+`python3 scripts/verify_runs.py`. Each run directory has a `REPRODUCE.md`;
+the CP²₉ run reproduces in about five minutes with Macaulay2 1.20 and
+Python 3. The 2026-09-08 runs' guarded entry points are deliberately tied
+to their original session windows and refuse to launch afterwards; their
+small independent Python checks run directly (see `PROOFS.md` §3).
 
 ## License
 

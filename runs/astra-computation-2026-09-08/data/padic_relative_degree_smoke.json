@@ -1,0 +1,34 @@
+{
+  "status": "COMPUTER-CERTIFIED tiny integer-lattice smoke only",
+  "command": "env OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 python3 runs/astra-computation-2026-09-08/scripts/recognize_padic_relative_degree.py --smoke-test",
+  "exit_code": 0,
+  "actual_ramified_point_read": false,
+  "tests": [
+    {
+      "input_basis": [[1,1,1],[-1,0,2],[3,5,6]],
+      "determinant": -3,
+      "unimodular_transform_determinant": 1,
+      "iterations": 5,
+      "reduced_basis": [[0,1,0],[1,0,1],[-2,0,1]],
+      "gram_schmidt_squared_norms": ["1","2","9/2"]
+    },
+    {
+      "input_basis": [[101,0,0],[-7,1,0],[-49,0,1]],
+      "determinant": 101,
+      "unimodular_transform_determinant": 1,
+      "iterations": 8,
+      "reduced_basis": [[3,0,2],[-1,1,4],[0,-7,1]],
+      "gram_schmidt_squared_norms": ["13","209/13","10201/209"]
+    },
+    {
+      "input_basis": [[100,0],[0,100]],
+      "determinant": 10000,
+      "unimodular_transform_determinant": 1,
+      "iterations": 1,
+      "reduced_basis": [[100,0],[0,100]],
+      "gram_schmidt_squared_norms": ["10000","10000"],
+      "certified_height10_exclusion": "10000 > 2*10^2"
+    }
+  ],
+  "verified": ["exact integer transformation", "unimodularity", "unchanged determinant", "incremental GSO equals fresh exact GSO", "size reduction", "Lovasz inequalities", "tiny GSO exclusion"]
+}

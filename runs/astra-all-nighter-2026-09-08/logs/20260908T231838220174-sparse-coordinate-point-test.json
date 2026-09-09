@@ -1,0 +1,41 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "scripts/check_sparse_coordinate_points.py",
+    "--output",
+    "data/sparse_coordinate_points"
+  ],
+  "cwd": "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-all-nighter-2026-09-08",
+  "limits": {
+    "seconds": 10,
+    "memory_mb": 2800,
+    "tag": "sparse-coordinate-point-test",
+    "command": [
+      "--",
+      "python3",
+      "-B",
+      "scripts/check_sparse_coordinate_points.py",
+      "--output",
+      "data/sparse_coordinate_points"
+    ]
+  },
+  "start": "20260908T231838220174",
+  "guard_sha256": "48d5aa983d21593ab881c66ec493f931e5118b418cfddd7ec1444018366e1f6a",
+  "sampling_note": "1-second RSS sampling can miss short-lived peaks",
+  "single_thread": true,
+  "output": "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-all-nighter-2026-09-08/logs/20260908T231838220174-sparse-coordinate-point-test.artifacts",
+  "effective_seconds": 10,
+  "start_local": "2026-09-08T23:18:38.164664-03:00",
+  "absolute_computation_cutoff": "2026-09-09T06:30:00-03:00",
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "seconds": 1.071,
+  "peak_rss_kb": 1772,
+  "reason": "completed",
+  "exit_code": 0
+}

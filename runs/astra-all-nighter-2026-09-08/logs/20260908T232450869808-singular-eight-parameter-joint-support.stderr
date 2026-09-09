@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-all-nighter-2026-09-08/scripts/certify_singular_eight_parameter_slice_v2.py", line 88, in <module>
+    main()
+  File "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-all-nighter-2026-09-08/scripts/certify_singular_eight_parameter_slice_v2.py", line 61, in main
+    degree = sum(m[j] for j in range(8) if j not in inside)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported operand type(s) for +: 'int' and 'str'

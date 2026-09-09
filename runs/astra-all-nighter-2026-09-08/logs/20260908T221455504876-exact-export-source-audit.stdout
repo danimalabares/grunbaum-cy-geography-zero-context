@@ -1,0 +1,36 @@
+PASS_ORBIT_INDEXING_AND_INDEPENDENT_NORMALIZATION
+PASS_EXACT_BLOCK_TRANSPORT trivial
+PASS_EXACT_BLOCK_TRANSPORT sign
+PASS_EXACT_BLOCK_TRANSPORT standard
+{
+  "status": "COMPUTER-CERTIFIED exact export/source agreement and saved mixed-characteristic identities",
+  "coefficient_orbits_checked": 291,
+  "normalized_jet_orders_checked": 7,
+  "free_polynomial_coefficients_checked": 147,
+  "basis_transport_nonzero_tensor_entries_checked": 59297,
+  "full_basis_ranks_mod101": [
+    98,
+    30,
+    232
+  ],
+  "basis_and_block_denominators": [
+    1,
+    2,
+    3,
+    4,
+    6
+  ],
+  "selected_equation_indices_checked": 270,
+  "mixed_characteristic_full_identities_checked": 1650,
+  "precision": "pi56 in (Z/101^8)[pi]/(pi^7-101)",
+  "does_not_prove": "exact omitted-equation closure, algebraic equality from finite precision, or source smoothness identities",
+  "input_hashes": {
+    "runs/astra-computation-2026-09-08/data/fixed_chart.json": "74c2059066518c95a5b4f3f46427aa7731ce705062b6d858db12bbc1bd9523fd",
+    "runs/astra-computation-2026-09-08/data/equivariant_blocks_QQ.json": "1e815bc09cc42ecdede6e756ab1e12e332bcd456ff1e4523c705b9538c19b4ac",
+    "runs/astra-computation-2026-09-08/data/ramified_fibre_coefficients.json": "0e8c3bb4a62a77af4beb22182bc8e7dc771dabd09514a0597aaed5d8b61f0616",
+    "runs/astra-computation-2026-09-08/data/ramified_hensel_pi56.json": "693a9a4636d7f8fcf472c61a95202fa3ed783950b9539853d9b218d5a5c6aef2",
+    "equations/deformation_data.json": "8e01ffc5cec0ecb5859e6a81aa7d0076b8f9c59ef1c7513578b65f993048a59f",
+    "runs/astra-all-nighter-2026-09-08/scripts/audit_export_exact.py": "9aae1c6322ebc20699a51f38dd57096f8a2f5f88290ad08d96ef15bc3291ac7f"
+  },
+  "seconds": 2.3388497999999345
+}

@@ -1,0 +1,4 @@
+INITIAL variables 760 nonzero_distinct_equations 1650 terms 83843
+PEELED 20 remain 740 eq 1630 terms 122568 seconds 43.58
+PEELED 40 remain 720 eq 1610 terms 195569 seconds 78.51
+FINAL eliminated 59 remaining 701 eq 1591 terms 298949 SCC_sizes [] stop all remaining candidates hit growth gates output /Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-computation-2026-09-08/data/peeled_sixjet_p101_polynomial.json

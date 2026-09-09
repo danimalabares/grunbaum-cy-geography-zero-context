@@ -1,0 +1,8 @@
+raw_generic_six_jet q= 1 RANK_AT_LEAST 99
+CANDIDATE_CHECKPOINT /Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-computation-2026-09-08/logs/20260908T124343-truncated-generator-rank.artifacts/truncated_raw_generic_six_jet_degree4.json
+saved_sparse_P1_F4 q= 1 RANK_AT_LEAST 99
+CANDIDATE_CHECKPOINT /Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-computation-2026-09-08/logs/20260908T124343-truncated-generator-rank.artifacts/truncated_saved_sparse_P1_F4_degree4.json
+universal_F4_selected_S3_weights q= 1 RANK_AT_LEAST 99
+CANDIDATE_CHECKPOINT /Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-computation-2026-09-08/logs/20260908T124343-truncated-generator-rank.artifacts/truncated_universal_F4_selected_S3_weights_degree4.json
+CERTIFICATE /Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-computation-2026-09-08/logs/20260908T124343-truncated-generator-rank.artifacts/truncated_generator_degree4_ranks.json
+SECONDS 5.728020690999983

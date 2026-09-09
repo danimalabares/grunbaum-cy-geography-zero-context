@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-all-nighter-2026-09-08/scripts/higher_matrix_degree_pilot.py", line 112, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-all-nighter-2026-09-08/scripts/higher_matrix_degree_pilot.py", line 74, in main
+    gate();row={j:c for j,c in enumerate(eq) if c};combo={i:Q(1)}
+    ^^^^^^
+  File "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-all-nighter-2026-09-08/scripts/higher_matrix_degree_pilot.py", line 37, in gate
+    def gate():assert time.monotonic()-start<a.seconds,'internal time gate'
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: internal time gate

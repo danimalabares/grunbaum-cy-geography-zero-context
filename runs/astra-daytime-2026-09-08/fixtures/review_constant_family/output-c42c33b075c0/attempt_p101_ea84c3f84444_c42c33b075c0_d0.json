@@ -1,0 +1,1 @@
+{"checkpoint_sha256": "ea84c3f844440f8ac85fa112f4c02a15abff5cd503794a92df784b2cf4359c93", "checker_sha256": "c42c33b075c0a8fb45d0459f6d75176589f7baa90f5d6818626d3b2bf9c1ecdd", "prime": 101, "denominator_bound": 0, "numerator_bound": 6, "fit_exists": true, "matches_selected_normalized_sixjet": false, "denominator": [1], "status": "COMPUTER-CERTIFIED exact rational identity"}

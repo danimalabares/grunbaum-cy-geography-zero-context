@@ -1,0 +1,35 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "scripts/verify_ramified_export.py"
+  ],
+  "cwd": "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-computation-2026-09-08",
+  "limits": {
+    "seconds": 300,
+    "memory_mb": 2800,
+    "tag": "independent-ramified-export",
+    "command": [
+      "--",
+      "python3",
+      "-B",
+      "scripts/verify_ramified_export.py"
+    ]
+  },
+  "start": "20260908T130957",
+  "single_thread": true,
+  "output": "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-computation-2026-09-08/logs/20260908T130957-independent-ramified-export.artifacts",
+  "effective_seconds": 300,
+  "start_local": "2026-09-08T13:09:57.686083-03:00",
+  "absolute_computation_cutoff": "2026-09-08T16:35:00-03:00",
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "seconds": 1.205,
+  "peak_rss_kb": 388,
+  "reason": "completed",
+  "exit_code": 0
+}

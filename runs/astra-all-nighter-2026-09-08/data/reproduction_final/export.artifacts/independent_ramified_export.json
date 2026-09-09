@@ -1,0 +1,14 @@
+{
+  "status": "COMPUTER-CERTIFIED independent finite-presentation check",
+  "displayed_cubics_checked": 16,
+  "monomial_coefficients_checked": 1680,
+  "all_orbit_indices_match": true,
+  "selected_jacobian_determinant_mod101": 19,
+  "method": "independent Markdown parse and modular column elimination",
+  "inputs": {
+    "data/ramified_fibre_coefficients.json": "0e8c3bb4a62a77af4beb22182bc8e7dc771dabd09514a0597aaed5d8b61f0616",
+    "RAMIFIED_FIBRE_EQUATIONS.md": "779ca1c19435804935b76b6e9f56f8442f55207cab69758d4d3a54bcf4c884d6",
+    "data/fixed_chart.json": "74c2059066518c95a5b4f3f46427aa7731ce705062b6d858db12bbc1bd9523fd",
+    "scripts/verify_ramified_export.py": "daacfe49fca03817038ca68eb80e4d04105ca9e6e5e86062d21b5ff0e79afb04"
+  }
+}

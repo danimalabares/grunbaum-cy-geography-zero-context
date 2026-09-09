@@ -1,0 +1,77 @@
+{
+  "grunbaum-zero-context-proof": {
+    "head": "ee984e9541e9cb9259728e6dc7b3a1bc0fda8a9b",
+    "branch": "main",
+    "tree": "451a038cdd9fece1d35bb32f1268756fb55cebcd",
+    "tracked_changes": "",
+    "sha256": {
+      "FINAL.md": "a2fb4e12b44989522f6fb106dff07b69bebaca9a509dd6d326c623d244e5fbf8",
+      "PROOF.md": "f662287d41f5667cbe9bdc5774834a18e990b235c66f1902530ccf5cbac10c8f",
+      "reconstruct/P1_ALL_ORDERS_AUDIT.md": "40a4f9a6c6a8c83dd5dc05b9630707b5d441d5d4d7dd582d4a6f76f0f56a4adf",
+      "reconstruct/KURANISHI_AUDIT.md": "9acce744b45bda8262f943cba66dd228f76f7d02da7af310426e5c884721a545",
+      "reconstruct/TOTAL_SPACE_REGULARITY_AUDIT.md": "361f41b020fd269e455dd4f52a91928364548f6e708c480644af5e19b40569f7",
+      "reconstruct/p1_universal_exact_test.m2": "549955bd65c99cf97e1405c92a920039d46f2f854f5e9fa2375569b2fff55ef7",
+      "reconstruct/p1_quartic_component.m2": "b0db87bf5ded99fb38bf8587ada0c72c5f8f4e9d87d9a8b2821dd0f84fb83157",
+      "reconstruct/p1_universal_order4_vF.txt": "299c9581a5a90e3ce1da251e0471b66edaffe5c4c05b8314c442112b629c0264",
+      "reconstruct/p1_universal_order4_vR.txt": "286824e091c54f6d900b1c02cffaef54a8d381892f0a8c20198748f1a7bc304e",
+      "reconstruct/p1_universal_order4_vG.txt": "3f43d9fee0423317a34f5ef96798e716defdd9fdeb1d220db2a232f6356ab662",
+      "reconstruct/p1_universal_order4_vC.txt": "fc1a5bf5b67bb5664444797000396071bd7f1df656878838a35d029264a83d52",
+      "deformation/generic_equivariant_state_F_order6.txt": "8c5040d19de950bd4e852ce6b11fc08c1bb605d2f97b5bacdaebce3b10056351",
+      "deformation/generic_equivariant_state_R_order6.txt": "39e841e2e5b5196a160c3fd3ac8457727976ecd2d9ecc933abf25728fa985874",
+      "deformation/EQUIVARIANT_FORMAL_LIFT.md": "93cdd165b8ba6ae3d4753213bcf489ebc0f3848ab9bb5031cbc2e88a81d0fa08",
+      "deformation/INTEGRAL_EQUIVARIANT_LIFT.md": "e9c6fc29c2ebdd83ac3ccb2cadfd89dadbd36fa8dee67dfd9206fe0fe2263a95",
+      "enumerate/FORMAL_ALGEBRAIZATION.md": "c4743605429306c76e9827822a35bb708ffaf373756f3e9b2ad6400524e8c2c2"
+    }
+  },
+  "grunbaum-zero-context-proof-fable-max-audit": {
+    "head": "9310cd9e3316c69f129d5588d65f0b91f37365b7",
+    "branch": "main",
+    "tree": "86f0b9f64337cbe076682ccfb924c571921ba53f",
+    "tracked_changes": "",
+    "sha256": {
+      "VERDICT.md": "07e9d3ff8dd424e3fa37800d24a1d13af12b6a0b732fc3629bd85b602ed45a60",
+      "EXECUTIVE_SUMMARY.md": "39f87d268d16280b6dfaccdce9d92dcfe9540a5561c3f6e00cf537b61c36abff",
+      "CLAIM_LEDGER.md": "b5d309f5b7b04254e20b75e5d3af5f35c1bee9d42205a706ba556e5dd04a7055",
+      "MISSING_EVIDENCE.md": "ae4b5980a5f215f596730f115756d46501c2101008f56576b8cc2154780d9b1e"
+    }
+  },
+  "grunbaum-cy-geography-zero-context": {
+    "head": "4f75a9ae930a5cb645e06b4b8da79fa7b78a394a",
+    "branch": "main",
+    "tree": "69b56746ed0749a568a98ef071a9d981992b22a3",
+    "tracked_changes": "",
+    "sha256": {
+      "reports/DEFORMATION_EQUATIONS.md": "0fcf908335d50fa32f6ce3d81fff5adc44d0151d13e5cbcec05618a7340c625e",
+      "reports/GEOGRAPHY.md": "e4eeef8bd81d2324bae8954694ef60f781b811558e3d4156ccfdfcc16a838366",
+      "reports/ABEL_MATHEMATICAL_FACTS.md": "a6d04e2dd1a1cf4a6de75543bcbaf5f7e7e978411e997154c9a971353782396d",
+      "equations/deformation_data.json": "8e01ffc5cec0ecb5859e6a81aa7d0076b8f9c59ef1c7513578b65f993048a59f"
+    }
+  },
+  "sr-project": {
+    "head": "ff2afbbb7a8b18e7c054d16292df8db02ca87f5c",
+    "branch": "restructure",
+    "tree": "fb8a4de518dafa8a989cef6f56b35327d9d94621",
+    "tracked_changes": "",
+    "sha256": {
+      "proofs/grunbaum-smoothing/fable-dgla-only/PROOF_DGLA.pdf": "cb341f2c340c8688aabd46d8bb947c56e89692836862dd56f03625943ed4e9dd"
+    }
+  },
+  "heap-project": {
+    "head": "73c8d1df1d9800425fc2ce18870c25853ea4e9f5",
+    "branch": "main",
+    "tree": "d33b0bcc5a2dae12016b3eed7b65ba37d40436fe",
+    "tracked_changes": "",
+    "sha256": {
+      "stanley-reisner.tex": "ba588b5ca94b84482130fd071c780877a58e08a2aa1dae1fee182054732024fa",
+      "deformations.tex": "b8ebc32ac8c22d59e339d40fc799b0004dc62bf577898cf18d9eee6f35419682",
+      "algebraic-geometry.tex": "b85952b08907d284b7ee9f97a14e51d2434be9ebc7bb8ea20850174fac8ae041"
+    }
+  },
+  "grunbaum-cy-geography-fable-dgla": {
+    "head": "3f7ef3da88fe963e10001fc66cbff4153d5fcb27",
+    "branch": "main",
+    "tree": "6f66e7877e314f8af285a6903f9e6b7f57a54438",
+    "tracked_changes": "",
+    "sha256": {}
+  }
+}

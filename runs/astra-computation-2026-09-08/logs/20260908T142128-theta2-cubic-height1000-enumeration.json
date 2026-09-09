@@ -1,0 +1,45 @@
+{
+  "command": [
+    "python3",
+    "scripts/enumerate_theta2_height_box.py",
+    "--max-nodes",
+    "100000",
+    "--max-seconds",
+    "120",
+    "--output",
+    "data/theta2_cubic_height1000_enumeration"
+  ],
+  "cwd": "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-computation-2026-09-08",
+  "limits": {
+    "seconds": 300,
+    "memory_mb": 2800,
+    "tag": "theta2-cubic-height1000-enumeration",
+    "command": [
+      "--",
+      "python3",
+      "scripts/enumerate_theta2_height_box.py",
+      "--max-nodes",
+      "100000",
+      "--max-seconds",
+      "120",
+      "--output",
+      "data/theta2_cubic_height1000_enumeration"
+    ]
+  },
+  "start": "20260908T142128",
+  "single_thread": true,
+  "output": "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-computation-2026-09-08/logs/20260908T142128-theta2-cubic-height1000-enumeration.artifacts",
+  "effective_seconds": 300,
+  "start_local": "2026-09-08T14:21:28.806162-03:00",
+  "absolute_computation_cutoff": "2026-09-08T16:35:00-03:00",
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "seconds": 1.197,
+  "peak_rss_kb": 396,
+  "reason": "completed",
+  "exit_code": 0
+}

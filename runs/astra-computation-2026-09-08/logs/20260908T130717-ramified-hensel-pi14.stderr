@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-computation-2026-09-08/scripts/ramified_hensel_pi14.py", line 211, in <module>
+    if __name__=='__main__': main()
+                             ~~~~^^
+  File "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-computation-2026-09-08/scripts/ramified_hensel_pi14.py", line 95, in main
+    assert lin[98*30:]==jrows
+           ^^^^^^^^^^^^^^^^^^
+AssertionError

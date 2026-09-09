@@ -1,0 +1,49 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "scripts/sparse_support_closure.py",
+    "--prime",
+    "0",
+    "--seconds",
+    "180",
+    "--output",
+    "data/sparse_support_QQ"
+  ],
+  "cwd": "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-all-nighter-2026-09-08",
+  "limits": {
+    "seconds": 240,
+    "memory_mb": 2800,
+    "tag": "sparse-support-exact-Q",
+    "command": [
+      "--",
+      "python3",
+      "-B",
+      "scripts/sparse_support_closure.py",
+      "--prime",
+      "0",
+      "--seconds",
+      "180",
+      "--output",
+      "data/sparse_support_QQ"
+    ]
+  },
+  "start": "20260908T223458968845",
+  "guard_sha256": "48d5aa983d21593ab881c66ec493f931e5118b418cfddd7ec1444018366e1f6a",
+  "sampling_note": "1-second RSS sampling can miss short-lived peaks",
+  "single_thread": true,
+  "output": "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-all-nighter-2026-09-08/logs/20260908T223458968845-sparse-support-exact-Q.artifacts",
+  "effective_seconds": 240,
+  "start_local": "2026-09-08T22:34:58.908956-03:00",
+  "absolute_computation_cutoff": "2026-09-09T06:30:00-03:00",
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "seconds": 4.328,
+  "peak_rss_kb": 97192,
+  "reason": "completed",
+  "exit_code": 0
+}

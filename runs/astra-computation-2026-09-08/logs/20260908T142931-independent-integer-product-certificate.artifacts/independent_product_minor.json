@@ -1,0 +1,12 @@
+{
+  "status": "COMPUTER-CERTIFIED independent exact minor verification",
+  "integer_minor_determinant": -3623878656,
+  "central_rank": 1829,
+  "extra_rank": 12,
+  "generic_product_rank_lower_bound": 1841,
+  "first_order_corrections_to_certified_sixjet_parameter_sign": 1,
+  "method": "independent monomial parser, exponent-subtraction coefficients, rational Gaussian determinant",
+  "source_sha256": "8e01ffc5cec0ecb5859e6a81aa7d0076b8f9c59ef1c7513578b65f993048a59f",
+  "certificate_sha256": "08b1d215e19eacbbd58267f01157bd98d5a85684975ae256dc070af705901ffa",
+  "verifier_sha256": "48e2b126e19d354471869e2141943218aa7e47b0359eef87cd931a9c99b33cba"
+}

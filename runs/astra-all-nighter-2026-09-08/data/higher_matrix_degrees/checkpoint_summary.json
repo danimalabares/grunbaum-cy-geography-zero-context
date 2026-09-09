@@ -1,0 +1,16 @@
+[
+  {
+    "status": "FAILED_exact_rational_necessary_condition",
+    "degree": 3,
+    "unknowns": 153,
+    "pivot_count": 115,
+    "elapsed_seconds": 8.129882756999905
+  },
+  {
+    "status": "FAILED_exact_rational_necessary_condition",
+    "degree": 4,
+    "unknowns": 204,
+    "pivot_count": 174,
+    "elapsed_seconds": 75.89098450099982
+  }
+]

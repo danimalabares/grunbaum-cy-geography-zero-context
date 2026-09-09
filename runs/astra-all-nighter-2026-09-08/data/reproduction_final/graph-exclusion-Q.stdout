@@ -1,0 +1,3 @@
+EXACT_RESIDUAL 645 [{"coefficient": "-1", "parameters_one_based": [8, 8]}]
+EXACT_RESIDUAL 652 [{"coefficient": "1", "parameters_one_based": [9, 9]}]
+PROVED_NO_GRAPH_RAY_IN_PRODUCT_OPEN SECONDS 0.6290180620007959

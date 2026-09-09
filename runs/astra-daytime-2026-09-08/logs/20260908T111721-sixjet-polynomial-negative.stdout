@@ -1,0 +1,10 @@
+DENOMINATOR 0 NUMERATOR_BOUND 6 FIT True
+EXACT_FR_COEFFICIENT 0 ZERO
+EXACT_FR_COEFFICIENT 1 ZERO
+EXACT_FR_COEFFICIENT 2 ZERO
+EXACT_FR_COEFFICIENT 3 ZERO
+EXACT_FR_COEFFICIENT 4 ZERO
+EXACT_FR_COEFFICIENT 5 ZERO
+EXACT_FR_COEFFICIENT 6 ZERO
+FAILED_EXACT_CLOSURE {"q_degree": 7, "quartic_row": 0, "relation_column": 0, "residue": 37, "all_lower_coefficients_zero": true} CONTINUING_TO_LARGER_BOUND
+FAILED_BOUNDED_COMMON_RATIONAL_ANSATZ: no exact family found among the selected fits. Other underdetermined fits, larger bounds, and algebraic curves remain open.

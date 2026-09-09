@@ -1,0 +1,7 @@
+PASS_EXACT_QW_FIRST_ORDER_AND_BOUNDARY_CHECKS
+PASS_LINE quadratic-w5 SYZYGY_DET FF(4,0) JACOBIAN_DET FF(11,0) seconds 0.997
+PASS_LINE quadratic-w27 SYZYGY_DET FF(38,0) JACOBIAN_DET FF(29,0) seconds 1.336
+PASS_LINE cubic-w9 SYZYGY_DET FF(39,0) JACOBIAN_DET FF(44,0) seconds 1.639
+PASS_LINE cubic-walpha SYZYGY_DET FF(82,30) JACOBIAN_DET FF(59,16) seconds 1.947
+PASS_LINE cubic-w7minusalpha SYZYGY_DET FF(90,71) JACOBIAN_DET FF(70,85) seconds 2.252
+PASS_ALL_LINE_CERTIFICATES /Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-all-nighter-2026-09-08/data/reproduction_final/lines

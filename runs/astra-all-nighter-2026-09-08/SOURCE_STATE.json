@@ -1,0 +1,23 @@
+{
+  "started": "2026-09-09T01:05:34.741709+00:00",
+  "cwd": "/Users/daniel/github/grunbaum-cy-geography-zero-context",
+  "run": "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-all-nighter-2026-09-08",
+  "head": "4f75a9ae930a5cb645e06b4b8da79fa7b78a394a",
+  "status": "?? runs/\n",
+  "python": "3.11.4",
+  "platform": "macOS-12.7.6-x86_64-i386-64bit",
+  "original_guard_sha256": "54e5b8e704182b086c6d22c6d05172bb856927149806034ef3ae1bf67c87b576",
+  "no_applicable_AGENTS_found": true,
+  "initial_limitations": [
+    "sandbox sysctl resource read denied; inspect with authorized read-only escalation",
+    "Initial batched output truncated; load remaining mathematical files in bounded chunks"
+  ],
+  "guard_changes": [
+    "calendar moved to 2026-09-09 06:00/06:30 America/Sao_Paulo",
+    "stage maximum7200 seconds",
+    "all launches stop at06:00",
+    "unique microsecond log names",
+    "append-only metadata ledger",
+    "RSS cap2800MiB,exclusive lock,process inspection,owned-process-group termination retained"
+  ]
+}

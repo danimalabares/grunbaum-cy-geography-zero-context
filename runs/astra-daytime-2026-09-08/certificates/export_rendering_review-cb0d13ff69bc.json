@@ -1,0 +1,14 @@
+{
+  "constant_generator_rendering": "PASS",
+  "generic_finite_field_ring_rendering": "PASS",
+  "nonzero_parameter_rendering": "PASS",
+  "zero_denominator_rejected": "PASS",
+  "public_cli_synthetic_gate": "PASS",
+  "synthetic_gate_stderr": "Traceback (most recent call last):\n  File \"/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-daytime-2026-09-08/scripts/export_rational_model.py\", line 51, in <module>\n    if __name__=='__main__': main()\n                             ~~~~^^\n  File \"/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-daytime-2026-09-08/scripts/export_rational_model.py\", line 42, in main\n    assert model['matches_selected_normalized_sixjet'] is True, 'synthetic controls are not smoothing inputs'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: synthetic controls are not smoothing inputs\n",
+  "mechanical_repair": {
+    "replacements": 16,
+    "old_sha256": "797defa019016c5bd7c6b4ba25985c392ecb7c8f8850aa62e4eec3dcc57f61e0",
+    "new_sha256": "7db0df1eb6f80ce8e877ea3869df2e4d3cfc629126a80f75ef748dcbc83aa8cf",
+    "changed_only_sixteen_initial_monomial_tokens": true
+  }
+}

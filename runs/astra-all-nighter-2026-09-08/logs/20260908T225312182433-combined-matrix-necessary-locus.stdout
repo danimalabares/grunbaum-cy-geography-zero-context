@@ -1,0 +1,72 @@
+BILINEAR_G1_COLUMN 1 TOTAL_TERMS 11991
+BILINEAR_G1_COLUMN 2 TOTAL_TERMS 12322
+BILINEAR_G1_COLUMN 3 TOTAL_TERMS 12587
+BILINEAR_G1_COLUMN 4 TOTAL_TERMS 12698
+BILINEAR_G1_COLUMN 5 TOTAL_TERMS 13051
+BILINEAR_G1_COLUMN 6 TOTAL_TERMS 13346
+BILINEAR_G1_COLUMN 7 TOTAL_TERMS 13561
+BILINEAR_G1_COLUMN 8 TOTAL_TERMS 13859
+BILINEAR_G1_COLUMN 9 TOTAL_TERMS 14182
+BILINEAR_G1_COLUMN 10 TOTAL_TERMS 14378
+BILINEAR_G1_COLUMN 11 TOTAL_TERMS 14691
+BILINEAR_G1_COLUMN 12 TOTAL_TERMS 14967
+BILINEAR_G1_COLUMN 13 TOTAL_TERMS 15213
+BILINEAR_G1_COLUMN 14 TOTAL_TERMS 15415
+BILINEAR_G1_COLUMN 15 TOTAL_TERMS 15717
+BILINEAR_G1_COLUMN 16 TOTAL_TERMS 15940
+BILINEAR_G1_COLUMN 17 TOTAL_TERMS 16106
+BILINEAR_G1_COLUMN 18 TOTAL_TERMS 16222
+BILINEAR_G1_COLUMN 19 TOTAL_TERMS 16349
+BILINEAR_G1_COLUMN 20 TOTAL_TERMS 16389
+BILINEAR_G1_COLUMN 21 TOTAL_TERMS 16544
+BILINEAR_G1_COLUMN 22 TOTAL_TERMS 16630
+BILINEAR_G1_COLUMN 23 TOTAL_TERMS 16721
+BILINEAR_G1_COLUMN 24 TOTAL_TERMS 16885
+BILINEAR_G1_COLUMN 25 TOTAL_TERMS 16992
+BILINEAR_G1_COLUMN 26 TOTAL_TERMS 17105
+BILINEAR_G1_COLUMN 27 TOTAL_TERMS 17281
+BILINEAR_G1_COLUMN 28 TOTAL_TERMS 17458
+BILINEAR_G1_COLUMN 29 TOTAL_TERMS 17564
+BILINEAR_G1_COLUMN 30 TOTAL_TERMS 17615
+BILINEAR_G1_COLUMN 31 TOTAL_TERMS 17746
+BILINEAR_G1_COLUMN 32 TOTAL_TERMS 17872
+BILINEAR_G1_COLUMN 33 TOTAL_TERMS 18009
+BILINEAR_G1_COLUMN 34 TOTAL_TERMS 18174
+BILINEAR_G1_COLUMN 35 TOTAL_TERMS 18310
+BILINEAR_G1_COLUMN 36 TOTAL_TERMS 18402
+BILINEAR_G1_COLUMN 37 TOTAL_TERMS 18476
+BILINEAR_G1_COLUMN 38 TOTAL_TERMS 18535
+BILINEAR_G1_COLUMN 39 TOTAL_TERMS 18588
+BILINEAR_G1_COLUMN 40 TOTAL_TERMS 18601
+BILINEAR_G1_COLUMN 41 TOTAL_TERMS 18648
+BILINEAR_G1_COLUMN 42 TOTAL_TERMS 18751
+BILINEAR_G1_COLUMN 43 TOTAL_TERMS 18836
+BILINEAR_G1_COLUMN 44 TOTAL_TERMS 18949
+BILINEAR_G1_COLUMN 45 TOTAL_TERMS 18973
+BILINEAR_G1_COLUMN 46 TOTAL_TERMS 19076
+BILINEAR_G1_COLUMN 47 TOTAL_TERMS 19187
+BILINEAR_G1_COLUMN 48 TOTAL_TERMS 19230
+BILINEAR_G1_COLUMN 49 TOTAL_TERMS 19337
+BILINEAR_G1_COLUMN 50 TOTAL_TERMS 19426
+BILINEAR_G1_COLUMN 51 TOTAL_TERMS 19507
+PEEL {"peel": 1, "eliminated_variable": 50, "remaining_variables": 71, "equations": 705, "total_terms": 36010, "max_degree": 2}
+PEEL {"peel": 2, "eliminated_variable": 59, "remaining_variables": 70, "equations": 703, "total_terms": 35950, "max_degree": 2}
+PEEL {"peel": 3, "eliminated_variable": 61, "remaining_variables": 69, "equations": 701, "total_terms": 35869, "max_degree": 2}
+PEEL {"peel": 4, "eliminated_variable": 57, "remaining_variables": 68, "equations": 700, "total_terms": 35745, "max_degree": 2}
+PEEL {"peel": 5, "eliminated_variable": 71, "remaining_variables": 67, "equations": 696, "total_terms": 35604, "max_degree": 2}
+PEEL {"peel": 6, "eliminated_variable": 46, "remaining_variables": 66, "equations": 694, "total_terms": 35295, "max_degree": 2}
+PEEL {"peel": 7, "eliminated_variable": 5, "remaining_variables": 65, "equations": 691, "total_terms": 35286, "max_degree": 3}
+PEEL {"peel": 8, "eliminated_variable": 6, "remaining_variables": 64, "equations": 689, "total_terms": 35241, "max_degree": 3}
+PEEL {"peel": 9, "eliminated_variable": 66, "remaining_variables": 63, "equations": 685, "total_terms": 34970, "max_degree": 3}
+PEEL {"peel": 10, "eliminated_variable": 63, "remaining_variables": 62, "equations": 681, "total_terms": 34721, "max_degree": 3}
+PEEL {"peel": 11, "eliminated_variable": 40, "remaining_variables": 61, "equations": 678, "total_terms": 34569, "max_degree": 3}
+PEEL {"peel": 12, "eliminated_variable": 58, "remaining_variables": 60, "equations": 677, "total_terms": 34423, "max_degree": 3}
+PEEL {"peel": 13, "eliminated_variable": 52, "remaining_variables": 59, "equations": 673, "total_terms": 34163, "max_degree": 3}
+PEEL {"peel": 14, "eliminated_variable": 42, "remaining_variables": 58, "equations": 669, "total_terms": 33850, "max_degree": 3}
+PEEL {"peel": 15, "eliminated_variable": 60, "remaining_variables": 57, "equations": 668, "total_terms": 33733, "max_degree": 3}
+PEEL {"peel": 16, "eliminated_variable": 65, "remaining_variables": 56, "equations": 667, "total_terms": 33554, "max_degree": 3}
+PEEL {"peel": 17, "eliminated_variable": 51, "remaining_variables": 55, "equations": 665, "total_terms": 32715, "max_degree": 3}
+PEEL {"peel": 18, "eliminated_variable": 9, "remaining_variables": 54, "equations": 661, "total_terms": 32565, "max_degree": 3}
+PEEL {"peel": 19, "eliminated_variable": 56, "remaining_variables": 53, "equations": 659, "total_terms": 32764, "max_degree": 3}
+PEEL {"peel": 20, "eliminated_variable": 24, "remaining_variables": 52, "equations": 658, "total_terms": 32806, "max_degree": 3}
+FINAL {"status": "COMPUTER-CERTIFIED polynomial reductions modulo101; only necessary orderthree locus", "G2_rank": 49, "G2_free_coordinates": 2, "variables_before_peeling": 72, "variables_after_peeling": 52, "number_peels": 20, "number_equations": 658, "total_terms": 32806, "max_polynomial_terms": 155, "max_degree": 3, "unit_equation": false, "stop_reason": "max_peels_reached", "seconds": 9.112824416999956, "resource_limits": {"base": "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-all-nighter-2026-09-08/data/optimized_quadratic_generators/quadratic_generator_certificate.json", "matrix": "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-all-nighter-2026-09-08/data/linear_matrix_denominator/linear_matrix_denominator_certificate.json", "resume": null, "max_seconds": 180, "max_total_terms": 100000, "max_polynomial_terms": 2000, "max_degree": 4, "max_peels": 20, "output": "data/combined_matrix_necessary"}}

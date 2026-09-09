@@ -1,0 +1,18 @@
+{
+  "status": "COMPUTER-CERTIFIED independent integer Euclidean check",
+  "method": "JavaScript BigInt extended Euclidean algorithm; no import of the discovery code",
+  "modulus": "10828567056280801",
+  "residue": "5101489845552212",
+  "symmetric_height_bound": "10000000",
+  "twice_bound_squared_less_than_modulus": true,
+  "last_remainder_denominator_pairs": [
+    ["35537961", "-105979211"],
+    ["35043566", "200199375"],
+    ["494395", "-306178586"]
+  ],
+  "first_remainder_at_most_bound": "494395",
+  "its_denominator": "-306178586",
+  "numerator_denominator_gcd": "1",
+  "checked_exact_identity": "494395 = -306178586*5101489845552212 + 144245027*10828567056280801",
+  "interpretation": "No rational coefficient in the stated height box; no assertion of nonmembership in Q(pi) without a height bound"
+}

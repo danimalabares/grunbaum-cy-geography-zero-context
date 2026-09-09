@@ -1,0 +1,142 @@
+[
+  {
+    "id": "A1",
+    "status": "COMPUTER-CERTIFIED",
+    "claim": "Export, normalization, selected equations and rational block maps agree with sources.",
+    "evidence": "scripts/audit_export_exact.py; frozen verify_ramified_export.py",
+    "assumptions": "Input hashes and executed exact checks."
+  },
+  {
+    "id": "A2",
+    "status": "PROVED",
+    "claim": "The ramified residue condition selects a unique root.",
+    "evidence": "notes/closure_audit.md; FIBRE_AUDIT.md",
+    "assumptions": "Eisenstein DVR, integral free values and unit Jacobian."
+  },
+  {
+    "id": "A3",
+    "status": "PROVED",
+    "claim": "The selected coefficient tuple generates a finite extension of Q(pi).",
+    "evidence": "FIBRE_AUDIT.md",
+    "assumptions": "Characteristic zero, finite equations, invertible Jacobian at the root; global degree remains unknown."
+  },
+  {
+    "id": "A4",
+    "status": "PROVED",
+    "claim": "Every omitted Schur equation vanishes exactly on the selected branch.",
+    "evidence": "notes/closure_audit.md sections1\u20132",
+    "assumptions": "Complete central syzygies, invariant obstruction vanishing, dimension21 and integral implicit recursion."
+  },
+  {
+    "id": "A5",
+    "status": "PROVED",
+    "claim": "Exact FR=0, full graded flatness and the pure resolution survive.",
+    "evidence": "notes/closure_audit.md section2",
+    "assumptions": "A4 and the accepted complete central resolution."
+  },
+  {
+    "id": "A6",
+    "status": "PROVED",
+    "claim": "The actual selected fibre is geometrically smooth.",
+    "evidence": "notes/smoothness_audit.md",
+    "assumptions": "Audited quotient/normalization, accepted original complete stratified Singular witnesses and valuation properness argument."
+  },
+  {
+    "id": "A7",
+    "status": "PROVED",
+    "claim": "The actual selected fibre belongs to the intended component.",
+    "evidence": "notes/closure_audit.md section3",
+    "assumptions": "All-orders fixed germ, independent polarizedCY unobstructedness and integral Hilbert pivot units."
+  },
+  {
+    "id": "A8",
+    "status": "PROVED",
+    "claim": "The older arbitrary-rational-denominator inference was invalid and is replaced by unit integral Hilbert pivots.",
+    "evidence": "notes/closure_audit.md section3",
+    "assumptions": "Counterexample101-q^7 and explicit replacement; no fibre change."
+  },
+  {
+    "id": "L1",
+    "status": "PROVED",
+    "claim": "At least15 isolated reduced (-1,-1) lines exist on the selected fibre.",
+    "evidence": "notes/degeneration_lines.md; data/line_certificates_all/line_certificates.json",
+    "assumptions": "A4\u2013A7, five12Jacobian and52syzygyminor certificates, exact Hensel closure."
+  },
+  {
+    "id": "L2",
+    "status": "PROVED",
+    "claim": "Exactly15 lines have facet-transverse reduction at the chosen place.",
+    "evidence": "notes/degeneration_lines.md section6; data/facet_transverse_exhaustion/facet_transverse_exhaustion.json",
+    "assumptions": "L1 plus20facet classification, valuation scaling and Hensel uniqueness; boundaries excluded from claim."
+  },
+  {
+    "id": "L3",
+    "status": "PROVED",
+    "claim": "At least15 isolated reduced (-1,-1) lines persist on a nonempty open of the intended component.",
+    "evidence": "notes/line_persistence.md",
+    "assumptions": "L1, H0N=H1N=0, relative line incidence and ordered distinct-line tuple."
+  },
+  {
+    "id": "L4",
+    "status": "OPEN",
+    "claim": "Dimension and geometric length of the complete line scheme.",
+    "evidence": "NEW_GEOMETRY.md",
+    "assumptions": "Boundary reductions not classified; noGW identification."
+  },
+  {
+    "id": "T1",
+    "status": "PROVED",
+    "claim": "The local regular germ XY=t^(2N)W times a smooth coordinate is simply connected for everyN>=1.",
+    "evidence": "notes/topology_reduction.md",
+    "assumptions": "Actual analytic normal form at the checked simple discriminant zero, weighted scaling and explicit vanKampen maps."
+  },
+  {
+    "id": "T2",
+    "status": "OPEN",
+    "claim": "Global fundamental group and Picard torsion vanish.",
+    "evidence": "notes/topology_reduction.md",
+    "assumptions": "Cover extension and remaining edge/vertex groups/maps are missing."
+  },
+  {
+    "id": "M1",
+    "status": "OPEN",
+    "claim": "A manageable exact characteristic-zero coefficient field and runnable smooth model.",
+    "evidence": "MODEL.md",
+    "assumptions": "No practical field representation or equality-testing model obtained."
+  },
+  {
+    "id": "M2",
+    "status": "PROVED",
+    "claim": "The support reduction to178dependentcoefficients lies in a slice singular alongP2_beh.",
+    "evidence": "notes/singular_slice_review.md; data/singular_eight_parameter_slice_v3/singular_slice_certificate.json",
+    "assumptions": "Universal exact quadraticmap, joint108\u2192419\u2192539support,8independentfreeforcingvectors, normalorder identities; slice condition atallorders."
+  },
+  {
+    "id": "E1",
+    "status": "COMPUTER-CERTIFIED",
+    "claim": "The full123parameter quadratic raw-generator necessary locus is empty over everychar0field.",
+    "evidence": "notes/combined_locus_QQ_verdict.md; data/combined_QQ_independent_verification/contradiction_verified.json",
+    "assumptions": "Originalfirsttangentfixed; all21secondcoefficients and two51matrixfreedoms;979rowidentities and54rational-unit substitutions ending1."
+  },
+  {
+    "id": "E2",
+    "status": "COMPUTER-CERTIFIED",
+    "claim": "Raw parameterdegree3,4,5 with respective originalnormalizedjet cannot pass the next-order necessary equations.",
+    "evidence": "data/linear_unit_verification/linear_unit_certificates.json",
+    "assumptions": "153/204/255equivariantmatrixparameters; each of1160savedQrows included in exact verifiedsum."
+  },
+  {
+    "id": "E3",
+    "status": "PROVED",
+    "claim": "Every intrinsic linear syzygy graph ray misses the recorded product-minor open set.",
+    "evidence": "data/linear_u_QQ_certificate/linear_u_QQ_certificate.json",
+    "assumptions": "ExactQ relations t8=t9=0 and productdeterminant-t3^3*t8^9; not a smoothness exclusion."
+  },
+  {
+    "id": "E4",
+    "status": "FAILED within specified bounds",
+    "claim": "Twenty-five parity-normalized algebraic fits and twelve feedback-elimination heuristics produced no usable model.",
+    "evidence": "MODEL.md; JOBS.md",
+    "assumptions": "Recorded supports, surplus equations and631core result; no nonexistencetheorem."
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "command": [
+    "python3",
+    "scripts/check_sparse_direction_weights.py",
+    "--direction",
+    "three-orbit-proposed",
+    "--output",
+    "data/sparse3_direction_exact.json"
+  ],
+  "cwd": "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-computation-2026-09-08",
+  "limits": {
+    "seconds": 300,
+    "memory_mb": 2800,
+    "tag": "sparse3-weight-check",
+    "command": [
+      "--",
+      "python3",
+      "scripts/check_sparse_direction_weights.py",
+      "--direction",
+      "three-orbit-proposed",
+      "--output",
+      "data/sparse3_direction_exact.json"
+    ]
+  },
+  "start": "20260908T125416",
+  "single_thread": true,
+  "output": "/Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-computation-2026-09-08/logs/20260908T125416-sparse3-weight-check.artifacts",
+  "effective_seconds": 300,
+  "start_local": "2026-09-08T12:54:16.059885-03:00",
+  "absolute_computation_cutoff": "2026-09-08T16:35:00-03:00",
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "seconds": 1.384,
+  "peak_rss_kb": 824,
+  "reason": "completed",
+  "exit_code": 0
+}

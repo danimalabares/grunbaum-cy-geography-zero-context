@@ -1,0 +1,2 @@
+REJECT_LINEAR_U order 2 residual_count 700 first {'row': 22, 'location': ['trivial', 'B', 4, 2], 'value_mod_p': 65}
+FAILED_linear_U_ansatz /Users/daniel/github/grunbaum-cy-geography-zero-context/runs/astra-computation-2026-09-08/data/linear_U_probe_mod101.json
