@@ -17,6 +17,10 @@ def entries() -> list[tuple[str, str]]:
         rel_path = path.relative_to(ROOT)
         if ".git" in rel_path.parts or not path.is_file() or path == MANIFEST:
             continue
+        # Runs under runs/ carry their own manifests (HASH_MANIFEST.json or
+        # ARTIFACT_SHA256SUMS); the workspace manifest covers the core workspace.
+        if rel_path.parts[0] == "runs":
+            continue
         rel = rel_path.as_posix()
         result.append((hashlib.sha256(path.read_bytes()).hexdigest(), rel))
     return result

@@ -1,0 +1,11 @@
+f_vector [9, 36, 84, 90, 36]
+ridge_in_exactly_two_facets True
+minimal_nonfaces_by_size {4: 36}
+link_9_facets 20
+G_order 6
+G_is_S3 True
+G_element_orders [1, 2, 2, 2, 3, 3]
+Aut_order 54
+Aut_stabiliser_of_9_order 6
+G_equals_full_stabiliser_of_vertex_9 True
+INPUT_VERIFIED

@@ -1,0 +1,15 @@
+{
+ "run": "cp2-nine-vertex-equivariant-t2-2026-09-09",
+ "started_utc": "2026-09-09T15:55:00Z",
+ "workspace_repo": "grunbaum-cy-geography-zero-context",
+ "workspace_head_at_start": "4f75a9ae930a5cb645e06b4b8da79fa7b78a394a",
+ "methodological_reference": "../grunbaum-zero-context-proof/deformation/EQUIVARIANT_FORMAL_LIFT.md",
+ "reference_repo_head": "ee984e9541e9cb9259728e6dc7b3a1bc0fda8a9b",
+ "reference_repo_status": "clean, read-only, not modified",
+ "input_paper": "Chapoton-Manivel, Triangulations and Severi varieties, arXiv:1109.6490v1, Section 5 (facet list)",
+ "input_pdf_sha256": "2c77893bb9d044dc36448fe9833505af4a440505728d0cdb08c61246405b72c3",
+ "input_eprint_gz_sha256": "a2f65e277b403f426193738efec457b574e1e8dc8dd4be54f591199e5119ea16",
+ "input_tex_sha256": "d0bcede7427b246b4db2f35f883bc33b4eb48a20bd8b96fcb5f0204d8f367442",
+ "software": {"Macaulay2": "1.20", "VersalDeformations": "3.0", "python3": "3.11.4", "platform": "macOS 12.7.6, 4 cpu"},
+ "commit_or_push": "none"
+}
