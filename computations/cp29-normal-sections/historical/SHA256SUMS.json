@@ -1,0 +1,14 @@
+{
+  "CHECKPOINT.md": "2ee2fe66b7512bea5fa0b707c1b0a5bb79a2143970a5c7e7c9aaadc96d564f2b",
+  "DISCOVERY.md": "349bbb14f65006483da22eb199d0fd9ef45854886e3ea0f533ba62ee2536ad50",
+  "REPRODUCE.md": "46900ac0e51ba8d3a97d0be6568b02c75dcc835c6475f6077ba5b15570ea5036",
+  "RESULTS.md": "eca7647fcf93824152e46ec54d7ffdf99d056d2f8d8e8d4564bd0a20ed88ff43",
+  "SOURCES.md": "3a7bdac99fe007af2c5eb07065c4f918ecc14d4a8bc5e4346acadc0b6e06db72",
+  "check.py": "d1903f77ac4bb19f89d800e2e613295891671d2d43908b995a9479a69c5fcd52",
+  "exact-check.json": "609de4614ababc28811dc67941786a30d708cefc110715821ecff3d2443f33ad",
+  "exact-check.log": "d4a0441a54c0cd4d311b5759df8b2af993d95cbc253f62e8e1f4b45c7ef7bb2e",
+  "ledger.json": "7545f1b0cbc78c8d9880370c417422d1c4fa9c3123dffd4f536c3e146a3fef85",
+  "run-manifest.json": "79881e83c7a699b51afba1f67ee1f974a0c0537fa0308b0dad3cc0b465aff68f",
+  "source-manifest.json": "c5856cf839faccd9ed3957a66155ce7b946f6495bd3e28a280433423cfc91bdc",
+  "tangent-basis.json": "0a3b5ad17b0c24e72d6e6f9c4d5256b84246eaac6632e0592205c49492aed37b"
+}

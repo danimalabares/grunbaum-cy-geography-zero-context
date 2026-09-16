@@ -90,6 +90,13 @@ negative results, including a counting obstruction for the vertex-minimal model)
 to be the sphere of the sphere problem, and the `S₃`-invariant `T²₀` of its Stanley–Reisner ring is
 recomputed as `0`.
 
+### CP²₉ normal-sections dimension audit (historical 2026-09-10)
+
+[`computations/cp29-normal-sections/`](computations/cp29-normal-sections/) packages the completed exact normal-sheaf
+section calculation. It obtains \(h^0(N_{X/\mathbf P^8})=93\); against the relevant 84-dimensional smooth embedded
+Kummer locus, this gives a compatible bound and **does not** obstruct smoothability. The historical audit is retained in
+[`runs/cp2-nine-hilbert-dimension-audit-2026-09-10/`](runs/cp2-nine-hilbert-dimension-audit-2026-09-10/).
+
 ### Historical runs on the sphere problem (2026-09-08)
 
 Three exploratory runs, published in full with their own manifests and `REPRODUCE.md` files

@@ -1,0 +1,455 @@
+{
+  "scope": "Only the proposed Hilbert-dimension obstruction",
+  "claims": [
+    {
+      "mode": "targeted",
+      "input": {
+        "path": "../cp2-nine-vertex-equivariant-t2-2026-09-09/RESULTS.md",
+        "sha256": "35381332951698553fd0cfe0591868520f4f9230f37d63663e32e5178d2ce42e"
+      },
+      "human_verification": {
+        "status": "not-claimed"
+      },
+      "counterexample_check": {
+        "result": "not-proposed"
+      },
+      "confidence": {
+        "level": "high",
+        "rationale": "Exact coefficient calculation, displayed derivations, and visually inspected primary statements; no inference of smoothability from tangent dimensions."
+      },
+      "claim_id": "C01",
+      "title": "Projective versus graded tangent",
+      "location": "Historical RESULTS.md \u00a74 projective caveat; audit \u00a71",
+      "normalized_claim": {
+        "hypotheses": [
+          "I is the saturated Stanley\u2013Reisner ideal with 36 quartic generators",
+          "Normal sheaf means Hom(I/I\u00b2,O_X)"
+        ],
+        "conclusion": "H^0(N_X)=Hom_S(I,A)_0"
+      },
+      "proof_obligation": "Verify positive-degree section maps and both kernels",
+      "diagnostic_class": "supporting-check",
+      "supplied_proof_state": "incomplete",
+      "claim_state": "established",
+      "evidence": [
+        {
+          "kind": "external-primary-source",
+          "locator": "AC Proposition 5.4(i), Theorem 2.2; SOURCES.md"
+        },
+        {
+          "kind": "derivation",
+          "locator": "RESULTS.md \u00a71 Taylor presentation"
+        }
+      ],
+      "checks_against_finding": [
+        "Non-Cohen\u2013Macaulayness does not obstruct the positive-twist section maps",
+        "The ideal is saturated; no identification of N as a vector bundle is made"
+      ],
+      "dependencies": {
+        "prerequisites": [],
+        "direct_consumers": [
+          "C02",
+          "C05"
+        ],
+        "downstream_impact": [
+          "Used only in the dimension comparison in RESULTS.md."
+        ]
+      },
+      "repair": {
+        "state": "complete-within-analysis",
+        "remaining_obligations": []
+      },
+      "status_history": [
+        {
+          "timestamp": "2026-09-10T14:16:06.488440+00:00",
+          "actor": "Codex audit",
+          "change": "Initial final classification"
+        }
+      ]
+    },
+    {
+      "mode": "targeted",
+      "input": {
+        "path": "../cp2-nine-vertex-equivariant-t2-2026-09-09/RESULTS.md",
+        "sha256": "35381332951698553fd0cfe0591868520f4f9230f37d63663e32e5178d2ce42e"
+      },
+      "human_verification": {
+        "status": "not-claimed"
+      },
+      "counterexample_check": {
+        "result": "not-proposed"
+      },
+      "confidence": {
+        "level": "high",
+        "rationale": "Exact coefficient calculation, displayed derivations, and visually inspected primary statements; no inference of smoothability from tangent dimensions."
+      },
+      "claim_id": "C02",
+      "title": "Actual tangent and special orbit dimensions",
+      "location": "Historical RESULTS.md headline and \u00a76; audit \u00a7\u00a71,3",
+      "normalized_claim": {
+        "hypotheses": [
+          "C01",
+          "Committed facet data"
+        ],
+        "conclusion": "h0(N_X)=93; dim orbit(X)=72; dim stabilizer(X)=8"
+      },
+      "proof_obligation": "Independently solve the full Hom kernel and coordinate rank",
+      "diagnostic_class": "supporting-check",
+      "supplied_proof_state": "succeeds",
+      "claim_state": "established",
+      "evidence": [
+        {
+          "kind": "exact-computation",
+          "locator": "check.py; exact-check.json; tangent-basis.json"
+        },
+        {
+          "kind": "derivation",
+          "locator": "REPRODUCE.md pair-syzygy completeness"
+        }
+      ],
+      "checks_against_finding": [
+        "All 630 generator pairs included, not only a sample",
+        "Monomial coefficient equations are exact equalities/zero constraints",
+        "72 off-diagonal derivations have distinct nonzero weights; nine diagonal derivations vanish"
+      ],
+      "dependencies": {
+        "prerequisites": [
+          "C01"
+        ],
+        "direct_consumers": [
+          "C05"
+        ],
+        "downstream_impact": [
+          "Used only in the dimension comparison in RESULTS.md."
+        ]
+      },
+      "repair": {
+        "state": "not-needed",
+        "remaining_obligations": []
+      },
+      "status_history": [
+        {
+          "timestamp": "2026-09-10T14:16:06.488440+00:00",
+          "actor": "Codex audit",
+          "change": "Initial final classification"
+        }
+      ]
+    },
+    {
+      "mode": "targeted",
+      "input": {
+        "path": "../cp2-nine-vertex-equivariant-t2-2026-09-09/RESULTS.md",
+        "sha256": "35381332951698553fd0cfe0591868520f4f9230f37d63663e32e5178d2ce42e"
+      },
+      "human_verification": {
+        "status": "not-claimed"
+      },
+      "counterexample_check": {
+        "result": "not-proposed"
+      },
+      "confidence": {
+        "level": "high",
+        "rationale": "Exact coefficient calculation, displayed derivations, and visually inspected primary statements; no inference of smoothability from tangent dimensions."
+      },
+      "claim_id": "C03",
+      "title": "Hilbert polynomial and forced Kummer square",
+      "location": "Historical RESULTS.md \u00a71 f-vector and Hilbert numerator; audit \u00a72",
+      "normalized_claim": {
+        "hypotheses": [
+          "Flat projective smoothing in P8",
+          "Smooth fibre of Kummer deformation type with H=O(1)"
+        ],
+        "conclusion": "P(n)=3n^4/2+9n\u00b2/2+3; q(H)=2; h0(H)=9"
+      },
+      "proof_obligation": "Match full polynomial, including n\u00b2 and constant terms",
+      "diagnostic_class": "supporting-check",
+      "supplied_proof_state": "not-applicable",
+      "claim_state": "established",
+      "evidence": [
+        {
+          "kind": "exact-computation",
+          "locator": "check.py rational polynomial expansion"
+        },
+        {
+          "kind": "external-primary-source",
+          "locator": "Britze\u2013Nieper \u00a75.2 pp.18\u201319"
+        },
+        {
+          "kind": "derivation",
+          "locator": "RESULTS.md \u00a72; Kodaira vanishing"
+        }
+      ],
+      "checks_against_finding": [
+        "A_0=1 does not contradict P(0)=3",
+        "Leading coefficient alone is not the only coefficient checked",
+        "H is ample on a smooth fibre; nondegeneracy is open at X"
+      ],
+      "dependencies": {
+        "prerequisites": [],
+        "direct_consumers": [
+          "C04",
+          "C05"
+        ],
+        "downstream_impact": [
+          "Used only in the dimension comparison in RESULTS.md."
+        ]
+      },
+      "repair": {
+        "state": "not-needed",
+        "remaining_obligations": []
+      },
+      "status_history": [
+        {
+          "timestamp": "2026-09-10T14:16:06.488440+00:00",
+          "actor": "Codex audit",
+          "change": "Initial final classification"
+        }
+      ]
+    },
+    {
+      "mode": "targeted",
+      "input": {
+        "path": "../cp2-nine-vertex-equivariant-t2-2026-09-09/RESULTS.md",
+        "sha256": "35381332951698553fd0cfe0591868520f4f9230f37d63663e32e5178d2ce42e"
+      },
+      "human_verification": {
+        "status": "not-claimed"
+      },
+      "counterexample_check": {
+        "result": "not-proposed"
+      },
+      "confidence": {
+        "level": "high",
+        "rationale": "Exact coefficient calculation, displayed derivations, and visually inspected primary statements; no inference of smoothability from tangent dimensions."
+      },
+      "claim_id": "C04",
+      "title": "Smooth embedded Kummer locus dimension",
+      "location": "Audit \u00a72",
+      "normalized_claim": {
+        "hypotheses": [
+          "C03",
+          "Existence of a nondegenerate smooth Kummer-type Y embedded by H with q(H)=2"
+        ],
+        "conclusion": "Local polarized dimension4; projective orbit80; local Hilbert dimension and tangent84"
+      },
+      "proof_obligation": "Use actual polarized moduli, frames, and stabilizers consistently",
+      "diagnostic_class": "supporting-check",
+      "supplied_proof_state": "not-applicable",
+      "claim_state": "established",
+      "evidence": [
+        {
+          "kind": "external-primary-source",
+          "locator": "Dawes \u00a72.2 rank7; Huybrechts \u00a7\u00a71.12\u20131.14"
+        },
+        {
+          "kind": "derivation",
+          "locator": "RESULTS.md \u00a72 Euler/normal sequence and projective frames"
+        }
+      ],
+      "checks_against_finding": [
+        "H0(T_Y)=H0(\u03a9\u00b9_Y)=0 rules out a positive-dimensional projective stabilizer",
+        "Very ampleness is open if one embedded example exists",
+        "No split-polarization restriction used",
+        "Normal-sequence tangent calculation also gives84"
+      ],
+      "dependencies": {
+        "prerequisites": [
+          "C03"
+        ],
+        "direct_consumers": [
+          "C05"
+        ],
+        "downstream_impact": [
+          "Used only in the dimension comparison in RESULTS.md."
+        ]
+      },
+      "repair": {
+        "state": "not-needed",
+        "remaining_obligations": [
+          "Nonemptiness of the required very ample locus is not established; dimension assertion is conditional"
+        ]
+      },
+      "status_history": [
+        {
+          "timestamp": "2026-09-10T14:16:06.488440+00:00",
+          "actor": "Codex audit",
+          "change": "Initial final classification"
+        }
+      ]
+    },
+    {
+      "mode": "targeted",
+      "input": {
+        "path": "../cp2-nine-vertex-equivariant-t2-2026-09-09/RESULTS.md",
+        "sha256": "35381332951698553fd0cfe0591868520f4f9230f37d63663e32e5178d2ce42e"
+      },
+      "human_verification": {
+        "status": "not-claimed"
+      },
+      "counterexample_check": {
+        "result": "not-proposed"
+      },
+      "confidence": {
+        "level": "high",
+        "rationale": "Exact coefficient calculation, displayed derivations, and visually inspected primary statements; no inference of smoothability from tangent dimensions."
+      },
+      "claim_id": "C05",
+      "title": "Dimension comparison does not exclude smoothing",
+      "location": "Audit headline and \u00a73",
+      "normalized_claim": {
+        "hypotheses": [
+          "C02",
+          "C04",
+          "Hypothetical Kummer smoothing of X"
+        ],
+        "conclusion": "84 <= dim_[X] Hilb^P(P8) <= 93, compatible with smoothing"
+      },
+      "proof_obligation": "Test whether the necessary lower bound exceeds the verified upper bound",
+      "diagnostic_class": "supporting-check",
+      "supplied_proof_state": "not-applicable",
+      "claim_state": "established",
+      "evidence": [
+        {
+          "kind": "derivation",
+          "locator": "RESULTS.md \u00a73; local dimension bounded by tangent dimension"
+        }
+      ],
+      "checks_against_finding": [
+        "Subtracting the special orbit yields required12 <= tangent21, also compatible",
+        "Dimension of an obstruction space is not the codimension of a deformation base",
+        "Kapustka\u2019s unavailable argument is not reconstructed by attribution"
+      ],
+      "dependencies": {
+        "prerequisites": [
+          "C02",
+          "C03",
+          "C04"
+        ],
+        "direct_consumers": [],
+        "downstream_impact": [
+          "Used only in the dimension comparison in RESULTS.md."
+        ]
+      },
+      "repair": {
+        "state": "not-needed",
+        "remaining_obligations": [
+          "Actual local/component dimensions",
+          "Very ample Kummer nonemptiness",
+          "Closure incidence with X"
+        ]
+      },
+      "status_history": [
+        {
+          "timestamp": "2026-09-10T14:16:06.488440+00:00",
+          "actor": "Codex audit",
+          "change": "Initial final classification"
+        }
+      ]
+    },
+    {
+      "mode": "targeted",
+      "input": {
+        "path": "../cp2-nine-vertex-equivariant-t2-2026-09-09/RESULTS.md",
+        "sha256": "35381332951698553fd0cfe0591868520f4f9230f37d63663e32e5178d2ce42e"
+      },
+      "human_verification": {
+        "status": "not-claimed"
+      },
+      "counterexample_check": {
+        "result": "not-proposed"
+      },
+      "confidence": {
+        "level": "high",
+        "rationale": "Exact coefficient calculation, displayed derivations, and visually inspected primary statements; no inference of smoothability from tangent dimensions."
+      },
+      "claim_id": "C06",
+      "title": "Existence or exclusion of a Kummer smoothing",
+      "location": "User question; historical RESULTS.md \u00a7\u00a76\u20137",
+      "normalized_claim": {
+        "hypotheses": [
+          "Same X and Hilbert polynomial"
+        ],
+        "conclusion": "Whether X has a Kummer smoothing"
+      },
+      "proof_obligation": "A proof beyond the inconclusive tangent bound is required",
+      "diagnostic_class": "unresolved-concern",
+      "supplied_proof_state": "not-applicable",
+      "claim_state": "unresolved",
+      "evidence": [
+        {
+          "kind": "derivation",
+          "locator": "RESULTS.md \u00a73"
+        }
+      ],
+      "checks_against_finding": [
+        "Failure of this dimension argument is not evidence that a smoothing exists"
+      ],
+      "dependencies": {
+        "prerequisites": [
+          "C05"
+        ],
+        "direct_consumers": [],
+        "downstream_impact": [
+          "Used only in the dimension comparison in RESULTS.md."
+        ]
+      },
+      "repair": {
+        "state": "not-needed",
+        "remaining_obligations": [
+          "A strict component dimension bound below84, or a separate geometric obstruction, or an actual smoothing proof"
+        ]
+      },
+      "status_history": [
+        {
+          "timestamp": "2026-09-10T14:16:06.488440+00:00",
+          "actor": "Codex audit",
+          "change": "Initial final classification"
+        }
+      ]
+    }
+  ],
+  "dependency_edges": [
+    [
+      "C01",
+      "C02"
+    ],
+    [
+      "C02",
+      "C05"
+    ],
+    [
+      "C03",
+      "C04"
+    ],
+    [
+      "C03",
+      "C05"
+    ],
+    [
+      "C04",
+      "C05"
+    ],
+    [
+      "C05",
+      "C06"
+    ]
+  ],
+  "coverage": {
+    "completed": [
+      "Projective tangent identification",
+      "Independent tangent/orbit arithmetic",
+      "Full Hilbert polynomial match",
+      "Conditional smooth polarized and embedded locus dimensions",
+      "Comparison and verdict"
+    ],
+    "partially_checked": [
+      "Nonemptiness of very ample Kummer locus: explicitly conditional, no existence theorem established"
+    ],
+    "untouched": [
+      "Higher-order deformation equations",
+      "Actual smoothing construction",
+      "Fable active-run outputs",
+      "Kapustka unavailable argument"
+    ]
+  }
+}
