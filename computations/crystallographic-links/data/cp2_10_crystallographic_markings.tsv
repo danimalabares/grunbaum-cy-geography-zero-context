@@ -1,0 +1,14 @@
+# Crystallographic marking of the ten vertices of CP^2_10 for each row (m,1)_0 (from output/lifts.json).
+# Columns: CP^2_10 label, vertex x_ij, then for each m the pair of E-classes of a lift and the order of its stabiliser in Gamma = G(m,1,2) x| L^2.
+# E-classes: (2,1)_0: 1=0, 2=1/2, 3=tau/2, 4=(1+tau)/2 | (3,1)_0: 1=0 (order 3), 2=q (order 3), 3=2q (order 3), 4=barycentre (regular) | (4,1)_0: 1=0 (order 4), 2=(1+i)/2 (order 4), 3={1/2,i/2} (order 2), 4=barycentre (regular) | (6,1)_0: 1=0 (order 6), 2={q,2q} (order 3), 3=half-periods (order 2), 4=barycentre (regular)
+label	vertex	(2,1)_0_classes	(2,1)_0_stab	(3,1)_0_classes	(3,1)_0_stab	(4,1)_0_classes	(4,1)_0_stab	(6,1)_0_classes	(6,1)_0_stab
+1	x11	{1,1}	8	{1,1}	18	{1,1}	32	{1,1}	72
+2	x12	{1,4}	4	{1,4}	3	{1,3}	8	{1,3}	12
+3	x13	{1,2}	4	{1,2}	9	{1,4}	4	{1,4}	6
+4	x14	{1,3}	4	{1,3}	9	{1,2}	16	{1,2}	18
+5	x22	{4,4}	8	{4,4}	2	{3,3}	8	{3,3}	8
+6	x23	{2,4}	4	{2,4}	3	{3,4}	2	{3,4}	2
+7	x24	{3,4}	4	{3,4}	3	{2,3}	8	{2,3}	6
+8	x33	{2,2}	8	{2,2}	18	{4,4}	2	{4,4}	2
+9	x34	{2,3}	4	{2,3}	9	{2,4}	4	{2,4}	3
+10	x44	{3,3}	8	{3,3}	18	{2,2}	32	{2,2}	18

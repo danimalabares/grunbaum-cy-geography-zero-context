@@ -1,0 +1,5 @@
+CP2_10: vertices 10 facets 48 minimal_nonfaces 45 by_size new Tally from {3 => 10, 4 => 35}
+CHECK|CP2_10|dim_A|5|degree|48
+CHECK|CP2_10|dim_Hom_S(I,A)_0|131
+CHECK|CP2_10|dim_T2_0|180|seconds|5
+DONE CP2_10

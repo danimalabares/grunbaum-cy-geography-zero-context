@@ -1,0 +1,16 @@
+build_complexes: PASS (17.4s)
+links: PASS (6.2s)
+lifts: PASS (128.4s)
+t1_formula: PASS (1.1s)
+prism_triangulations: PASS (8.8s)
+four_two_one_counting: PASS (0.3s)
+verify_33_identification: PASS (0.8s)
+m2/L9: PASS (1.4s)
+m2/L10a: PASS (2.5s)
+m2/L10b: PASS (0.9s)
+m2/CP2_10: PASS (13.1s)
+m2/L9_equivariant: PASS (4.2s)
+m2/L10a_equivariant: PASS (14.1s)
+m2/L10b_equivariant: PASS (1.9s)
+ALL_STEPS_PASS
+python3 scripts/run_all.py  175.82s user 5.33s system 90% cpu 3:21.28 total

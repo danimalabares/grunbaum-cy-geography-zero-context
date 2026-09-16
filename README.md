@@ -71,6 +71,25 @@ smoothness of any generic fibre, the identification of the full Hilbert deformat
 undecided.** An optional cross-check (rank of the second-order Kuranishi quadrics) was left
 unfinished and is not used.
 
+### Crystallographic quotients, vertex links and SR smoothings (2026-09-11 … 2026-09-16)
+
+Directory: [`computations/crystallographic-links/`](computations/crystallographic-links/) —
+[`REPORT.md`](computations/crystallographic-links/REPORT.md),
+[`SOURCES.md`](computations/crystallographic-links/SOURCES.md),
+[`OPEN_QUESTIONS.md`](computations/crystallographic-links/OPEN_QUESTIONS.md),
+[`README.md`](computations/crystallographic-links/README.md) (one reproduction command:
+`python3 scripts/run_all.py` inside the directory).
+
+The five complex crystallographic groups with quotient `CP²` other than the Kühnel row `(3,3)₀`
+(Kaneko–Tokunaga–Yoshida, Theorem 1): the four rows `(m,1)₀`, `m = 2,3,4,6`, all descend, through verified
+`Γ`-invariant rectilinear triangulations of `C²`, to one and the same triangulation, Bagchi–Datta's ten-vertex
+`CP²₁₀`, whose two vertex links are a neighbourly 9-vertex 3-sphere (degree 27 in `P⁸`) and a 22-facet
+3-sphere (degree 22 in `P⁸`); no smoothing result for either link exists (degree-0 `T¹`, `T²` and invariant
+parts computed exactly; nothing smoothed). For `(4,2)₁` no compatible triangulation was found (three exact
+negative results, including a counting obstruction for the vertex-minimal model). The `CP²₉` link is verified
+to be the sphere of the sphere problem, and the `S₃`-invariant `T²₀` of its Stanley–Reisner ring is
+recomputed as `0`.
+
 ### Historical runs on the sphere problem (2026-09-08)
 
 Three exploratory runs, published in full with their own manifests and `REPRODUCE.md` files

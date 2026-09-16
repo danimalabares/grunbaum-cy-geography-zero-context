@@ -1,0 +1,46 @@
+build_complexes: PASS (17.4s)
+links: PASS (6.2s)
+lifts: PASS (128.4s)
+t1_formula: PASS (1.1s)
+prism_triangulations: PASS (8.8s)
+four_two_one_counting: PASS (0.3s)
+verify_33_identification: PASS (0.8s)
+m2/L9: PASS (1.4s)
+m2/L10a: PASS (2.5s)
+m2/L10b: PASS (0.9s)
+m2/CP2_10: PASS (13.1s)
+m2/L9_equivariant: PASS (4.2s)
+m2/L10a_equivariant: PASS (14.1s)
+m2/L10b_equivariant: PASS (1.9s)
+
+Macaulay2 CHECK lines:
+CHECK|L9|dim_A|4|degree|20
+CHECK|L9|hilbert_polynomial|(10/3)*i^3+(14/3)*i
+CHECK|L9|dim_Hom_S(I,A)_0|109
+CHECK|L9|coordinate_orbit_dimension|56
+CHECK|L9|intrinsic_T1_0_dimension|53
+CHECK|L9|dim_T2_0|27|seconds|0
+CHECK|L10a|dim_A|4|degree|27
+CHECK|L10a|hilbert_polynomial|(9/2)*i^3+(9/2)*i
+CHECK|L10a|dim_Hom_S(I,A)_0|126
+CHECK|L10a|coordinate_orbit_dimension|72
+CHECK|L10a|intrinsic_T1_0_dimension|54
+CHECK|L10a|dim_T2_0|63|seconds|0
+CHECK|L10b|dim_A|4|degree|22
+CHECK|L10b|hilbert_polynomial|(11/3)*i^3+(16/3)*i
+CHECK|L10b|dim_Hom_S(I,A)_0|135
+CHECK|L10b|coordinate_orbit_dimension|72
+CHECK|L10b|intrinsic_T1_0_dimension|63
+CHECK|L10b|dim_T2_0|21|seconds|0
+CHECK|CP2_10|dim_A|5|degree|48
+CHECK|CP2_10|dim_Hom_S(I,A)_0|131
+CHECK|CP2_10|dim_T2_0|180|seconds|5
+CHECK|L9|generators|16|relations|30|dimT1_0|109|dimT2_0|27
+CHECK|L9|group_order|6|invariant_T1_0|21|invariant_T2_0|0
+CHECK|L9|coordinate_orbit|56|invariant_coordinate_directions|11|genuine_invariant_T1|10
+CHECK|L10a|generators|30|relations|81|dimT1_0|126|dimT2_0|63
+CHECK|L10a|group_order|6|invariant_T1_0|21|invariant_T2_0|11
+CHECK|L10a|coordinate_orbit|72|invariant_coordinate_directions|12|genuine_invariant_T1|9
+CHECK|L10b|generators|15|relations|36|dimT1_0|135|dimT2_0|21
+CHECK|L10b|group_order|2|invariant_T1_0|68|invariant_T2_0|11
+CHECK|L10b|coordinate_orbit|72|invariant_coordinate_directions|36|genuine_invariant_T1|32

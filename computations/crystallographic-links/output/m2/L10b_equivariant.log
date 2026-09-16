@@ -1,0 +1,5 @@
+CHECK|L10b|generators|15|relations|36|dimT1_0|135|dimT2_0|21
+group_elements 2
+CHECK|L10b|group_order|2|invariant_T1_0|68|invariant_T2_0|11
+CHECK|L10b|coordinate_orbit|72|invariant_coordinate_directions|36|genuine_invariant_T1|32
+DONE L10b

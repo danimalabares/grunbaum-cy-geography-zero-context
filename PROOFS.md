@@ -181,3 +181,26 @@ minutes; Macaulay2 1.20 + Python 3). Independent re-run record:
   original `cd` lines; the repository-relative equivalents are given above.
 - Historical status labels were not changed. The one set of textual corrections made at publication
   time is in the CP²₉ `RESULTS.md`, marked inline and described in its `PUBLICATION_VERIFICATION.md`.
+
+## 7. Crystallographic quotients, vertex links and SR smoothings (2026-09-11 … 2026-09-16)
+
+Directory [`computations/crystallographic-links/`](computations/crystallographic-links/). Read
+[`REPORT.md`](computations/crystallographic-links/REPORT.md) first; sources and search log in
+[`SOURCES.md`](computations/crystallographic-links/SOURCES.md); gaps in
+[`OPEN_QUESTIONS.md`](computations/crystallographic-links/OPEN_QUESTIONS.md). Reproduction: `python3 scripts/run_all.py`
+inside the directory (about 3 minutes of exact Python plus about 1 minute of Macaulay2 1.20; the recorded
+outputs are in `output/`). Nothing in this section is used by the sphere problem or by the `CP²₉` calculation.
+
+| Statement | Proof / computation | Certificates | Status |
+|---|---|---|---|
+| Theorem 1 of Kaneko–Tokunaga–Yoshida lists exactly the six groups `(2,1)₀, (3,1)₀, (4,1)₀, (6,1)₀, (4,2)₁, (3,3)₀`, the rows of type `(1,1,1)` of Table II of Part I | read from both sources | `SOURCES.md` items 1–2 | cited (checked against both tables) |
+| Morin–Yoshida's `Γ = L[h] ⋊ G₆` is affinely conjugate to `(3,3)₀` at `τ = ω`, by `diag(1,−1)` and the similarity `(ω²−ω)⁻¹`; `G(3,3,2) ≅ S₃` | `scripts/verify_33_identification.py` (exact arithmetic in `Q(ω)`) | `output/verify_33_identification.log` | established |
+| `CP²₉` regenerated from Morin–Yoshida's orbit description equals the Kühnel–Banchoff table and the stored Chapoton–Manivel transcription; `Aut` of order 54; all vertex links isomorphic PL 3-spheres, isomorphic to the packet's Grünbaum sphere by an explicit relabelling | `scripts/build_complexes.py`, `scripts/links.py` | `output/build_complexes.json`, `output/links.json` | established |
+| `(S²×S²)₁₆` and `CP²₁₀` regenerated from Bagchi–Datta's basic facets; f-vectors `(16,84,216,240,96)`, `(10,45,110,120,48)`; `Aut` orders 24, 12; each of the 16 product cells carries a geometric triangulation of `Δ₂×Δ₂`; the swap acts purely; `CP²₁₀ = (S²×S²)₁₆/swap`; no odd index permutation is an automorphism | `scripts/build_complexes.py` | `output/build_complexes.json` | established |
+| For `m = 2,3,4,6` an explicit `G(m,1,2) ⋉ L(τ_m)²`-invariant rectilinear triangulation `K̃_m` of `C²` (vertex set: cone-point pairs, plus one barycentre orbit for `m ≠ 2`) has a regular action and a simplicial quotient isomorphic to `CP²₁₀`; stabiliser orders of the ten vertices recorded | `scripts/lifts.py` (finite torus cover `N = 2`) | `output/lifts.json`, `data/lifts/`, `data/cp2_10_crystallographic_markings.tsv` | established (computer-certified on the cover; descent argument in `REPORT.md` §3.1) |
+| `CP²₁₀` has two link types: `L10a` (`f = (9,36,54,27)`, neighbourly, `|Aut| = 6`) at `x_ii` and `L10b` (`f = (9,31,44,22)`, `|Aut| = 2`) at `x_ij`; both PL 3-spheres (bistellar certificates); minimal nonfaces, h-vectors, Hilbert polynomials `(9/2)k³+(9/2)k`, `(11/3)k³+(16/3)k` | `scripts/links.py`, `scripts/link_t1_t2.m2` | `output/links.json`, `data/links/`, `output/m2/*.log` | established |
+| Degree-0 deformation data: `Hom_S(I,A)₀ = 109/126/135`, intrinsic `T¹₀ = 53/54/63`, `T²₀ = 27/63/21`, `Aut`-invariant `T²₀ = 0/11/11` for `ℳ`, `L10a`, `L10b`; the `T¹` values agree with Altmann–Christophersen's Theorem 4.6 implemented from Definition 4.4 | `scripts/link_t1_t2.m2`, `scripts/link_equivariant.m2`, `scripts/t1_formula.py` | `output/m2/*.log`, `output/t1_formula.json` | established (exact over `Q`) |
+| Smoothability of `Proj k[L10a] ⊂ P⁸` and `Proj k[L10b] ⊂ P⁸` to Calabi–Yau threefolds; their Hodge numbers | — | search log in `SOURCES.md` | **OPEN** (not found in the literature; nothing asserted here) |
+| Row `(4,2)₁`: the `CP²₁₀`-lift is not `diag(i,i)`-invariant; `K̃₄` restricted to the index-4 conjugate of `(4,2)₁` has a non-simplicial quotient (19 vertices, 192 facets, doubled edges); the vertex-minimal product cell structure admits no regular invariant diagonalisation with simplicial quotient (48 facets on 9 vertices forces `f₁ = 42 > 36`) | `scripts/lifts.py`, `scripts/four_two_one_counting.py`, `scripts/four_two_one_search.py` (capped, 45 h, corroboration only) | `output/lifts.json`, `output/four_two_one_counting.json`, `output/four_two_one_search.json` | established (negative); a `(4,2)₁`-compatible triangulation with more vertices is **OPEN** |
+| The recomputed `(T²₀)^{S₃} = 0` and the ten genuine `S₃`-invariant intrinsic first-order directions for the Grünbaum sphere agree with the packet's hypothesis (D04) and DEF-003 | `scripts/link_equivariant.m2` | `output/m2/L9_equivariant.log` | established; changes no status of §1–§4 |
+

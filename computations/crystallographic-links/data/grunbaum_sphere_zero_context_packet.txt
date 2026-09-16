@@ -1,0 +1,5 @@
+# Facets of the non-polytopal neighbourly eight-vertex 3-sphere (Bruckner--Gruenbaum sphere M
+# of Gruenbaum--Sreedharan 1967) in the labelling used by the zero-context proof packet
+# grunbaum-zero-context-proof (commit ee984e9541e9cb9259728e6dc7b3a1bc0fda8a9b, PROOF.md Section 1).
+1234 1235 1245 1346 1356 1457 1467 1568 1578 1678
+2348 2356 2367 2378 2458 2568 2678 3467 3478 4578
