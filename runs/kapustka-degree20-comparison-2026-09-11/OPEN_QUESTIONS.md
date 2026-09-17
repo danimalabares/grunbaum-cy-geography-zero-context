@@ -58,7 +58,8 @@ instead to the explicit ideal `I_{Ybar} ⊂ k[x₀..x₆,w,y₁,y₂]` (weights 
 2 quadrics, 16 cubics, 3 quartics) shipped in `data/IYbar.m2`. The first-order input is
 `Hom(I_{Ybar}, R)₀`. `scripts/k17_deform.m2` computes exactly that, as an independent
 *global* check of Proposition 7.1; in this run `normalMatrix({0}, F0)` did not return
-after 45 minutes and about 1.2 GB, so the check is **not completed** (`REPORT.md` §7.2b).
+after 2 h 17 min (peak ≈ 1.2 GB) and was stopped under machine memory pressure, so the
+check is **not completed** (`REPORT.md` §7.2b).
 Proposition 7.1 and the local model do not depend on it. A cheaper route to the same
 number would set up the syzygy-lifting conditions as one linear system over `F₃₂₀₀₃`
 (source `2·36 + 16·104 + 3·232 = 2432`, target a few times `10⁴`) rather than through the

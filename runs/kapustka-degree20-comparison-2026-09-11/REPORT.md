@@ -607,8 +607,10 @@ image and whether that image contains an invertible matrix; Proposition 7.1 pred
 "image spanned by a single rank-1 matrix, no invertible matrix". The script confirmed the
 input data (`generator degrees {2,2,3×16,4,4,4}`, `degree-2 generator positions {0,1}`,
 `degree-2 generators y-free? true`) and then entered `normalMatrix({0}, F0)`; **that
-computation had not returned after 45 minutes and ~1.2 GB and is recorded as not
-completed in this run** (`logs/k17_deform.log`). Proposition 7.1 does not depend on it.
+computation had not returned after 2 h 17 min, peaking at about 1.2 GB, and was stopped
+under machine memory pressure. It is recorded as not completed in this run**
+(`logs/k17_deform.log` ends at the `normalMatrix` call). Proposition 7.1 does not depend
+on it.
 
 ### 7.3 The gap
 
