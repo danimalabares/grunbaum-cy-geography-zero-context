@@ -44,6 +44,12 @@ OMITTED = set(json.loads(OMISSIONS_FILE.read_text())["files"]) if OMISSIONS_FILE
 # Secret, size, binary and file-name checks still apply to them.
 # Local caches and lock files excluded by .gitignore; never part of the publication set.
 IGNORED_CACHE_PARTS = {"__pycache__", ".cas.lock"}
+# Uncommitted local caches of third-party documents (git-ignored; only MANIFEST.json and .gitignore are committed).
+LOCAL_DOCUMENT_CACHES = ("computations/space-group-cy3/sources/",)
+
+
+def in_uncommitted_cache(rel: str, name: str) -> bool:
+    return any(rel.startswith(prefix) for prefix in LOCAL_DOCUMENT_CACHES) and name not in {"MANIFEST.json", ".gitignore"}
 HISTORICAL_RUN_PREFIXES = (
     "runs/astra-daytime-2026-09-08/",
     "runs/astra-computation-2026-09-08/",
@@ -58,6 +64,7 @@ def workspace_files() -> list[Path]:
         and ".git" not in item.relative_to(ROOT).parts
         and item.relative_to(ROOT).as_posix() not in OMITTED
         and not (set(item.relative_to(ROOT).parts) & IGNORED_CACHE_PARTS)
+        and not in_uncommitted_cache(item.relative_to(ROOT).as_posix(), item.name)
     ]
 
 

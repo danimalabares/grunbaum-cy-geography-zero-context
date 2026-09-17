@@ -1,0 +1,469 @@
+{
+ "16": {
+  "computed_h11_h21": [
+   51,
+   3
+  ],
+  "donten_bury_class": "D4(1)",
+  "donten_bury_betti": [
+   1,
+   0,
+   51,
+   8,
+   51,
+   0,
+   1
+  ],
+  "donten_bury_h11_h21": [
+   51,
+   3
+  ],
+  "burek_group": "4.1",
+  "burek_h11_h21": [
+   51,
+   3
+  ],
+  "andreatta_wisniewski_h11_h21": null,
+  "agree_donten_bury": true,
+  "agree_burek": true,
+  "agree_andreatta_wisniewski": null
+ },
+ "21": {
+  "computed_h11_h21": [
+   21,
+   9
+  ],
+  "donten_bury_class": "D4(2)",
+  "donten_bury_betti": [
+   1,
+   0,
+   21,
+   20,
+   21,
+   0,
+   1
+  ],
+  "donten_bury_h11_h21": [
+   21,
+   9
+  ],
+  "burek_group": "4.2",
+  "burek_h11_h21": [
+   21,
+   9
+  ],
+  "andreatta_wisniewski_h11_h21": null,
+  "agree_donten_bury": true,
+  "agree_burek": true,
+  "agree_andreatta_wisniewski": null
+ },
+ "22": {
+  "computed_h11_h21": [
+   15,
+   3
+  ],
+  "donten_bury_class": "D4(4)",
+  "donten_bury_betti": [
+   1,
+   0,
+   15,
+   8,
+   15,
+   0,
+   1
+  ],
+  "donten_bury_h11_h21": [
+   15,
+   3
+  ],
+  "burek_group": "4.3",
+  "burek_h11_h21": [
+   15,
+   3
+  ],
+  "andreatta_wisniewski_h11_h21": null,
+  "agree_donten_bury": true,
+  "agree_burek": true,
+  "agree_andreatta_wisniewski": null
+ },
+ "89": {
+  "computed_h11_h21": [
+   36,
+   6
+  ],
+  "donten_bury_class": "D8(1)",
+  "donten_bury_betti": [
+   1,
+   0,
+   36,
+   14,
+   36,
+   0,
+   1
+  ],
+  "donten_bury_h11_h21": [
+   36,
+   6
+  ],
+  "burek_group": "8.1",
+  "burek_h11_h21": [
+   36,
+   6
+  ],
+  "andreatta_wisniewski_h11_h21": null,
+  "agree_donten_bury": true,
+  "agree_burek": true,
+  "agree_andreatta_wisniewski": null
+ },
+ "97": {
+  "computed_h11_h21": [
+   15,
+   3
+  ],
+  "donten_bury_class": "D8(2)",
+  "donten_bury_betti": [
+   1,
+   0,
+   15,
+   8,
+   15,
+   0,
+   1
+  ],
+  "donten_bury_h11_h21": [
+   15,
+   3
+  ],
+  "burek_group": "8.2",
+  "burek_h11_h21": [
+   15,
+   3
+  ],
+  "andreatta_wisniewski_h11_h21": null,
+  "agree_donten_bury": true,
+  "agree_burek": true,
+  "agree_andreatta_wisniewski": null
+ },
+ "149": {
+  "computed_h11_h21": [
+   15,
+   15
+  ],
+  "donten_bury_class": "D6(2)",
+  "donten_bury_betti": [
+   1,
+   0,
+   15,
+   32,
+   15,
+   0,
+   1
+  ],
+  "donten_bury_h11_h21": [
+   15,
+   15
+  ],
+  "burek_group": "6.1",
+  "burek_h11_h21": [
+   15,
+   15
+  ],
+  "andreatta_wisniewski_h11_h21": null,
+  "agree_donten_bury": true,
+  "agree_burek": true,
+  "agree_andreatta_wisniewski": null
+ },
+ "150": {
+  "computed_h11_h21": [
+   15,
+   15
+  ],
+  "donten_bury_class": "D6(1)",
+  "donten_bury_betti": [
+   1,
+   0,
+   15,
+   32,
+   15,
+   0,
+   1
+  ],
+  "donten_bury_h11_h21": [
+   15,
+   15
+  ],
+  "burek_group": "6.2",
+  "burek_h11_h21": [
+   15,
+   15
+  ],
+  "andreatta_wisniewski_h11_h21": null,
+  "agree_donten_bury": true,
+  "agree_burek": true,
+  "agree_andreatta_wisniewski": null
+ },
+ "155": {
+  "computed_h11_h21": [
+   7,
+   7
+  ],
+  "donten_bury_class": "D6(3)",
+  "donten_bury_betti": [
+   1,
+   0,
+   7,
+   16,
+   7,
+   0,
+   1
+  ],
+  "donten_bury_h11_h21": [
+   7,
+   7
+  ],
+  "burek_group": "6.3",
+  "burek_h11_h21": [
+   7,
+   7
+  ],
+  "andreatta_wisniewski_h11_h21": null,
+  "agree_donten_bury": true,
+  "agree_burek": true,
+  "agree_andreatta_wisniewski": null
+ },
+ "177": {
+  "computed_h11_h21": [
+   21,
+   9
+  ],
+  "donten_bury_class": "D12",
+  "donten_bury_betti": [
+   1,
+   0,
+   21,
+   20,
+   21,
+   0,
+   1
+  ],
+  "donten_bury_h11_h21": [
+   21,
+   9
+  ],
+  "burek_group": "12.1",
+  "burek_h11_h21": [
+   21,
+   9
+  ],
+  "andreatta_wisniewski_h11_h21": null,
+  "agree_donten_bury": true,
+  "agree_burek": true,
+  "agree_andreatta_wisniewski": null
+ },
+ "195": {
+  "computed_h11_h21": [
+   19,
+   3
+  ],
+  "donten_bury_class": "A4(1)",
+  "donten_bury_betti": [
+   1,
+   0,
+   19,
+   8,
+   19,
+   0,
+   1
+  ],
+  "donten_bury_h11_h21": [
+   19,
+   3
+  ],
+  "burek_group": "12.2",
+  "burek_h11_h21": [
+   19,
+   3
+  ],
+  "andreatta_wisniewski_h11_h21": null,
+  "agree_donten_bury": true,
+  "agree_burek": true,
+  "agree_andreatta_wisniewski": null
+ },
+ "196": {
+  "computed_h11_h21": [
+   7,
+   3
+  ],
+  "donten_bury_class": "A4(2)",
+  "donten_bury_betti": [
+   1,
+   0,
+   7,
+   8,
+   7,
+   0,
+   1
+  ],
+  "donten_bury_h11_h21": [
+   7,
+   3
+  ],
+  "burek_group": "12.4",
+  "burek_h11_h21": [
+   7,
+   3
+  ],
+  "andreatta_wisniewski_h11_h21": null,
+  "agree_donten_bury": true,
+  "agree_burek": true,
+  "agree_andreatta_wisniewski": null
+ },
+ "207": {
+  "computed_h11_h21": [
+   20,
+   6
+  ],
+  "donten_bury_class": "S4(1)",
+  "donten_bury_betti": [
+   1,
+   0,
+   20,
+   14,
+   20,
+   0,
+   1
+  ],
+  "donten_bury_h11_h21": [
+   20,
+   6
+  ],
+  "burek_group": "24.1",
+  "burek_h11_h21": [
+   20,
+   6
+  ],
+  "andreatta_wisniewski_h11_h21": [
+   20,
+   6
+  ],
+  "agree_donten_bury": true,
+  "agree_burek": true,
+  "agree_andreatta_wisniewski": true
+ },
+ "209": {
+  "computed_h11_h21": [
+   11,
+   3
+  ],
+  "donten_bury_class": "S4(2)",
+  "donten_bury_betti": [
+   1,
+   0,
+   11,
+   8,
+   11,
+   0,
+   1
+  ],
+  "donten_bury_h11_h21": [
+   11,
+   3
+  ],
+  "burek_group": "24.3",
+  "burek_h11_h21": [
+   11,
+   3
+  ],
+  "andreatta_wisniewski_h11_h21": null,
+  "agree_donten_bury": true,
+  "agree_burek": true,
+  "agree_andreatta_wisniewski": null
+ },
+ "211": {
+  "computed_h11_h21": [
+   11,
+   3
+  ],
+  "donten_bury_class": "S4(3)",
+  "donten_bury_betti": [
+   1,
+   0,
+   11,
+   8,
+   11,
+   0,
+   1
+  ],
+  "donten_bury_h11_h21": [
+   11,
+   3
+  ],
+  "burek_group": "24.2",
+  "burek_h11_h21": [
+   11,
+   3
+  ],
+  "andreatta_wisniewski_h11_h21": null,
+  "agree_donten_bury": true,
+  "agree_burek": true,
+  "agree_andreatta_wisniewski": null
+ },
+ "23": {
+  "computed_h11_h21": [
+   15,
+   3
+  ],
+  "donten_bury_class": "D4(3)",
+  "donten_bury_betti": [
+   1,
+   0,
+   15,
+   8,
+   15,
+   0,
+   1
+  ],
+  "donten_bury_h11_h21": [
+   15,
+   3
+  ],
+  "burek_group": "4.4",
+  "burek_h11_h21": [
+   15,
+   3
+  ],
+  "andreatta_wisniewski_h11_h21": null,
+  "agree_donten_bury": true,
+  "agree_burek": true,
+  "agree_andreatta_wisniewski": null
+ },
+ "197": {
+  "computed_h11_h21": [
+   7,
+   3
+  ],
+  "donten_bury_class": "A4(3)",
+  "donten_bury_betti": [
+   1,
+   0,
+   7,
+   8,
+   7,
+   0,
+   1
+  ],
+  "donten_bury_h11_h21": [
+   7,
+   3
+  ],
+  "burek_group": "12.3",
+  "burek_h11_h21": [
+   7,
+   3
+  ],
+  "andreatta_wisniewski_h11_h21": null,
+  "agree_donten_bury": true,
+  "agree_burek": true,
+  "agree_andreatta_wisniewski": null
+ }
+}

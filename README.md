@@ -120,6 +120,30 @@ Gorenstein family in `P⁷`, so the question reduces to whether Kapustka's gener
 is arithmetically Gorenstein in `P⁷` — which fails to first order. Nothing in §1–§7 of
 `PROOFS.md` changes.
 
+### Space groups with quotient S³ and Kummer Calabi–Yau threefolds — stage 1 (2026-09-17)
+
+Directory: [`computations/space-group-cy3/`](computations/space-group-cy3/) —
+[`REPORT.md`](computations/space-group-cy3/REPORT.md),
+[`SOURCES.md`](computations/space-group-cy3/SOURCES.md),
+[`OPEN_QUESTIONS.md`](computations/space-group-cy3/OPEN_QUESTIONS.md),
+[`README.md`](computations/space-group-cy3/README.md) (one reproduction command:
+`python3 scripts/run_all.py` inside the directory; Python 3 only, about one minute).
+
+Audit of the claim that the 14 symmorphic members (16, 21, 22, 89, 97, 149, 150, 155, 177, 195, 196,
+207, 209, 211) of Johnson–Burnett–Dunbar's list of 35 space groups with real orbifold quotient `S³` are
+covered by the published linear Kummer construction (Andreatta–Wiśniewski, Donten-Bury, Burek).
+Verified: the 35-list equals the label set of JBD's Figure 2.8; the 14 are exactly the symmorphic members
+(two independent ITA databases agree coset by coset); each point group is conjugate in `GL(3,Z)`, by an
+explicit certificate, to exactly one of the 16 published Z-classes (with I222 and I23 outside the list
+completing a bijection, pairwise non-conjugacy re-established); one exact implementation of the orbifold
+Hodge numbers of `A_τ/G`, `A_τ = C³/(Λ+τΛ)`, reproduces the published values in all cases —
+`(h¹¹,h²¹) = (51,3), (21,9), (15,3), (36,6), (15,3), (15,15), (15,15), (7,7), (21,9), (19,3), (7,3),
+(20,6), (11,3), (11,3)` — with Euler numbers checked by an independent DHVW count. A projective crepant
+resolution exists (Bridgeland–King–Reid) with these Hodge numbers (Yasuda / Batyrev); results are
+independent of `τ`, origin, setting and basis. Fourteen labels give ten Hodge pairs; deformation
+equivalence between different groups is open. The 21 non-symmorphic groups are recorded as pending with
+their exact affine generators. This computation is independent of the sphere problem.
+
 ### Historical runs on the sphere problem (2026-09-08)
 
 Three exploratory runs, published in full with their own manifests and `REPRODUCE.md` files

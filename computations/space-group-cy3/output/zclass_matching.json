@@ -1,0 +1,3122 @@
+{
+ "space_groups": {
+  "16": {
+   "generators_primitive": [
+    [
+     [
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      0,
+      1
+     ]
+    ],
+    [
+     [
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      0,
+      -1
+     ]
+    ]
+   ],
+   "donten_bury": {
+    "D4(1)": {
+     "conjugator_P": [
+      [
+       0,
+       -1,
+       0
+      ],
+      [
+       -1,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       -1
+      ]
+     ],
+     "det_P": 1,
+     "intertwiner_rank": 3,
+     "conjugate": true
+    },
+    "D4(2)": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 3
+    },
+    "D4(3)": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 3
+    },
+    "D4(4)": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 3
+    }
+   },
+   "burek": {
+    "4.1": {
+     "conjugator_P": [
+      [
+       0,
+       -1,
+       0
+      ],
+      [
+       -1,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       -1
+      ]
+     ],
+     "det_P": 1,
+     "intertwiner_rank": 3,
+     "conjugate": true
+    },
+    "4.2": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 3
+    },
+    "4.3": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 3
+    },
+    "4.4": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 3
+    }
+   },
+   "transpose_control_donten_bury": {
+    "D4(1)": true,
+    "D4(2)": false,
+    "D4(3)": false,
+    "D4(4)": false
+   },
+   "donten_bury_class": "D4(1)",
+   "burek_group": "4.1",
+   "transpose_matches_donten_bury": [
+    "D4(1)"
+   ]
+  },
+  "21": {
+   "generators_primitive": [
+    [
+     [
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      0,
+      1
+     ]
+    ],
+    [
+     [
+      1,
+      0,
+      0
+     ],
+     [
+      -1,
+      -1,
+      0
+     ],
+     [
+      0,
+      0,
+      -1
+     ]
+    ]
+   ],
+   "donten_bury": {
+    "D4(1)": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 3
+    },
+    "D4(2)": {
+     "conjugator_P": [
+      [
+       0,
+       -1,
+       0
+      ],
+      [
+       -1,
+       -1,
+       0
+      ],
+      [
+       0,
+       0,
+       -1
+      ]
+     ],
+     "det_P": 1,
+     "intertwiner_rank": 3,
+     "conjugate": true
+    },
+    "D4(3)": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 3
+    },
+    "D4(4)": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 3
+    }
+   },
+   "burek": {
+    "4.1": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 3
+    },
+    "4.2": {
+     "conjugator_P": [
+      [
+       0,
+       0,
+       -1
+      ],
+      [
+       0,
+       -1,
+       0
+      ],
+      [
+       -1,
+       -1,
+       0
+      ]
+     ],
+     "det_P": 1,
+     "intertwiner_rank": 3,
+     "conjugate": true
+    },
+    "4.3": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 3
+    },
+    "4.4": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 3
+    }
+   },
+   "transpose_control_donten_bury": {
+    "D4(1)": false,
+    "D4(2)": true,
+    "D4(3)": false,
+    "D4(4)": false
+   },
+   "donten_bury_class": "D4(2)",
+   "burek_group": "4.2",
+   "transpose_matches_donten_bury": [
+    "D4(2)"
+   ]
+  },
+  "22": {
+   "generators_primitive": [
+    [
+     [
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      -1,
+      0
+     ],
+     [
+      1,
+      1,
+      1
+     ]
+    ],
+    [
+     [
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      -1,
+      0
+     ],
+     [
+      -1,
+      0,
+      -1
+     ]
+    ]
+   ],
+   "donten_bury": {
+    "D4(1)": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 3
+    },
+    "D4(2)": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 3
+    },
+    "D4(3)": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 3
+    },
+    "D4(4)": {
+     "conjugator_P": [
+      [
+       0,
+       1,
+       1
+      ],
+      [
+       0,
+       0,
+       -1
+      ],
+      [
+       -1,
+       -1,
+       -1
+      ]
+     ],
+     "det_P": 1,
+     "intertwiner_rank": 3,
+     "conjugate": true
+    }
+   },
+   "burek": {
+    "4.1": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 3
+    },
+    "4.2": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 3
+    },
+    "4.3": {
+     "conjugator_P": [
+      [
+       0,
+       -1,
+       0
+      ],
+      [
+       0,
+       0,
+       -1
+      ],
+      [
+       -1,
+       -1,
+       -1
+      ]
+     ],
+     "det_P": -1,
+     "intertwiner_rank": 3,
+     "conjugate": true
+    },
+    "4.4": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 3
+    }
+   },
+   "transpose_control_donten_bury": {
+    "D4(1)": false,
+    "D4(2)": false,
+    "D4(3)": true,
+    "D4(4)": false
+   },
+   "donten_bury_class": "D4(4)",
+   "burek_group": "4.3",
+   "transpose_matches_donten_bury": [
+    "D4(3)"
+   ]
+  },
+  "89": {
+   "generators_primitive": [
+    [
+     [
+      0,
+      -1,
+      0
+     ],
+     [
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      1
+     ]
+    ],
+    [
+     [
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      0,
+      -1
+     ]
+    ]
+   ],
+   "donten_bury": {
+    "D8(1)": {
+     "conjugator_P": [
+      [
+       0,
+       1,
+       0
+      ],
+      [
+       0,
+       0,
+       -1
+      ],
+      [
+       -1,
+       0,
+       0
+      ]
+     ],
+     "det_P": 1,
+     "intertwiner_rank": 2,
+     "conjugate": true
+    },
+    "D8(2)": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 2
+    }
+   },
+   "burek": {
+    "8.1": {
+     "conjugator_P": [
+      [
+       0,
+       0,
+       -1
+      ],
+      [
+       0,
+       1,
+       0
+      ],
+      [
+       -1,
+       0,
+       0
+      ]
+     ],
+     "det_P": -1,
+     "intertwiner_rank": 2,
+     "conjugate": true
+    },
+    "8.2": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 2
+    }
+   },
+   "transpose_control_donten_bury": {
+    "D8(1)": true,
+    "D8(2)": false
+   },
+   "donten_bury_class": "D8(1)",
+   "burek_group": "8.1",
+   "transpose_matches_donten_bury": [
+    "D8(1)"
+   ]
+  },
+  "97": {
+   "generators_primitive": [
+    [
+     [
+      -1,
+      -2,
+      0
+     ],
+     [
+      1,
+      1,
+      0
+     ],
+     [
+      1,
+      1,
+      1
+     ]
+    ],
+    [
+     [
+      1,
+      0,
+      0
+     ],
+     [
+      -1,
+      -1,
+      0
+     ],
+     [
+      -1,
+      0,
+      -1
+     ]
+    ]
+   ],
+   "donten_bury": {
+    "D8(1)": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 2
+    },
+    "D8(2)": {
+     "conjugator_P": [
+      [
+       0,
+       1,
+       -1
+      ],
+      [
+       0,
+       0,
+       1
+      ],
+      [
+       -1,
+       -1,
+       -1
+      ]
+     ],
+     "det_P": -1,
+     "intertwiner_rank": 2,
+     "conjugate": true
+    }
+   },
+   "burek": {
+    "8.1": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 2
+    },
+    "8.2": {
+     "conjugator_P": [
+      [
+       0,
+       0,
+       -1
+      ],
+      [
+       0,
+       1,
+       0
+      ],
+      [
+       -1,
+       -1,
+       0
+      ]
+     ],
+     "det_P": -1,
+     "intertwiner_rank": 2,
+     "conjugate": true
+    }
+   },
+   "transpose_control_donten_bury": {
+    "D8(1)": false,
+    "D8(2)": true
+   },
+   "donten_bury_class": "D8(2)",
+   "burek_group": "8.2",
+   "transpose_matches_donten_bury": [
+    "D8(2)"
+   ]
+  },
+  "149": {
+   "generators_primitive": [
+    [
+     [
+      0,
+      -1,
+      0
+     ],
+     [
+      1,
+      -1,
+      0
+     ],
+     [
+      0,
+      0,
+      1
+     ]
+    ],
+    [
+     [
+      0,
+      -1,
+      0
+     ],
+     [
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      -1
+     ]
+    ]
+   ],
+   "donten_bury": {
+    "D6(1)": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 2
+    },
+    "D6(2)": {
+     "conjugator_P": [
+      [
+       -1,
+       0,
+       0
+      ],
+      [
+       -1,
+       1,
+       0
+      ],
+      [
+       0,
+       0,
+       -1
+      ]
+     ],
+     "det_P": 1,
+     "intertwiner_rank": 2,
+     "conjugate": true
+    },
+    "D6(3)": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 2
+    }
+   },
+   "burek": {
+    "6.1": {
+     "conjugator_P": [
+      [
+       0,
+       0,
+       -1
+      ],
+      [
+       1,
+       0,
+       0
+      ],
+      [
+       1,
+       -1,
+       0
+      ]
+     ],
+     "det_P": 1,
+     "intertwiner_rank": 2,
+     "conjugate": true
+    },
+    "6.2": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 2
+    },
+    "6.3": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 2
+    }
+   },
+   "transpose_control_donten_bury": {
+    "D6(1)": true,
+    "D6(2)": false,
+    "D6(3)": false
+   },
+   "donten_bury_class": "D6(2)",
+   "burek_group": "6.1",
+   "transpose_matches_donten_bury": [
+    "D6(1)"
+   ]
+  },
+  "150": {
+   "generators_primitive": [
+    [
+     [
+      0,
+      -1,
+      0
+     ],
+     [
+      1,
+      -1,
+      0
+     ],
+     [
+      0,
+      0,
+      1
+     ]
+    ],
+    [
+     [
+      0,
+      1,
+      0
+     ],
+     [
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      -1
+     ]
+    ]
+   ],
+   "donten_bury": {
+    "D6(1)": {
+     "conjugator_P": [
+      [
+       -1,
+       1,
+       0
+      ],
+      [
+       0,
+       -1,
+       0
+      ],
+      [
+       0,
+       0,
+       -1
+      ]
+     ],
+     "det_P": -1,
+     "intertwiner_rank": 2,
+     "conjugate": true
+    },
+    "D6(2)": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 2
+    },
+    "D6(3)": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 2
+    }
+   },
+   "burek": {
+    "6.1": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 2
+    },
+    "6.2": {
+     "conjugator_P": [
+      [
+       0,
+       0,
+       -1
+      ],
+      [
+       1,
+       -1,
+       0
+      ],
+      [
+       0,
+       -1,
+       0
+      ]
+     ],
+     "det_P": 1,
+     "intertwiner_rank": 2,
+     "conjugate": true
+    },
+    "6.3": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 2
+    }
+   },
+   "transpose_control_donten_bury": {
+    "D6(1)": false,
+    "D6(2)": true,
+    "D6(3)": false
+   },
+   "donten_bury_class": "D6(1)",
+   "burek_group": "6.2",
+   "transpose_matches_donten_bury": [
+    "D6(2)"
+   ]
+  },
+  "155": {
+   "generators_primitive": [
+    [
+     [
+      -2,
+      -3,
+      0
+     ],
+     [
+      1,
+      1,
+      0
+     ],
+     [
+      2,
+      2,
+      1
+     ]
+    ],
+    [
+     [
+      2,
+      3,
+      0
+     ],
+     [
+      -1,
+      -2,
+      0
+     ],
+     [
+      -2,
+      -2,
+      -1
+     ]
+    ]
+   ],
+   "donten_bury": {
+    "D6(1)": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 2
+    },
+    "D6(2)": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 2
+    },
+    "D6(3)": {
+     "conjugator_P": [
+      [
+       -1,
+       -1,
+       -1
+      ],
+      [
+       1,
+       0,
+       1
+      ],
+      [
+       0,
+       -1,
+       1
+      ]
+     ],
+     "det_P": 1,
+     "intertwiner_rank": 2,
+     "conjugate": true
+    }
+   },
+   "burek": {
+    "6.1": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 2
+    },
+    "6.2": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 2
+    },
+    "6.3": {
+     "conjugator_P": [
+      [
+       -1,
+       -1,
+       -1
+      ],
+      [
+       0,
+       1,
+       -1
+      ],
+      [
+       -1,
+       0,
+       -1
+      ]
+     ],
+     "det_P": -1,
+     "intertwiner_rank": 2,
+     "conjugate": true
+    }
+   },
+   "transpose_control_donten_bury": {
+    "D6(1)": false,
+    "D6(2)": false,
+    "D6(3)": true
+   },
+   "donten_bury_class": "D6(3)",
+   "burek_group": "6.3",
+   "transpose_matches_donten_bury": [
+    "D6(3)"
+   ]
+  },
+  "177": {
+   "generators_primitive": [
+    [
+     [
+      1,
+      -1,
+      0
+     ],
+     [
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      1
+     ]
+    ],
+    [
+     [
+      0,
+      -1,
+      0
+     ],
+     [
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      -1
+     ]
+    ]
+   ],
+   "donten_bury": {
+    "D12": {
+     "conjugator_P": [
+      [
+       1,
+       0,
+       0
+      ],
+      [
+       1,
+       -1,
+       0
+      ],
+      [
+       0,
+       0,
+       -1
+      ]
+     ],
+     "det_P": 1,
+     "intertwiner_rank": 2,
+     "conjugate": true
+    },
+    "A4(1)": {
+     "conjugate": false,
+     "note": null,
+     "intertwiner_rank": null
+    },
+    "A4(2)": {
+     "conjugate": false,
+     "note": null,
+     "intertwiner_rank": null
+    },
+    "A4(3)": {
+     "conjugate": false,
+     "note": null,
+     "intertwiner_rank": null
+    }
+   },
+   "burek": {
+    "12.1": {
+     "conjugator_P": [
+      [
+       0,
+       0,
+       -1
+      ],
+      [
+       -1,
+       0,
+       0
+      ],
+      [
+       1,
+       -1,
+       0
+      ]
+     ],
+     "det_P": -1,
+     "intertwiner_rank": 2,
+     "conjugate": true
+    },
+    "12.2": {
+     "conjugate": false,
+     "note": null,
+     "intertwiner_rank": null
+    },
+    "12.3": {
+     "conjugate": false,
+     "note": null,
+     "intertwiner_rank": null
+    },
+    "12.4": {
+     "conjugate": false,
+     "note": null,
+     "intertwiner_rank": null
+    }
+   },
+   "transpose_control_donten_bury": {
+    "D12": true,
+    "A4(1)": false,
+    "A4(2)": false,
+    "A4(3)": false
+   },
+   "donten_bury_class": "D12",
+   "burek_group": "12.1",
+   "transpose_matches_donten_bury": [
+    "D12"
+   ]
+  },
+  "195": {
+   "generators_primitive": [
+    [
+     [
+      0,
+      0,
+      1
+     ],
+     [
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      0
+     ]
+    ],
+    [
+     [
+      0,
+      0,
+      1
+     ],
+     [
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      -1,
+      0
+     ]
+    ]
+   ],
+   "donten_bury": {
+    "D12": {
+     "conjugate": false,
+     "note": null,
+     "intertwiner_rank": null
+    },
+    "A4(1)": {
+     "conjugator_P": [
+      [
+       -1,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       1
+      ],
+      [
+       0,
+       -1,
+       0
+      ]
+     ],
+     "det_P": -1,
+     "intertwiner_rank": 1,
+     "conjugate": true
+    },
+    "A4(2)": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 1
+    },
+    "A4(3)": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 1
+    }
+   },
+   "burek": {
+    "12.1": {
+     "conjugate": false,
+     "note": null,
+     "intertwiner_rank": null
+    },
+    "12.2": {
+     "conjugator_P": [
+      [
+       -1,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       1
+      ],
+      [
+       0,
+       -1,
+       0
+      ]
+     ],
+     "det_P": -1,
+     "intertwiner_rank": 1,
+     "conjugate": true
+    },
+    "12.3": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 1
+    },
+    "12.4": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 1
+    }
+   },
+   "transpose_control_donten_bury": {
+    "D12": false,
+    "A4(1)": true,
+    "A4(2)": false,
+    "A4(3)": false
+   },
+   "donten_bury_class": "A4(1)",
+   "burek_group": "12.2",
+   "transpose_matches_donten_bury": [
+    "A4(1)"
+   ]
+  },
+  "196": {
+   "generators_primitive": [
+    [
+     [
+      1,
+      1,
+      2
+     ],
+     [
+      1,
+      0,
+      0
+     ],
+     [
+      -1,
+      0,
+      -1
+     ]
+    ],
+    [
+     [
+      1,
+      1,
+      2
+     ],
+     [
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      -1,
+      -1
+     ]
+    ]
+   ],
+   "donten_bury": {
+    "D12": {
+     "conjugate": false,
+     "note": null,
+     "intertwiner_rank": null
+    },
+    "A4(1)": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 1
+    },
+    "A4(2)": {
+     "conjugator_P": [
+      [
+       0,
+       0,
+       -1
+      ],
+      [
+       -1,
+       -1,
+       -1
+      ],
+      [
+       0,
+       1,
+       1
+      ]
+     ],
+     "det_P": 1,
+     "intertwiner_rank": 1,
+     "conjugate": true
+    },
+    "A4(3)": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 1
+    }
+   },
+   "burek": {
+    "12.1": {
+     "conjugate": false,
+     "note": null,
+     "intertwiner_rank": null
+    },
+    "12.2": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 1
+    },
+    "12.3": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 1
+    },
+    "12.4": {
+     "conjugator_P": [
+      [
+       0,
+       0,
+       -1
+      ],
+      [
+       -1,
+       -1,
+       -1
+      ],
+      [
+       0,
+       1,
+       1
+      ]
+     ],
+     "det_P": 1,
+     "intertwiner_rank": 1,
+     "conjugate": true
+    }
+   },
+   "transpose_control_donten_bury": {
+    "D12": false,
+    "A4(1)": false,
+    "A4(2)": false,
+    "A4(3)": true
+   },
+   "donten_bury_class": "A4(2)",
+   "burek_group": "12.4",
+   "transpose_matches_donten_bury": [
+    "A4(3)"
+   ]
+  },
+  "207": {
+   "generators_primitive": [
+    [
+     [
+      0,
+      -1,
+      0
+     ],
+     [
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      1
+     ]
+    ],
+    [
+     [
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      1,
+      0
+     ],
+     [
+      -1,
+      0,
+      0
+     ]
+    ]
+   ],
+   "donten_bury": {
+    "S4(1)": {
+     "conjugator_P": [
+      [
+       1,
+       0,
+       0
+      ],
+      [
+       0,
+       1,
+       0
+      ],
+      [
+       0,
+       0,
+       -1
+      ]
+     ],
+     "det_P": -1,
+     "intertwiner_rank": 1,
+     "conjugate": true
+    },
+    "S4(2)": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 1
+    },
+    "S4(3)": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 1
+    }
+   },
+   "burek": {
+    "24.1": {
+     "conjugator_P": [
+      [
+       1,
+       0,
+       0
+      ],
+      [
+       0,
+       1,
+       0
+      ],
+      [
+       0,
+       0,
+       -1
+      ]
+     ],
+     "det_P": -1,
+     "intertwiner_rank": 1,
+     "conjugate": true
+    },
+    "24.2": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 1
+    },
+    "24.3": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 1
+    }
+   },
+   "transpose_control_donten_bury": {
+    "S4(1)": true,
+    "S4(2)": false,
+    "S4(3)": false
+   },
+   "donten_bury_class": "S4(1)",
+   "burek_group": "24.1",
+   "transpose_matches_donten_bury": [
+    "S4(1)"
+   ]
+  },
+  "209": {
+   "generators_primitive": [
+    [
+     [
+      0,
+      -1,
+      0
+     ],
+     [
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      1
+     ]
+    ],
+    [
+     [
+      1,
+      1,
+      2
+     ],
+     [
+      0,
+      1,
+      0
+     ],
+     [
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   ],
+   "donten_bury": {
+    "S4(1)": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 1
+    },
+    "S4(2)": {
+     "conjugator_P": [
+      [
+       -1,
+       0,
+       -1
+      ],
+      [
+       0,
+       0,
+       1
+      ],
+      [
+       0,
+       -1,
+       -1
+      ]
+     ],
+     "det_P": -1,
+     "intertwiner_rank": 1,
+     "conjugate": true
+    },
+    "S4(3)": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 1
+    }
+   },
+   "burek": {
+    "24.1": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 1
+    },
+    "24.2": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 1
+    },
+    "24.3": {
+     "conjugator_P": [
+      [
+       1,
+       0,
+       1
+      ],
+      [
+       -1,
+       -1,
+       -2
+      ],
+      [
+       0,
+       1,
+       0
+      ]
+     ],
+     "det_P": 1,
+     "intertwiner_rank": 1,
+     "conjugate": true
+    }
+   },
+   "transpose_control_donten_bury": {
+    "S4(1)": false,
+    "S4(2)": false,
+    "S4(3)": true
+   },
+   "donten_bury_class": "S4(2)",
+   "burek_group": "24.3",
+   "transpose_matches_donten_bury": [
+    "S4(3)"
+   ]
+  },
+  "211": {
+   "generators_primitive": [
+    [
+     [
+      -1,
+      -2,
+      0
+     ],
+     [
+      1,
+      1,
+      0
+     ],
+     [
+      1,
+      1,
+      1
+     ]
+    ],
+    [
+     [
+      1,
+      0,
+      2
+     ],
+     [
+      0,
+      1,
+      -1
+     ],
+     [
+      -1,
+      0,
+      -1
+     ]
+    ]
+   ],
+   "donten_bury": {
+    "S4(1)": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 1
+    },
+    "S4(2)": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 1
+    },
+    "S4(3)": {
+     "conjugator_P": [
+      [
+       0,
+       1,
+       0
+      ],
+      [
+       -1,
+       0,
+       -1
+      ],
+      [
+       0,
+       1,
+       -1
+      ]
+     ],
+     "det_P": -1,
+     "intertwiner_rank": 1,
+     "conjugate": true
+    }
+   },
+   "burek": {
+    "24.1": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 1
+    },
+    "24.2": {
+     "conjugator_P": [
+      [
+       0,
+       1,
+       0
+      ],
+      [
+       0,
+       -1,
+       1
+      ],
+      [
+       -1,
+       -1,
+       -1
+      ]
+     ],
+     "det_P": -1,
+     "intertwiner_rank": 1,
+     "conjugate": true
+    },
+    "24.3": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 1
+    }
+   },
+   "transpose_control_donten_bury": {
+    "S4(1)": false,
+    "S4(2)": true,
+    "S4(3)": false
+   },
+   "donten_bury_class": "S4(3)",
+   "burek_group": "24.2",
+   "transpose_matches_donten_bury": [
+    "S4(2)"
+   ]
+  },
+  "23": {
+   "generators_primitive": [
+    [
+     [
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      -1,
+      0
+     ],
+     [
+      1,
+      0,
+      1
+     ]
+    ],
+    [
+     [
+      1,
+      0,
+      0
+     ],
+     [
+      -1,
+      -1,
+      0
+     ],
+     [
+      -1,
+      0,
+      -1
+     ]
+    ]
+   ],
+   "donten_bury": {
+    "D4(1)": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 3
+    },
+    "D4(2)": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 3
+    },
+    "D4(3)": {
+     "conjugator_P": [
+      [
+       0,
+       -1,
+       1
+      ],
+      [
+       0,
+       0,
+       -1
+      ],
+      [
+       -1,
+       0,
+       -1
+      ]
+     ],
+     "det_P": -1,
+     "intertwiner_rank": 3,
+     "conjugate": true
+    },
+    "D4(4)": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 3
+    }
+   },
+   "burek": {
+    "4.1": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 3
+    },
+    "4.2": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 3
+    },
+    "4.3": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 3
+    },
+    "4.4": {
+     "conjugator_P": [
+      [
+       0,
+       -1,
+       0
+      ],
+      [
+       0,
+       0,
+       -1
+      ],
+      [
+       -1,
+       0,
+       -1
+      ]
+     ],
+     "det_P": -1,
+     "intertwiner_rank": 3,
+     "conjugate": true
+    }
+   },
+   "transpose_control_donten_bury": {
+    "D4(1)": false,
+    "D4(2)": false,
+    "D4(3)": false,
+    "D4(4)": true
+   },
+   "donten_bury_class": "D4(3)",
+   "burek_group": "4.4",
+   "transpose_matches_donten_bury": [
+    "D4(4)"
+   ]
+  },
+  "197": {
+   "generators_primitive": [
+    [
+     [
+      1,
+      0,
+      2
+     ],
+     [
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      1,
+      -1
+     ]
+    ],
+    [
+     [
+      1,
+      0,
+      2
+     ],
+     [
+      -1,
+      0,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   ],
+   "donten_bury": {
+    "D12": {
+     "conjugate": false,
+     "note": null,
+     "intertwiner_rank": null
+    },
+    "A4(1)": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 1
+    },
+    "A4(2)": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 1
+    },
+    "A4(3)": {
+     "conjugator_P": [
+      [
+       0,
+       0,
+       -1
+      ],
+      [
+       -1,
+       -1,
+       -1
+      ],
+      [
+       0,
+       -1,
+       0
+      ]
+     ],
+     "det_P": -1,
+     "intertwiner_rank": 1,
+     "conjugate": true
+    }
+   },
+   "burek": {
+    "12.1": {
+     "conjugate": false,
+     "note": null,
+     "intertwiner_rank": null
+    },
+    "12.2": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 1
+    },
+    "12.3": {
+     "conjugator_P": [
+      [
+       0,
+       0,
+       -1
+      ],
+      [
+       -1,
+       -1,
+       -1
+      ],
+      [
+       0,
+       -1,
+       0
+      ]
+     ],
+     "det_P": -1,
+     "intertwiner_rank": 1,
+     "conjugate": true
+    },
+    "12.4": {
+     "conjugate": false,
+     "note": "no unimodular intertwiner found",
+     "intertwiner_rank": 1
+    }
+   },
+   "transpose_control_donten_bury": {
+    "D12": false,
+    "A4(1)": false,
+    "A4(2)": true,
+    "A4(3)": false
+   },
+   "donten_bury_class": "A4(3)",
+   "burek_group": "12.3",
+   "transpose_matches_donten_bury": [
+    "A4(2)"
+   ]
+  }
+ },
+ "donten_bury_to_burek": {
+  "D4(1)": {
+   "burek_group": "4.1",
+   "conjugator_P": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1
+    ]
+   ]
+  },
+  "D4(2)": {
+   "burek_group": "4.2",
+   "conjugator_P": [
+    [
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     -1,
+     0,
+     0
+    ]
+   ]
+  },
+  "D4(3)": {
+   "burek_group": "4.4",
+   "conjugator_P": [
+    [
+     -1,
+     0,
+     -1
+    ],
+    [
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     -1,
+     0
+    ]
+   ]
+  },
+  "D4(4)": {
+   "burek_group": "4.3",
+   "conjugator_P": [
+    [
+     -1,
+     -1,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     -1,
+     -1
+    ]
+   ]
+  },
+  "D6(1)": {
+   "burek_group": "6.2",
+   "conjugator_P": [
+    [
+     0,
+     0,
+     -1
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     0
+    ]
+   ]
+  },
+  "D6(2)": {
+   "burek_group": "6.1",
+   "conjugator_P": [
+    [
+     0,
+     0,
+     -1
+    ],
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     0
+    ]
+   ]
+  },
+  "D6(3)": {
+   "burek_group": "6.3",
+   "conjugator_P": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     -1,
+     0
+    ]
+   ]
+  },
+  "D8(1)": {
+   "burek_group": "8.1",
+   "conjugator_P": [
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     -1
+    ]
+   ]
+  },
+  "D8(2)": {
+   "burek_group": "8.2",
+   "conjugator_P": [
+    [
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     1,
+     1
+    ],
+    [
+     -1,
+     -1,
+     0
+    ]
+   ]
+  },
+  "D12": {
+   "burek_group": "12.1",
+   "conjugator_P": [
+    [
+     0,
+     0,
+     -1
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     0
+    ]
+   ]
+  },
+  "A4(1)": {
+   "burek_group": "12.2",
+   "conjugator_P": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1
+    ]
+   ]
+  },
+  "A4(2)": {
+   "burek_group": "12.4",
+   "conjugator_P": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1
+    ]
+   ]
+  },
+  "A4(3)": {
+   "burek_group": "12.3",
+   "conjugator_P": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1
+    ]
+   ]
+  },
+  "S4(1)": {
+   "burek_group": "24.1",
+   "conjugator_P": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1
+    ]
+   ]
+  },
+  "S4(2)": {
+   "burek_group": "24.3",
+   "conjugator_P": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     1
+    ],
+    [
+     0,
+     -1,
+     -1
+    ]
+   ]
+  },
+  "S4(3)": {
+   "burek_group": "24.2",
+   "conjugator_P": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     -1
+    ],
+    [
+     -1,
+     1,
+     0
+    ]
+   ]
+  }
+ },
+ "pairwise_nonconjugacy_of_the_16": [
+  {
+   "pair": [
+    16,
+    21
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    16,
+    22
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    16,
+    89
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    16,
+    97
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    16,
+    149
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    16,
+    150
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    16,
+    155
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    16,
+    177
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    16,
+    195
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    16,
+    196
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    16,
+    207
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    16,
+    209
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    16,
+    211
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    16,
+    23
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    16,
+    197
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    21,
+    22
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    21,
+    89
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    21,
+    97
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    21,
+    149
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    21,
+    150
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    21,
+    155
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    21,
+    177
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    21,
+    195
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    21,
+    196
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    21,
+    207
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    21,
+    209
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    21,
+    211
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    21,
+    23
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    21,
+    197
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    22,
+    89
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    22,
+    97
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    22,
+    149
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    22,
+    150
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    22,
+    155
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    22,
+    177
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    22,
+    195
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    22,
+    196
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    22,
+    207
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    22,
+    209
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    22,
+    211
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    22,
+    23
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    22,
+    197
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    89,
+    97
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    89,
+    149
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    89,
+    150
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    89,
+    155
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    89,
+    177
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    89,
+    195
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    89,
+    196
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    89,
+    207
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    89,
+    209
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    89,
+    211
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    89,
+    23
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    89,
+    197
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    97,
+    149
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    97,
+    150
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    97,
+    155
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    97,
+    177
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    97,
+    195
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    97,
+    196
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    97,
+    207
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    97,
+    209
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    97,
+    211
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    97,
+    23
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    97,
+    197
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    149,
+    150
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    149,
+    155
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    149,
+    177
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    149,
+    195
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    149,
+    196
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    149,
+    207
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    149,
+    209
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    149,
+    211
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    149,
+    23
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    149,
+    197
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    150,
+    155
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    150,
+    177
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    150,
+    195
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    150,
+    196
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    150,
+    207
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    150,
+    209
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    150,
+    211
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    150,
+    23
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    150,
+    197
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    155,
+    177
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    155,
+    195
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    155,
+    196
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    155,
+    207
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    155,
+    209
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    155,
+    211
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    155,
+    23
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    155,
+    197
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    177,
+    195
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    177,
+    196
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    177,
+    207
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    177,
+    209
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    177,
+    211
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    177,
+    23
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    177,
+    197
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    195,
+    196
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    195,
+    207
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    195,
+    209
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    195,
+    211
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    195,
+    23
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    195,
+    197
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    196,
+    207
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    196,
+    209
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    196,
+    211
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    196,
+    23
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    196,
+    197
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    207,
+    209
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    207,
+    211
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    207,
+    23
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    207,
+    197
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    209,
+    211
+   ],
+   "distinguished_by": "exhaustive intertwiner search (rank <= 1)",
+   "max_intertwiner_rank": 1
+  },
+  {
+   "pair": [
+    209,
+    23
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    209,
+    197
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    211,
+    23
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    211,
+    197
+   ],
+   "distinguished_by": "invariants"
+  },
+  {
+   "pair": [
+    23,
+    197
+   ],
+   "distinguished_by": "invariants"
+  }
+ ],
+ "R32_rhombohedral_setting_conjugator": "no unimodular intertwiner found",
+ "duality_used": {
+  "self_dual": [
+   "D4(1)",
+   "D4(2)",
+   "D6(3)",
+   "D8(1)",
+   "D8(2)",
+   "D12",
+   "A4(1)",
+   "S4(1)"
+  ],
+  "dual_pairs": [
+   [
+    "D4(3)",
+    "D4(4)"
+   ],
+   [
+    "D6(1)",
+    "D6(2)"
+   ],
+   [
+    "A4(2)",
+    "A4(3)"
+   ],
+   [
+    "S4(2)",
+    "S4(3)"
+   ]
+  ]
+ }
+}

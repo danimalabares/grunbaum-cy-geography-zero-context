@@ -9,6 +9,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "computations" / "SHA256SUMS"
+LOCAL_DOCUMENT_CACHES = ("computations/space-group-cy3/sources/",)
 
 
 def entries() -> list[tuple[str, str]]:
@@ -20,6 +21,11 @@ def entries() -> list[tuple[str, str]]:
         # Runs under runs/ carry their own manifests (HASH_MANIFEST.json or
         # ARTIFACT_SHA256SUMS); the workspace manifest covers the core workspace.
         if rel_path.parts[0] == "runs":
+            continue
+        # Local caches of third-party documents are not committed (their own MANIFEST.json records
+        # URL and SHA-256); only the committed files of such a cache enter the workspace manifest.
+        if any(rel_path.as_posix().startswith(prefix) for prefix in LOCAL_DOCUMENT_CACHES) \
+                and path.name not in {"MANIFEST.json", ".gitignore"}:
             continue
         rel = rel_path.as_posix()
         result.append((hashlib.sha256(path.read_bytes()).hexdigest(), rel))

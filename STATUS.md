@@ -1,6 +1,6 @@
 # Status
 
-Last updated: 2026-09-17 (America/Sao_Paulo). Entries dated 2026-09-04 are unchanged below.
+Last updated: 2026-09-17 (America/Sao_Paulo), second entry of the day. Entries dated 2026-09-04 are unchanged below.
 
 - Provenance freeze: complete. The clean source commit, tree, and decisive files are hash-locked.
 - Deformation extraction: complete. The 109-column basis, independently recovered 56-dimensional coordinate orbit, ordered 53-dimensional complement, ten \(S_3\)-orbits, and selected 53-vector are recorded.
@@ -52,3 +52,20 @@ No source repository was modified by the 2026-09-04 work.
   arithmetically Gorenstein degree-20 Calabi–Yau threefold in `P⁷` with `(h¹¹,h¹²) = (1,31)`, which is
   absent from the list of Coughlan–Gołębiowski–Kapustka–Kapustka (arXiv:1609.01195) that its authors
   conjecture complete in degree 20, and bears on Question 8.5 of arXiv:2111.05817.
+
+## 2026-09-17 — space groups with quotient S³ and Kummer Calabi–Yau threefolds, stage 1 (separate problem)
+
+- `computations/space-group-cy3/`: the 14 symmorphic members of the JBD 35-list are audited. The list is
+  verified against the source (Figure 2.8 text layer); the 14 are exactly the symmorphic members (spglib
+  2.7.0 and GAP CrystCat 1.1.10 agree coset by coset for all 37 groups processed); each point group is
+  matched by an explicit `GL(3,Z)`-conjugator to one Donten-Bury class and one Burek group (16 ↔ 16 with the
+  two controls I222, I23; pairwise non-conjugacy re-established); the orbifold Hodge numbers computed by one
+  exact implementation agree with Donten-Bury's Table 2 and Burek's tables in all 16 cases and with
+  Andreatta–Wiśniewski for P432; DHVW Euler check passes. Existence of a projective crepant resolution and
+  the equality of its Hodge numbers with the orbifold ones are deductions from BKR Thm 1.2 and Yasuda Thm 1.5
+  (hypotheses checked). Simple connectedness is a deduction relying on two theorems not re-read.
+- Pending (scope of stage 1): the 21 non-symmorphic groups (generators with translation parts recorded,
+  no computation), the six-dimensional toroidal-orbifold matching, deformation equivalence between groups
+  with equal Hodge numbers. Cached third-party documents are not committed; `sources/MANIFEST.json` records
+  URL and SHA-256.
+- `computations/SHA256SUMS` regenerated to include the new directory.
