@@ -97,6 +97,29 @@ section calculation. It obtains \(h^0(N_{X/\mathbf P^8})=93\); against the relev
 Kummer locus, this gives a compatible bound and **does not** obstruct smoothability. The historical audit is retained in
 [`runs/cp2-nine-hilbert-dimension-audit-2026-09-10/`](runs/cp2-nine-hilbert-dimension-audit-2026-09-10/).
 
+### Kapustka degree-20 comparison (2026-09-17)
+
+Directory: [`runs/kapustka-degree20-comparison-2026-09-11/`](runs/kapustka-degree20-comparison-2026-09-11/) —
+[`REPORT.md`](runs/kapustka-degree20-comparison-2026-09-11/REPORT.md),
+[`SOURCES.md`](runs/kapustka-degree20-comparison-2026-09-11/SOURCES.md),
+[`OPEN_QUESTIONS.md`](runs/kapustka-degree20-comparison-2026-09-11/OPEN_QUESTIONS.md),
+[`REPRODUCE.md`](runs/kapustka-degree20-comparison-2026-09-11/REPRODUCE.md).
+
+Does `SR(M)` have a smoothing whose smooth fibres lie in the deformation family of
+G. Kapustka's degree-20 Calabi–Yau threefold (Table 1 No. 8 of
+[arXiv:1010.3895](https://arxiv.org/abs/1010.3895))? **Verdict: unresolved**, with the
+question reduced to one property of Kapustka's family and a first-order obstruction to
+that property. Established in the run, independently of every trust boundary: Kapustka's
+Table 1 is reproduced exactly (rows 1–8) and its row 8 verified computationally
+(44 reduced nodes, `(H³,c₂·H,h⁰(H),h¹¹,h¹²,χ,ρ) = (20,56,8,1,31,−60,1)` — the same
+invariants as the repository's smooth fibre); the *polarised* model of that family is
+**not** in `P⁷` (the contracted threefold has a point of embedding dimension 9, namely
+`(3-fold ODP)/±1`, and lives in `P(1⁸,2²)`, its `P⁷`-image being non-normal with Hilbert
+polynomial `(10/3)n³+(14/3)n−2`); and *every* smoothing of `SR(M)` is an arithmetically
+Gorenstein family in `P⁷`, so the question reduces to whether Kapustka's general member
+is arithmetically Gorenstein in `P⁷` — which fails to first order. Nothing in §1–§7 of
+`PROOFS.md` changes.
+
 ### Historical runs on the sphere problem (2026-09-08)
 
 Three exploratory runs, published in full with their own manifests and `REPRODUCE.md` files

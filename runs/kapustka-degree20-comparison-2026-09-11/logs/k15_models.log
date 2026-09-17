@@ -1,0 +1,8 @@
+generators by degree: {2, 2, 3, 3, 4, 5, 5}
+#deg4 = 1 , #deg5 = 2
+Y: dimProj = 3 , degree = 20
+Y: gen degrees = {2, 2, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4}
+Y: Hilbert function 0..4 = {1, 8, 34, 102, 230}
+Y: Hilbert polynomial = (10/3)*i^3+(14/3)*i-2
+Y: q1,q2 in I_Y ? true
+saved IY

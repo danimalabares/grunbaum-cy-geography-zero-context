@@ -1,0 +1,111 @@
+# Open questions, gaps, and what was *not* done
+
+## The gap that decides the question
+
+**(★)** Is the general member `Y_t` of Kapustka's degree-20 family arithmetically
+Gorenstein in `P⁷`? Equivalently: is
+`μ_t : Sym²H⁰(Y_t,T_t) → H⁰(Y_t,2T_t)` (a map of 36-dimensional spaces) an isomorphism
+for general `t`; equivalently is `⊕_n H⁰(nT_t)` generated in degree 1; equivalently is
+`T_t` very ample with `h⁰(I_{Y_t}(2)) = 0`?
+
+By `REPORT.md` Corollary 5.2, a negative answer settles the whole question negatively.
+A positive answer leaves the second, harder half (`REPORT.md` §6).
+
+What is known about (★):
+
+* **it fails to first order** (`REPORT.md` Proposition 7.1): along any one-parameter
+  deformation of `Ybar` inside `P(1⁸,2²)` the `2×2` matrix `C` of `y`-coefficients
+  acquired by the two degree-2 equations has rank `≤ 1`, because
+  `(I_{Ybar})₂ = ⟨q₁,q₂⟩` is a 2-plane inside the 3-dimensional `Λ` whose kernel `Λ₀` has
+  codimension 1. In the local model of the smoothing the rank stays 1 at every order, so
+  the smooth fibre lies on exactly one quadric of `P⁷`;
+* at `t = 0` it fails, for a reason internal to the construction (`REPORT.md` §4);
+* `rank μ_t ≥ rank μ₀ = 34` and `dim ker μ_t ≤ 2` — semicontinuity gives the *wrong*
+  inequality, so it cannot decide;
+* the *local* obstruction disappears for `t ≠ 0`: the germ becomes smooth and a general
+  codimension-2 linear projection of the local model `{u² : q(u) = t} ⊂ k⁹` is injective
+  and unramified (dimension counts: secant directions ≤ 6, tangent directions ≤ 5, both
+  < 7 = 9 − 2). This is only a heuristic: the same count does not distinguish rows 1
+  and 2 of Kapustka's Table 1, of which he states that exactly one has a very ample
+  generator;
+* degree 20 is the extreme row of Kapustka's Table 1: a linearly normal Calabi–Yau
+  threefold of degree `d` in `P⁷` with `h⁰(H) = 8` has `h⁰(2H) = d + 16`, so an
+  arithmetically Gorenstein one lies on exactly `20 − d` quadrics; only at `d = 20` does
+  (★) demand that the threefold lie on no quadric at all, and only there is
+  `μ : Sym²H⁰(H) → H⁰(2H)` a square map, so that no dimension count can decide it;
+* three papers of G. Kapustka and coauthors that enumerate arithmetically Gorenstein
+  Calabi–Yau threefolds in `P⁷` omit this family, and CGKK §4.9 says that in degree 20
+  "only one example is known" (`h¹¹ = 2`). None of them asserts that (★) fails.
+
+## The next specific computation
+
+The **second-order** term. Write `β_s : (I_{𝒴_s})₂ → ⟨y₁,y₂⟩` for the canonical
+`y`-coefficient map of a one-parameter smoothing of `Ybar` inside `P(1⁸,2²)` and
+`β_s = sC + s²C₂ + O(s³)`. Proposition 7.1 gives `rank C ≤ 1` (so `det C = 0`; the local model gives rank exactly 1), whence
+
+```
+det β_s  =  s³ · tr(adj(C)·C₂)  +  s⁴ · det C₂  +  O(s⁵).
+```
+
+**(★) holds iff this is not identically zero.** Deciding it needs `C₂` for the actual
+global smoothing, because past first order an ambient analytic coordinate change at the
+singular point *can* produce `y`-terms (`REPORT.md` §7.3) — so the local model of §7.1,
+which gives rank 1 at all orders, is not by itself conclusive.
+
+This is a second-order Kuranishi computation of the shape already carried out in this
+repository for `I_M ⊂ P⁷` (`runs/astra-daytime-2026-09-08/FIXED_CHART.md`), applied
+instead to the explicit ideal `I_{Ybar} ⊂ k[x₀..x₆,w,y₁,y₂]` (weights `1⁸,2²`;
+2 quadrics, 16 cubics, 3 quartics) shipped in `data/IYbar.m2`. The first-order input is
+`Hom(I_{Ybar}, R)₀`. `scripts/k17_deform.m2` computes exactly that, as an independent
+*global* check of Proposition 7.1; in this run `normalMatrix({0}, F0)` did not return
+after 45 minutes and about 1.2 GB, so the check is **not completed** (`REPORT.md` §7.2b).
+Proposition 7.1 and the local model do not depend on it. A cheaper route to the same
+number would set up the syzygy-lifting conditions as one linear system over `F₃₂₀₀₃`
+(source `2·36 + 16·104 + 3·232 = 2432`, target a few times `10⁴`) rather than through the
+`Hom` functor.
+
+## Other gaps
+
+(i) **No weight degeneration was searched for**, and none can be searched for with the
+objects produced here: Kapustka's construction yields no ideal in the Hilbert scheme
+`Hilb^{(10/3)n³+(14/3)n}(P⁷)` that contains `[SR(M)]`. The `P⁷` model `Y` of §4 has
+Hilbert polynomial `(10/3)n³+(14/3)n − 2` and lives in a different Hilbert scheme; the
+normal model `Ybar` lives in `P(1⁸,2²)`. This is a *structural* obstruction to the
+search contemplated in the task, not a failed search.
+
+(ii) **The identification of the component, granting (★), is untouched.** `REPORT.md`
+§6 lists what would and would not suffice.
+
+(iii) **`π₁` and torsion.** The vanishing cycle of the smoothing of `(3-fold ODP)/±1`
+is `RP³` (not `S³`), so the local monodromy carries 2-torsion. Since `H₁(X ∖ D′) = 0`
+(the 44 flopped curves meet `D′` in one point each, so the divisibility of `[D′]` is 1),
+van Kampen gives `π₁(Y_t) ≅ π₁(X ∖ D′)`, a perfect group normally generated by the
+meridian; we did **not** prove it is trivial. Since the repository lists `π₁` and
+Picard torsion of its own fibre as open (`PROOFS.md` C05), this cannot discriminate
+either way at present, but it is a possible future discriminator.
+
+(iv) **Line counts.** The `G`-degree-1 curves on `X` include the 44 flopped
+`(−1,−1)`-curves (`G·e_i = H*·e_i + D′·e_i = 0 + 1`), but each meets `D′`, hence passes
+through the singular point of `Ybar`, so no deformation-invariant count of lines on
+`Y_t` was extracted. The repository's own line data (15 isolated facet-transverse
+`(−1,−1)` lines, with the line scheme's dimension and length open,
+`runs/astra-all-nighter-2026-09-08/NEW_GEOMETRY.md`) is likewise incomplete. A complete
+`n₁` on both sides would be a genuine deformation invariant and a real discriminator.
+
+(v) **One set of random choices.** The Macaulay2 chain was run over `F₃₂₀₀₃` with a
+single random projection centre, a single pair of quadrics and a single cubic. The
+numbers obtained (Betti table, 44 reduced nodes, colon-ideal generator degrees
+`2,2,3,3,4,5,5`, Hilbert functions) are properties of a *general* member and agree with
+the closed formulas verified in `scripts/verify_kapustka_table1.py`, but a second
+independent set of choices, and a characteristic-zero run, were not performed.
+
+(vi) **Characteristic.** Everything algebraic was done over `F₃₂₀₀₃`. The closed
+formulas of §2 are characteristic-free; the Macaulay2 results are semicontinuity
+evidence for characteristic 0 (a general member in characteristic 0 can only have
+*smaller* Betti numbers and *at most* the same number of singular points), which is the
+direction needed for the structural statements of §4 but was not certified.
+
+(vii) **Kapustka's Theorem 5.1 is used only through Table 1 + Appendix 1.** We did not
+re-verify `h¹¹(Y_t) = 1`, which rests on Kapustka's Picard-rank argument (his
+Theorem 2.2 via Ravindra–Srinivas) plus `ρ(Ybar) = 1` after the contraction; we
+verified `χ(Y_t) = −60` independently, so `h¹² = 31` follows *given* `h¹¹ = 1`.

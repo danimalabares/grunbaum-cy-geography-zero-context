@@ -1,0 +1,24 @@
+No  surface        #nodes    chi(Yt) H^3     h0(H)   c2.H    ok     
+1   Dt_6  in P^5   42(42)    [-98, -96](-96) 14(14)  7(7)    56      OK     
+2   Dt_6  in P^5   42(42)    [-98, -96](-98) 14(14)  7(7)    56      OK     
+3   Dt_6  in P^5   36(36)    [-78, -76](-76) 15(15)  7(7)    54      OK     
+4   Dt_6  in P^5   36(36)    [-78, -76](-78) 15(15)  7(7)    54      OK     
+5   Dtt_7 in P^5   44(44)    [-60](-60) 16(16)  7(7)    52      OK     
+6   L_P   in P^5   52(52)    [-44](-44) 17(17)  7(7)    50      OK     
+7   Dt_7  in P^6   37(37)    [-74](-74) 19(19)  8(8)    58      OK     
+8   Dtt_8 in P^6   44(44)    [-60](-60) 20(20)  8(8)    56      OK     
+
+chi of the smooth ambient complete intersections:
+   X_2,4 in P^5 : chi = -176
+   X_3,3 in P^5 : chi = -144
+   X_2,2,3 in P^6 : chi = -144
+   X_2,2,2,2 in P^7 : chi = -128
+
+ROW 8 (the comparison family):
+   S = double projection of D_8 = P^1xP^1 into P^6 ;  deg S = 8, K^2 = 8, e = 4
+   #nodes of X'_{2,2,3} = 44
+   deg Ybar = 12 + 8 = 20 ;  mult_P Ybar = 8 ;  embdim_P Ybar = h^0(-K_{P1xP1}) = 9
+   chi(X) = -56 ; chi(Ybar) = -59 ; chi(Y_t) = -60
+   => (h11,h12) = (1, 31) ; H^3 = 20 ; h^0(H) = 8 ; c2.H = 56
+
+ALL ROWS 1-8 REPRODUCED

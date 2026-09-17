@@ -1,0 +1,7 @@
+codim_Xprime 3
+dimProj_Xprime 3
+degree_Xprime 12
+IS_subset_IX true
+nodes_dimProj 0
+nodes_degree 44
+nodes_degree_radical 44

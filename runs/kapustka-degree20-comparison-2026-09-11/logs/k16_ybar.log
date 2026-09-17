@@ -1,0 +1,5 @@
+saturating ...
+Ybar: dimProj = 3 , degree = 80
+Ybar: gen degrees = {2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4}
+Ybar: Hilbert function 0..5 = {1, 8, 36, 104, 232, 440}
+saved IYbar

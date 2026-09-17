@@ -159,6 +159,35 @@ minutes; Macaulay2 1.20 + Python 3). Independent re-run record:
 | Explicit equations, an explicit two-parameter family, a smooth generic fibre, the full Hilbert functor at `Proj A`, the fate of the other `S₃`-invariant directions | — | **not established / undecided** |
 | Rank of the second-order Kuranishi quadrics (optional cross-check) | `logs/quadric_rank_check.log` | unfinished, not used |
 
+## 8. Sphere problem — Kapustka degree-20 comparison (2026-09-17)
+
+Directory [`runs/kapustka-degree20-comparison-2026-09-11/`](runs/kapustka-degree20-comparison-2026-09-11/).
+Read [`REPORT.md`](runs/kapustka-degree20-comparison-2026-09-11/REPORT.md); literature
+ledger [`SOURCES.md`](runs/kapustka-degree20-comparison-2026-09-11/SOURCES.md); gaps
+[`OPEN_QUESTIONS.md`](runs/kapustka-degree20-comparison-2026-09-11/OPEN_QUESTIONS.md);
+reproduction [`REPRODUCE.md`](runs/kapustka-degree20-comparison-2026-09-11/REPRODUCE.md)
+(two exact Python checks in seconds, then a Macaulay2 1.20 chain of about 25 minutes over
+`F₃₂₀₀₃`). Input commit `09953cefe987f304e1e8549a50df3b937747470c`. This section changes
+no status label of §1–§7.
+
+| Id | Statement | Proof / computation | Certificates | Status |
+|---|---|---|---|---|
+| K01 | Rows 1–8 of Table 1 of [arXiv:1010.3895v5] are reproduced exactly (nodes, `H³`, `h⁰(H)`, `c₂·H`, and both Euler numbers of the paired rows) from a Thom–Porteous node count, `deg Ȳ = deg X' + deg D`, and `χ(Y_t) = χ(X) − 2χ(D) + χ(V)` | `scripts/verify_kapustka_table1.py` | `logs/verify_kapustka_table1.log` | established (exact integer arithmetic) |
+| K02 | The comparison family is Table 1 No. 8: `D = P¹×P¹` doubly projected into `P⁶`, 44 nodes, `(H³,c₂·H,h⁰(H),h¹¹,h¹²,χ,ρ) = (20,56,8,1,31,−60,1)`. The "resp." pairing printed inside the proof of Kapustka's Theorem 5.1 is transposed | `REPORT.md` §2, §3 | `logs/k01_surface.log`, `logs/k11_ci.log` | established |
+| K03 | `S = ~~D₈ ⊂ P⁶` has Betti table `(1; 3; 14,53,68,43,14,2)`, `h¹(I_S(1)) = 2` and `h¹(I_S(k)) = 0` otherwise; a general `(2,2,3)` complete intersection through it has exactly 44 singular points, a reduced scheme | `scripts/k01_surface.m2`, `scripts/k11_ci.m2` | `logs/k01_surface.log`, `logs/k11_ci.log` | COMPUTER-CERTIFIED (Macaulay2, `F₃₂₀₀₃`) |
+| K04 | `Hom_{O_{X'}}(I_S,O_{X'})` is generated in degrees `0,1,2,2`; the unprojection `Y ⊂ P⁷` has degree 20, two quadrics and Hilbert polynomial `(10/3)n³+(14/3)n−2`; the normal model is `Ȳ ⊂ P(1⁸,2²)` with Hilbert function `1,8,36,104,232,440` and 2 quadrics, 16 cubics, 3 quartics | `scripts/k14_unproj.m2`, `scripts/k15_models.m2`, `scripts/k16_ybar.m2` | `logs/k14_unproj.log`, `logs/k15_models.log`, `logs/k16_ybar.log`, `data/IY.m2`, `data/IYbar.m2` | COMPUTER-CERTIFIED |
+| K05 | `(Ȳ,P)` is analytically `({xy = zw} ⊂ A⁴)/±1`: multiplicity 8, embedding dimension 9. Hence `Ȳ ⊄ P⁷` and [arXiv:0707.2488, Lem. 2.2] — the tool giving the aG models in `P⁷` in the degree-17 and -18 members of the same construction — does not apply | `REPORT.md` §4 | derivation | PROVED |
+| K06 | **Reduction.** Every smoothing of `SR(M)` is an embedded smoothing in `P⁷` whose smooth fibres are arithmetically Gorenstein of degree 20 with h-vector `(1,4,10,4,1)`. Hence a Kapustka-family smoothing of `SR(M)` exists only if Kapustka's general member is arithmetically Gorenstein in `P⁷` (property `(★)`) | `REPORT.md` §5 | `scripts/verify_sphere.py`, `logs/verify_sphere.log` | PROVED (flatness, Hochster, semicontinuity only — no trust boundary) |
+| K07 | `(★)` fails **to first order**: the `2×2` matrix of `y`-coefficients acquired by the two degree-2 equations of `Ȳ ⊂ P(1⁸,2²)` has rank `≤ 1`, because `(I_Ȳ)₂` is a 2-plane in a 3-dimensional `Λ` whose relevant kernel `Λ₀ ⊂ Λ` has codimension 1. In the local model of the smoothing the rank stays 1 at all orders | `REPORT.md` §7, `scripts/verify_local_model.py` | `logs/verify_local_model.log` | PROVED (first order); all-orders statement only in the local model |
+| K08 | `(★)` itself, hence the answer to the question | — | — | **unresolved**; the next invariant is the second-order term `C₂` (see `OPEN_QUESTIONS.md`) |
+
+Recorded but not used as evidence: CGKK 2016 §4.9 ("in degree 20 only one example is
+known", the determinantal one with `h¹¹ = 2`) and KKRSSY Memoirs AMS 2026 Question 8.5
+both omit a degree-20 arithmetically Gorenstein family with `h¹¹ = 1`; quotations in
+`SOURCES.md`. No weight degeneration was searched for: Kapustka's construction produces
+no ideal in the Hilbert scheme that contains `[SR(M)]` (K04), which is a structural
+obstruction rather than a failed search.
+
 ## 6. Integrity, omissions and the Release asset
 
 - Core workspace: `python3 scripts/make_manifest.py --verify` (covers everything outside `runs/`).

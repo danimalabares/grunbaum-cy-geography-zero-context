@@ -1,0 +1,4 @@
+generator degrees: {2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4}
+degree-2 generator positions: {0, 1}
+true
+degree-2 generators y-free ? computing normalMatrix ...

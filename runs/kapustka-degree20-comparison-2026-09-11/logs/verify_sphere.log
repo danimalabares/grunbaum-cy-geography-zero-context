@@ -1,0 +1,15 @@
+f-vector                : [8, 28, 40, 20]
+neighbourly (f1=C(8,2)) : True
+every triangle in 2 facets: True  #triangles: 40
+all 8 vertex links are 2-spheres (chi=2, every edge in 2 triangles): True
+integral homology H_i(M) = (free rank, torsion): {0: (1, []), 1: (0, []), 2: (0, []), 3: (1, [])}
+=> M is a Z-homology 3-sphere (in fact the Gruenbaum-Sreedharan 3-sphere)
+h-vector                : [1, 4, 10, 4, 1]  sum = 20
+Hilbert function values H(0..4): [1, 8, 36, 104, 232]
+Hilbert polynomial      : (10/3)m^3 + (14/3)m  -> [Fraction(0, 1), Fraction(8, 1), Fraction(36, 1), Fraction(104, 1), Fraction(232, 1)]
+
+CONSEQUENCES USED BY THE REDUCTION THEOREM
+  h^i(O_X) = dim ~H^i(M;k) :  h^1 = h^2 = 0,  h^3 = 1   (Hochster)
+  k[M] Gorenstein with a-invariant 0  =>  omega_X = O_X,  X aG of degree 20 in P^7
+  h^0(O_X(1)) = 8 = h^0(O_{P^7}(1))   =>  X nondegenerate and linearly normal
+ALL CHECKS PASSED
