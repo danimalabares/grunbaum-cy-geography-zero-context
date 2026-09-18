@@ -213,10 +213,12 @@ obstruction rather than a failed search.
 
 ## 7. Crystallographic quotients, vertex links and SR smoothings (2026-09-11 … 2026-09-16)
 
-Directory [`computations/crystallographic-links/`](computations/crystallographic-links/). Read
-[`REPORT.md`](computations/crystallographic-links/REPORT.md) first; sources and search log in
-[`SOURCES.md`](computations/crystallographic-links/SOURCES.md); gaps in
-[`OPEN_QUESTIONS.md`](computations/crystallographic-links/OPEN_QUESTIONS.md). Reproduction: `python3 scripts/run_all.py`
+**Moved to Crystal on 2026-09-18.** All relative script and output paths in this section refer to `computations/crystallographic-links/` in a Crystal checkout. Historical mathematical status labels below are unchanged.
+
+Directory [`computations/crystallographic-links/`](https://github.com/danimalabares/crystal/tree/main/computations/crystallographic-links/). Read
+[`REPORT.md`](https://github.com/danimalabares/crystal/blob/main/computations/crystallographic-links/REPORT.md) first; sources and search log in
+[`SOURCES.md`](https://github.com/danimalabares/crystal/blob/main/computations/crystallographic-links/SOURCES.md); gaps in
+[`OPEN_QUESTIONS.md`](https://github.com/danimalabares/crystal/blob/main/computations/crystallographic-links/OPEN_QUESTIONS.md). Reproduction: `python3 scripts/run_all.py`
 inside the directory (about 3 minutes of exact Python plus about 1 minute of Macaulay2 1.20; the recorded
 outputs are in `output/`). Nothing in this section is used by the sphere problem or by the `CP²₉` calculation.
 
@@ -235,10 +237,12 @@ outputs are in `output/`). Nothing in this section is used by the sphere problem
 
 ## 9. Space groups with quotient S³ and Kummer Calabi–Yau threefolds — stage 1 (2026-09-17)
 
-Directory [`computations/space-group-cy3/`](computations/space-group-cy3/). Read
-[`REPORT.md`](computations/space-group-cy3/REPORT.md) first; sources in
-[`SOURCES.md`](computations/space-group-cy3/SOURCES.md); gaps and pending items in
-[`OPEN_QUESTIONS.md`](computations/space-group-cy3/OPEN_QUESTIONS.md). Reproduction: `python3 scripts/run_all.py`
+**Moved to Crystal on 2026-09-18.** All relative script and output paths in this section refer to `computations/space-group-cy3/` in a Crystal checkout. Historical mathematical status labels below are unchanged.
+
+Directory [`computations/space-group-cy3/`](https://github.com/danimalabares/crystal/tree/main/computations/space-group-cy3/). Read
+[`REPORT.md`](https://github.com/danimalabares/crystal/blob/main/computations/space-group-cy3/REPORT.md) first; sources in
+[`SOURCES.md`](https://github.com/danimalabares/crystal/blob/main/computations/space-group-cy3/SOURCES.md); gaps and pending items in
+[`OPEN_QUESTIONS.md`](https://github.com/danimalabares/crystal/blob/main/computations/space-group-cy3/OPEN_QUESTIONS.md). Reproduction: `python3 scripts/run_all.py`
 inside the directory (Python 3 only, about one minute; recorded outputs in `output/`, the 35-row table in
 `table/`). Nothing in this section is used by the sphere problem or by the `CP²` calculations.
 

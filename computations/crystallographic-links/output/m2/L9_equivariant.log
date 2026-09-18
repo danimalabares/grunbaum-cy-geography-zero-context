@@ -1,5 +1,0 @@
-CHECK|L9|generators|16|relations|30|dimT1_0|109|dimT2_0|27
-group_elements 6
-CHECK|L9|group_order|6|invariant_T1_0|21|invariant_T2_0|0
-CHECK|L9|coordinate_orbit|56|invariant_coordinate_directions|11|genuine_invariant_T1|10
-DONE L9

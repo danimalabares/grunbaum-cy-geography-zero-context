@@ -1,8 +1,0 @@
-LABEL L10a vertices 9 facets 27 minimal_nonfaces 30 by_size new Tally from {3 => 30}
-CHECK|L10a|dim_A|4|degree|27
-CHECK|L10a|hilbert_polynomial|(9/2)*i^3+(9/2)*i
-CHECK|L10a|dim_Hom_S(I,A)_0|126
-CHECK|L10a|coordinate_orbit_dimension|72
-CHECK|L10a|intrinsic_T1_0_dimension|54
-CHECK|L10a|dim_T2_0|63|seconds|0
-DONE L10a

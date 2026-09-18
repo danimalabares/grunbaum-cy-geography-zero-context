@@ -1,8 +1,0 @@
-== cp2_9: |Aut| = 54, link isomorphism classes = [[1, 2, 3, 4, 5, 6, 7, 8, 9]]
-== cp2_10: |Aut| = 12, link isomorphism classes = [[1, 5, 8, 10], [2, 3, 4, 6, 7, 9]]
--- CP2_9 link v9: n=8 f=[8, 28, 40, 20] h=[1, 4, 10, 4, 1] deg=20 P(k)=(10/3)k^3 + (14/3)k |Aut(link)|=6 stab=6 MNF={3: 16} 3-manifold=True betti=[1, 0, 0, 1] PL-cert=True
--- CP2_10 link x11: n=9 f=[9, 36, 54, 27] h=[1, 5, 15, 5, 1] deg=27 P(k)=(9/2)k^3 + (9/2)k |Aut(link)|=6 stab=3 MNF={3: 30} 3-manifold=True betti=[1, 0, 0, 1] PL-cert=True
--- CP2_10 link x12: n=9 f=[9, 31, 44, 22] h=[1, 5, 10, 5, 1] deg=22 P(k)=(11/3)k^3 + (16/3)k |Aut(link)|=2 stab=2 MNF={2: 5, 3: 10} 3-manifold=True betti=[1, 0, 0, 1] PL-cert=True
-CP2_9 link == packet Gruenbaum sphere: True {'1': 2, '2': 5, '3': 8, '4': 1, '5': 3, '6': 7, '7': 4, '8': 6}
-CP2_10 links isomorphic to each other: False
-all links PL-certified: True True

@@ -1,8 +1,0 @@
-LABEL L9 vertices 8 facets 20 minimal_nonfaces 16 by_size new Tally from {3 => 16}
-CHECK|L9|dim_A|4|degree|20
-CHECK|L9|hilbert_polynomial|(10/3)*i^3+(14/3)*i
-CHECK|L9|dim_Hom_S(I,A)_0|109
-CHECK|L9|coordinate_orbit_dimension|56
-CHECK|L9|intrinsic_T1_0_dimension|53
-CHECK|L9|dim_T2_0|27|seconds|0
-DONE L9

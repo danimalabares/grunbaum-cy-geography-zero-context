@@ -27,7 +27,7 @@ No source repository was modified by the 2026-09-04 work.
 
 ## 2026-09-11 … 2026-09-16 — crystallographic quotients, vertex links, SR smoothings (separate problem)
 
-- `computations/crystallographic-links/`: the five rows of Kaneko–Tokunaga–Yoshida other than `(3,3)₀`. Rows `(m,1)₀`, `m = 2,3,4,6`: verified `Γ`-invariant rectilinear lifts with simplicial quotient `CP²₁₀` (Bagchi–Datta), two link types (degrees 27 and 22 in `P⁸`), exact degree-0 `T¹`/`T²` and invariant parts; smoothability of the link SR schemes **open** (nothing found in the literature, nothing asserted). Row `(4,2)₁`: no compatible triangulation located; three exact negative results. Row `(3,3)₀`: Morin–Yoshida's group verified conjugate to `(3,3)₀[τ=ω]`; the `CP²₉` link verified equal to the sphere of the sphere problem; `(T²₀)^{S₃} = 0` recomputed. Reproduction: `python3 scripts/run_all.py` in that directory.
+- [Crystal: `computations/crystallographic-links/`](https://github.com/danimalabares/crystal/tree/main/computations/crystallographic-links/): the five rows of Kaneko–Tokunaga–Yoshida other than `(3,3)₀`. Rows `(m,1)₀`, `m = 2,3,4,6`: verified `Γ`-invariant rectilinear lifts with simplicial quotient `CP²₁₀` (Bagchi–Datta), two link types (degrees 27 and 22 in `P⁸`), exact degree-0 `T¹`/`T²` and invariant parts; smoothability of the link SR schemes **open** (nothing found in the literature, nothing asserted). Row `(4,2)₁`: no compatible triangulation located; three exact negative results. Row `(3,3)₀`: Morin–Yoshida's group verified conjugate to `(3,3)₀[τ=ω]`; the `CP²₉` link verified equal to the sphere of the sphere problem; `(T²₀)^{S₃} = 0` recomputed. Reproduction: `python3 scripts/run_all.py` in that directory in a Crystal checkout.
 - `computations/SHA256SUMS` regenerated to include the new directory.
 
 ## 2026-09-17 — Kapustka degree-20 comparison (sphere problem)
@@ -55,7 +55,7 @@ No source repository was modified by the 2026-09-04 work.
 
 ## 2026-09-17 — space groups with quotient S³ and Kummer Calabi–Yau threefolds, stage 1 (separate problem)
 
-- `computations/space-group-cy3/`: the 14 symmorphic members of the JBD 35-list are audited. The list is
+- [Crystal: `computations/space-group-cy3/`](https://github.com/danimalabares/crystal/tree/main/computations/space-group-cy3/): the 14 symmorphic members of the JBD 35-list are audited. The list is
   verified against the source (Figure 2.8 text layer); the 14 are exactly the symmorphic members (spglib
   2.7.0 and GAP CrystCat 1.1.10 agree coset by coset for all 37 groups processed); each point group is
   matched by an explicit `GL(3,Z)`-conjugator to one Donten-Bury class and one Burek group (16 ↔ 16 with the
@@ -69,3 +69,12 @@ No source repository was modified by the 2026-09-04 work.
   with equal Hodge numbers. Cached third-party documents are not committed; `sources/MANIFEST.json` records
   URL and SHA-256.
 - `computations/SHA256SUMS` regenerated to include the new directory.
+
+## 2026-09-18 — migration to Crystal
+
+The `crystallographic-links` and `space-group-cy3` computations now live in
+[danimalabares/crystal](https://github.com/danimalabares/crystal). The original
+directories contain navigation READMEs. Their exact pre-migration snapshot remains
+in this repository at `dd0f3771ff3f5502a956231a4c69d896e10f4a71`.
+Historical mathematical conclusions above have not been re-audited or upgraded.
+Reproduction takes place in the corresponding directories of a Crystal checkout.

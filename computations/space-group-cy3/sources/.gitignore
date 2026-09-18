@@ -1,4 +1,0 @@
-# Cached third-party documents are not committed (see MANIFEST.json for URLs and SHA-256 values).
-*
-!.gitignore
-!MANIFEST.json

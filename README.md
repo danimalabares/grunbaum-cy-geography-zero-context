@@ -73,12 +73,12 @@ unfinished and is not used.
 
 ### Crystallographic quotients, vertex links and SR smoothings (2026-09-11 … 2026-09-16)
 
-Directory: [`computations/crystallographic-links/`](computations/crystallographic-links/) —
-[`REPORT.md`](computations/crystallographic-links/REPORT.md),
-[`SOURCES.md`](computations/crystallographic-links/SOURCES.md),
-[`OPEN_QUESTIONS.md`](computations/crystallographic-links/OPEN_QUESTIONS.md),
-[`README.md`](computations/crystallographic-links/README.md) (one reproduction command:
-`python3 scripts/run_all.py` inside the directory).
+Directory: [`computations/crystallographic-links/`](https://github.com/danimalabares/crystal/tree/main/computations/crystallographic-links/) —
+[`REPORT.md`](https://github.com/danimalabares/crystal/blob/main/computations/crystallographic-links/REPORT.md),
+[`SOURCES.md`](https://github.com/danimalabares/crystal/blob/main/computations/crystallographic-links/SOURCES.md),
+[`OPEN_QUESTIONS.md`](https://github.com/danimalabares/crystal/blob/main/computations/crystallographic-links/OPEN_QUESTIONS.md),
+[`README.md`](https://github.com/danimalabares/crystal/blob/main/computations/crystallographic-links/README.md) (one reproduction command:
+`python3 scripts/run_all.py` inside the corresponding directory in a Crystal checkout).
 
 The five complex crystallographic groups with quotient `CP²` other than the Kühnel row `(3,3)₀`
 (Kaneko–Tokunaga–Yoshida, Theorem 1): the four rows `(m,1)₀`, `m = 2,3,4,6`, all descend, through verified
@@ -122,12 +122,12 @@ is arithmetically Gorenstein in `P⁷` — which fails to first order. Nothing i
 
 ### Space groups with quotient S³ and Kummer Calabi–Yau threefolds — stage 1 (2026-09-17)
 
-Directory: [`computations/space-group-cy3/`](computations/space-group-cy3/) —
-[`REPORT.md`](computations/space-group-cy3/REPORT.md),
-[`SOURCES.md`](computations/space-group-cy3/SOURCES.md),
-[`OPEN_QUESTIONS.md`](computations/space-group-cy3/OPEN_QUESTIONS.md),
-[`README.md`](computations/space-group-cy3/README.md) (one reproduction command:
-`python3 scripts/run_all.py` inside the directory; Python 3 only, about one minute).
+Directory: [`computations/space-group-cy3/`](https://github.com/danimalabares/crystal/tree/main/computations/space-group-cy3/) —
+[`REPORT.md`](https://github.com/danimalabares/crystal/blob/main/computations/space-group-cy3/REPORT.md),
+[`SOURCES.md`](https://github.com/danimalabares/crystal/blob/main/computations/space-group-cy3/SOURCES.md),
+[`OPEN_QUESTIONS.md`](https://github.com/danimalabares/crystal/blob/main/computations/space-group-cy3/OPEN_QUESTIONS.md),
+[`README.md`](https://github.com/danimalabares/crystal/blob/main/computations/space-group-cy3/README.md) (one reproduction command:
+`python3 scripts/run_all.py` inside the corresponding directory in a Crystal checkout; Python 3 only, about one minute).
 
 Audit of the claim that the 14 symmorphic members (16, 21, 22, 89, 97, 149, 150, 155, 177, 195, 196,
 207, 209, 211) of Johnson–Burnett–Dunbar's list of 35 space groups with real orbifold quotient `S³` are
