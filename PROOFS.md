@@ -144,11 +144,16 @@ computation cutoff reached", confirmed 2026-09-09). The recorded passing run is
 
 ## 5. CP²₉ fourfold — equivariant obstruction computation (2026-09-09)
 
-Directory [`runs/cp2-nine-vertex-equivariant-t2-2026-09-09/`](runs/cp2-nine-vertex-equivariant-t2-2026-09-09/).
-Statement, proofs and caveats: [`RESULTS.md`](runs/cp2-nine-vertex-equivariant-t2-2026-09-09/RESULTS.md).
-Reproduction: [`REPRODUCE.md`](runs/cp2-nine-vertex-equivariant-t2-2026-09-09/REPRODUCE.md) (about five
+**Moved to Crystal on 2026-09-18.** All relative script and output paths in this section refer to
+`runs/cp2-nine-vertex-equivariant-t2-2026-09-09/` in a Crystal checkout. Historical status labels
+below are unchanged. The companion normal-sections/Hilbert-dimension audit and its invariant-smoothing
+follow-up moved with it; see the root [`README.md`](README.md).
+
+Directory [`runs/cp2-nine-vertex-equivariant-t2-2026-09-09/`](https://github.com/danimalabares/crystal/tree/main/runs/cp2-nine-vertex-equivariant-t2-2026-09-09/).
+Statement, proofs and caveats: [`RESULTS.md`](https://github.com/danimalabares/crystal/blob/main/runs/cp2-nine-vertex-equivariant-t2-2026-09-09/RESULTS.md).
+Reproduction: [`REPRODUCE.md`](https://github.com/danimalabares/crystal/blob/main/runs/cp2-nine-vertex-equivariant-t2-2026-09-09/REPRODUCE.md) (about five
 minutes; Macaulay2 1.20 + Python 3). Independent re-run record:
-[`PUBLICATION_VERIFICATION.md`](runs/cp2-nine-vertex-equivariant-t2-2026-09-09/PUBLICATION_VERIFICATION.md).
+[`PUBLICATION_VERIFICATION.md`](https://github.com/danimalabares/crystal/blob/main/runs/cp2-nine-vertex-equivariant-t2-2026-09-09/PUBLICATION_VERIFICATION.md).
 
 | Statement | Certificates | Status |
 |---|---|---|

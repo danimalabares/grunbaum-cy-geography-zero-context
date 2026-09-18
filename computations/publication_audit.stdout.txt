@@ -1,5 +1,5 @@
 PUBLICATION_AUDIT_PASSED
-files_inspected=980
+files_inspected=985
 largest_file=runs/astra-all-nighter-2026-09-08/data/reproduction_01/support/support_closure.json
 largest_file_bytes=3563429
 license_files=[]

@@ -40,13 +40,14 @@ trust boundary, CONDITIONAL, OPEN, FAILED). Start there.
 - [`computations/DEVELOPMENT_FAILURES.md`](computations/DEVELOPMENT_FAILURES.md) — failed and quarantined computations.
 - [`PROVENANCE.md`](PROVENANCE.md), [`PUBLICATION.md`](PUBLICATION.md) — source freeze, hash locks, publication audit.
 
-### CP²₉ equivariant-obstruction computation (verified 2026-09-09)
+### CP²₉ equivariant-obstruction computation (verified 2026-09-09; moved to Crystal on 2026-09-18)
 
-Directory: [`runs/cp2-nine-vertex-equivariant-t2-2026-09-09/`](runs/cp2-nine-vertex-equivariant-t2-2026-09-09/)
-— [`RESULTS.md`](runs/cp2-nine-vertex-equivariant-t2-2026-09-09/RESULTS.md),
-[`REPRODUCE.md`](runs/cp2-nine-vertex-equivariant-t2-2026-09-09/REPRODUCE.md),
-[`PUBLICATION_VERIFICATION.md`](runs/cp2-nine-vertex-equivariant-t2-2026-09-09/PUBLICATION_VERIFICATION.md),
-[`CHECKPOINT.md`](runs/cp2-nine-vertex-equivariant-t2-2026-09-09/CHECKPOINT.md).
+Directory: [`runs/cp2-nine-vertex-equivariant-t2-2026-09-09/`](https://github.com/danimalabares/crystal/tree/main/runs/cp2-nine-vertex-equivariant-t2-2026-09-09/)
+in a Crystal checkout —
+[`RESULTS.md`](https://github.com/danimalabares/crystal/blob/main/runs/cp2-nine-vertex-equivariant-t2-2026-09-09/RESULTS.md),
+[`REPRODUCE.md`](https://github.com/danimalabares/crystal/blob/main/runs/cp2-nine-vertex-equivariant-t2-2026-09-09/REPRODUCE.md),
+[`PUBLICATION_VERIFICATION.md`](https://github.com/danimalabares/crystal/blob/main/runs/cp2-nine-vertex-equivariant-t2-2026-09-09/PUBLICATION_VERIFICATION.md),
+[`CHECKPOINT.md`](https://github.com/danimalabares/crystal/blob/main/runs/cp2-nine-vertex-equivariant-t2-2026-09-09/CHECKPOINT.md).
 
 Exact results for `A = QQ[x_1..x_9]/I_Δ` (all verified in Macaulay2 and independently re-verified in exact rational arithmetic in Python):
 
@@ -90,12 +91,19 @@ negative results, including a counting obstruction for the vertex-minimal model)
 to be the sphere of the sphere problem, and the `S₃`-invariant `T²₀` of its Stanley–Reisner ring is
 recomputed as `0`.
 
-### CP²₉ normal-sections dimension audit (historical 2026-09-10)
+### CP²₉ normal-sections dimension audit (historical 2026-09-10; moved to Crystal on 2026-09-18)
 
-[`computations/cp29-normal-sections/`](computations/cp29-normal-sections/) packages the completed exact normal-sheaf
+[`computations/cp29-normal-sections/`](https://github.com/danimalabares/crystal/tree/main/computations/cp29-normal-sections/)
+in a Crystal checkout packages the completed exact normal-sheaf
 section calculation. It obtains \(h^0(N_{X/\mathbf P^8})=93\); against the relevant 84-dimensional smooth embedded
 Kummer locus, this gives a compatible bound and **does not** obstruct smoothability. The historical audit is retained in
-[`runs/cp2-nine-hilbert-dimension-audit-2026-09-10/`](runs/cp2-nine-hilbert-dimension-audit-2026-09-10/).
+[`runs/cp2-nine-hilbert-dimension-audit-2026-09-10/`](https://github.com/danimalabares/crystal/tree/main/runs/cp2-nine-hilbert-dimension-audit-2026-09-10/).
+A follow-up computation, [`runs/cp2-nine-vertex-invariant-smoothing-2026-09-10/`](https://github.com/danimalabares/crystal/tree/main/runs/cp2-nine-vertex-invariant-smoothing-2026-09-10/)
+(2026-09-10/11; not previously tracked in this repository, migrated to Crystal directly),
+reports that the `H`-fixed locus of `Hilb(P⁸)` at `[X]` is smooth of dimension 5, with an explicit
+`H`-invariant two-parameter deformation family constructed through order 6; a sufficient
+chart-smoothness certificate remains unfinished (killed after 17 hours with no output), so no fibre
+of that family is shown smooth or singular there.
 
 ### Kapustka degree-20 comparison (2026-09-17)
 

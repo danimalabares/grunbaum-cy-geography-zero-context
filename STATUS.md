@@ -15,7 +15,7 @@ No source repository was modified by the 2026-09-04 work.
 
 ## 2026-09-09 — CP²₉ equivariant-obstruction computation (separate problem)
 
-- `runs/cp2-nine-vertex-equivariant-t2-2026-09-09/`: for the nine-vertex triangulation of CP² (a fourfold in P⁸, not the sphere's threefold), dim Hom_S(I,A)₀ = 93, intrinsic T¹ = 21, dim (T²)₀ = 126; invariant obstructions: 14 for the vertex stabiliser S₃, 0 for the order-54 automorphism group; 5 invariant embedded tangent directions, 3 of them coordinate changes, 2 genuine, each extending to all orders equivariantly. Smoothability undecided. Verifiers re-run before publication with byte-identical outputs (`PUBLICATION_VERIFICATION.md`); four textual corrections to `RESULTS.md` are marked inline.
+- [Crystal: `runs/cp2-nine-vertex-equivariant-t2-2026-09-09/`](https://github.com/danimalabares/crystal/tree/main/runs/cp2-nine-vertex-equivariant-t2-2026-09-09/): for the nine-vertex triangulation of CP² (a fourfold in P⁸, not the sphere's threefold), dim Hom_S(I,A)₀ = 93, intrinsic T¹ = 21, dim (T²)₀ = 126; invariant obstructions: 14 for the vertex stabiliser S₃, 0 for the order-54 automorphism group; 5 invariant embedded tangent directions, 3 of them coordinate changes, 2 genuine, each extending to all orders equivariantly. Smoothability undecided. Verifiers re-run before publication with byte-identical outputs (`PUBLICATION_VERIFICATION.md`); four textual corrections to `RESULTS.md` are marked inline. Reproduction takes place in a Crystal checkout.
 - Optional quadratic-obstruction cross-check in that run: unfinished, not restarted, not used.
 - `scripts/make_manifest.py` now excludes `runs/` (each run has its own manifest); `computations/SHA256SUMS` regenerated accordingly.
 
@@ -73,8 +73,22 @@ No source repository was modified by the 2026-09-04 work.
 ## 2026-09-18 — migration to Crystal
 
 The `crystallographic-links` and `space-group-cy3` computations now live in
-[danimalabares/crystal](https://github.com/danimalabares/crystal). The original
-directories contain navigation READMEs. Their exact pre-migration snapshot remains
-in this repository at `dd0f3771ff3f5502a956231a4c69d896e10f4a71`.
+[danimalabares/crystal](https://github.com/danimalabares/crystal). Their exact
+pre-migration snapshot remains accessible in this repository's history at
+`dd0f3771ff3f5502a956231a4c69d896e10f4a71`.
 Historical mathematical conclusions above have not been re-audited or upgraded.
 Reproduction takes place in the corresponding directories of a Crystal checkout.
+
+**Second batch (same day):** `computations/cp29-normal-sections/`,
+`runs/cp2-nine-hilbert-dimension-audit-2026-09-10/`, and
+`runs/cp2-nine-vertex-equivariant-t2-2026-09-09/` also moved to Crystal (exact
+pre-migration snapshot at `a8f55bca41725711d0f98cde9061d42af661f23a`), together with
+`runs/cp2-nine-vertex-invariant-smoothing-2026-09-10/`, a 2026-09-10/11 CP²₉ follow-up
+computation that had never been committed to this repository (untracked local work) and
+is now permanently recorded at Crystal instead. All four directories were removed
+from this repository, including the two navigation READMEs and the empty
+`computations/space-group-cy3/output/extract_crystcat.stderr.log` left behind by the
+first batch; this repository's root docs link to Crystal directly. Historical
+mathematical conclusions have not been re-audited or upgraded; the previously
+untracked run's own byte provenance is `SHA-256`-only, recorded in Crystal's
+`migration/source-manifest-2-untracked.json`.

@@ -1,9 +1,0 @@
-(dim_A, 5)
-(degree_A, 36)
-(hilbert_series_numerator, 1+4*T+10*T^2+20*T^3-T^4+2*T^5)
-(betti, new BettiTally from {(0,{0},0) => 1, (1,{4},4) => 36, (2,{5},5) => 90})
-(T1_shape, 36, 93, seconds, 5)
-(T2_shape, 90, 126, seconds, 3)
-(relation_matrix_shape, 36, 90)
-DIMS_DONE
-/Applications/Macaulay2-1.20/bin/M2 --script scripts/t2_dims.m2  5.92s user 0.31s system 72% cpu 8.539 total
