@@ -1,0 +1,19 @@
+codim I_M = 4  (so dim Proj = 3), degree = 20
+Betti table of S/I_M:
+       0  1  2  3 4
+total: 1 16 30 16 1
+    0: 1  .  .  . .
+    1: .  .  .  . .
+    2: . 16 30 16 .
+    3: .  .  .  . .
+    4: .  .  .  . 1
+Hilbert function 0..5 = {1, 8, 36, 104, 232, 440}
+reduced Hilbert series (numerator = h-vector) = (1+4*T+10*T^2+4*T^3+T^4)/((1-T)^4)
+Hilbert polynomial = (10/3)*i^3+(14/3)*i
+dim (I_M)_2 = 0,  dim (I_M)_3 = 16
+chart a=1: generator degrees = {2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}
+chart a=1: number of independent linear forms among generators = 0
+chart a=1: rank of Jacobian at the vertex = 0,  dim T_p SR(M) = 7
+chart a=1: dim of the affine cone = 3, degree = 10
+length of resolution = 4,  last Betti number = 1
+M2 --script scripts/c01_srm_sphere.m2  0.58s user 0.19s system 64% cpu 1.184 total

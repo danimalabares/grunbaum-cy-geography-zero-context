@@ -1,0 +1,17 @@
+(i)  ideal of D_8 = v_{2,2}(P^1 x P^1) in P^8: codim 6, degree 8, generator degrees {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2}
+(i)  Hilbert function of the cone ring, n = 0..4: {1, 9, 25, 49, 81}   (expected (2n+1)^2 = 1,9,25,49,81)
+(i)  linear forms in the ideal: 0   => dim T_0 C = 9
+(i)  multiplicity at the vertex = degree of D_8 = 8
+(ii) kernel of  QQ[a_ij] -> QQ[x,y,z,w]/(xy-zw),  a_ij -> (i-th coord)(j-th coord): codim 7, degree 8, generator degrees {1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2}
+(ii) the unique linear relation: {a_(0,1)-a_(2,3)}   (this is lambda = a_01 - a_23, i.e. xy - zw)
+(ii) after eliminating the linear relation the ideal lives in 9 variables: Hilbert function 0..4 of QQ[a]/Iinv = {1, 9, 25, 49, 81}
+(ii) dimensions of even-degree parts of QQ[x,y,z,w]/(xy-zw): {1, 9, 25, 49, 81}   (must equal 1,9,25,49,81)
+(ii') the ten quadratic monomials on the parametrisation of {q=0}: matrix {{s^2*u^2, s*t*u*v, s^2*u*v, s*t*u^2, t^2*v^2, s*t*v^2, t^2*u*v, s^2*v^2, s*t*u*v, t^2*u^2}}
+(ii') ideal of the parametrised image equals Iinv ? true
+(iv) W_0 = cone C: dim 3, degree 8, equals Iinv ? true
+(iv) W_1: dim 3, degree 8
+(iv) Q_1 = {xy - zw = 1}: singular locus = ideal(-1,0,0,0,0)  (unit ideal = smooth)
+(iv) point u u^T with u=(1,1,0,0) lies on W_1 ? true,  dim of Zariski tangent space there = 3
+(iv) point u u^T with u=(2,1,1,1) (q(u)=2-1=1) lies on W_1 ? true,  dim of Zariski tangent space there = 3
+(iv) W_0 at the vertex: dim T = 9;  at u u^T, u=(1,0,0,0): on W_0 ? true, dim T = 3
+M2 --script scripts/$s.m2  0.50s user 0.11s system 82% cpu 0.736 total

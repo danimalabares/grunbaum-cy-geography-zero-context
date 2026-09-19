@@ -262,3 +262,23 @@ inside the directory (Python 3 only, about one minute; recorded outputs in `outp
 | `Y_τ` is simply connected (strict Calabi–Yau; not of type A or K) | Armstrong's theorem gives `π₁(A_τ/G) ≅ (Λ/S_Λ)²` with `S_Λ = Λ` computed; Kollár/Takayama for the resolution | `output/hodge_numbers_linear.json` (`Lambda_mod_S_index`) | deduction relying on two theorems not re-read in this run |
 | Identification of the 14 threefolds with any family other than `Kum₃(E_τ,G)`; deformation equivalence of groups with equal Hodge numbers; matching with the six-dimensional toroidal-orbifold classification | — | `OPEN_QUESTIONS.md` | **OPEN** (not pursued in stage 1) |
 | The 21 non-symmorphic groups of the list | exact affine generators recorded only | `table/space_groups_35.tsv`, `output/crystallographic_data.json` | **pending** (stage 2; requirements in `REPORT.md` §8) |
+
+## 10. Sphere problem — Kapustka degree-20: the tangent space at the contracted point (2026-09-18)
+
+Directory [`runs/kapustka-degree20-tangent-space-note-2026-09-18/`](runs/kapustka-degree20-tangent-space-note-2026-09-18/).
+Read [`DANI_NOTE.pdf`](runs/kapustka-degree20-tangent-space-note-2026-09-18/DANI_NOTE.pdf);
+sources [`SOURCES.md`](runs/kapustka-degree20-tangent-space-note-2026-09-18/SOURCES.md);
+computations [`CHECKS.md`](runs/kapustka-degree20-tangent-space-note-2026-09-18/CHECKS.md);
+corrections to §8's run [`CORRECTIONS.md`](runs/kapustka-degree20-tangent-space-note-2026-09-18/CORRECTIONS.md).
+Input commit `ff3c5040257cca9161dbb76795b7d9a240f31374`. This section changes no status label of §1–§9.
+
+| Id | Statement | Proof / computation | Certificates | Status |
+|---|---|---|---|---|
+| N01 | `dim T_P Ȳ ≥ 9` at the singular point of Kapustka's degree-20 contraction; hence `Ȳ` has no closed embedding into `P⁷` (or any smooth 7-fold) and `T` is not very ample | `DANI_NOTE` §2 Step 1, §3 Prop. 3.1 (theorem on formal functions, `O_{D'}(−D') = O(2,2)`, `H¹(O(2,2)) = 0`) | derivation; model computation `logs/c02_anticanonical_cone.log` | PROVED (characteristic zero) |
+| N02 | `dim T_P Ȳ = 9`, `mult_P Ȳ = 8`, `(Ȳ,P)` analytically the anticanonical cone over `P¹×P¹` `= {xy = zw}/±1` | `DANI_NOTE` §2 Steps 2–3: Gross, Math. Ann. 308 (1997), Prop. 5.4, with Reid, *Canonical 3-folds*, Thm. 2.11 (as quoted in Gross Thm. 5.2) for "the contraction is the blow-up of `P`"; cone = quotient verified over `QQ` | `logs/c02_anticanonical_cone.log`; finite-field consistency `logs/c04_ybar_charts_F32003.log` | established (published theorem + exact computation) |
+| N03 | The image `Y ⊂ P⁷` of the eight sections is non-normal at `P` with `δ = 2`; `χ(O_Y(n)) = (10/3)n³+(14/3)n−2`; `[Y]` and `[SR(M)]` lie in different Hilbert schemes | `DANI_NOTE` §3 Prop. 3.1; needs `h¹(I_S(k)) = 0` for `k ≥ 2`, verified over `QQ` for a random centre (general centre by semicontinuity) | `logs/c03_projected_surface_QQ.log`; `logs/c04_ybar_charts_F32003.log` | PROVED (characteristic zero, general centre) |
+| N04 | Every embedded deformation of `SR(M)` inside `P⁷` has arithmetically Gorenstein fibres with h-vector `(1,4,10,4,1)`, no quadrics, 16 cubics, `ω ≅ O` | `DANI_NOTE` §4 Prop. 4.1 (semicontinuity, Auslander–Buchsbaum); re-proof of §8 K06 part (3) for embedded families | `logs/c01_srm_sphere.log` | PROVED |
+| N05 | The tangent-space obstruction does not persist under smoothing (local model `{xy − zw = t}/±1` smooth, tangent dimension 9 → 3); property `(★)` for the smooth fibres is neither implied nor excluded | `DANI_NOTE` §3 Example 3.2 and following paragraph | `logs/c02_anticanonical_cone.log` | established (the negative part is a statement about what is *not* proved) |
+
+Not re-verified: the abstract-to-embedded step of §8 K06 (parts (1)–(2) of that run's Theorem 5.1)
+and the first-order obstruction §8 K07. `(★)` (§8 K08) remains **unresolved**.

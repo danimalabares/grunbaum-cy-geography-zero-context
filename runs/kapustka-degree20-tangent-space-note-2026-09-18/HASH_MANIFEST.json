@@ -1,0 +1,79 @@
+{
+ "count": 18,
+ "files": {
+  "CHECKS.md": {
+   "bytes": 4800,
+   "sha256": "c1c9c72fb640d94654c700c0057c39f94c583b4bb7b5423478c8c78a501f04db"
+  },
+  "CORRECTIONS.md": {
+   "bytes": 5053,
+   "sha256": "5676bb167a1cc7056a518f44608c8a64959d1dbd74fc7dcb45f40310ba42fb6b"
+  },
+  "DANI_NOTE.pdf": {
+   "bytes": 366283,
+   "sha256": "6545be9138fdd8f99075e9e8e3d2f495521d5cdfed152a54e7e08c19a64a0b2c"
+  },
+  "DANI_NOTE.tex": {
+   "bytes": 22896,
+   "sha256": "2b45db2887626aee9367a14448fdfa62583880af7fb0a64953791fc6b5e5400c"
+  },
+  "HP_SECTIONS.md": {
+   "bytes": 2990,
+   "sha256": "dfd6dcf5275aa78f2e8f685cbf6e78049792bcc0639d383132a416b11a7b679e"
+  },
+  "README.md": {
+   "bytes": 4938,
+   "sha256": "523932c8fd825d3762b3b09ffdecac0dfd72c8aeeb4b07e2e8024ae6ee558c24"
+  },
+  "SOURCES.md": {
+   "bytes": 7495,
+   "sha256": "4e27915ee47ed590a4f7b1b2bcff4ee5b13e9434d23066a27117fe1c211c3cd6"
+  },
+  "logs/c01_srm_sphere.log": {
+   "bytes": 813,
+   "sha256": "01e5cbfdedb65d01924fd2343a9b7d1d7d63b3d66fdd2b80f30a16b7b8894659"
+  },
+  "logs/c02_anticanonical_cone.log": {
+   "bytes": 1624,
+   "sha256": "5ac7300f47f821a266da16f3edc183ae10c04acb80223905286597fed7d2f91a"
+  },
+  "logs/c03_projected_surface_QQ.log": {
+   "bytes": 1153,
+   "sha256": "61440f012c779609dc98cd456778c069efe2506e0ef3d45981268a5f0f0d3712"
+  },
+  "logs/c04_ybar_charts_F32003.log": {
+   "bytes": 740,
+   "sha256": "1a0a76e56816c7c1b2663df511e73750ef7f3a820630405677ff84bd9031fb31"
+  },
+  "logs/pdflatex_pass1.log": {
+   "bytes": 8022,
+   "sha256": "9ea14fc61fcccbac188b8a41aafb69d5acfe6e7b40e69a344ed05e5d50f7b052"
+  },
+  "logs/pdflatex_pass2.log": {
+   "bytes": 7337,
+   "sha256": "6197d04cbe96ab6e250d464d5f45f2a2ad32d0e531798f017dfde75e3b57f66c"
+  },
+  "scripts/c01_srm_sphere.m2": {
+   "bytes": 2301,
+   "sha256": "93b0f4a2b60930b446a5ce5a914270c34adeaa316222e51495febac3442a8734"
+  },
+  "scripts/c02_anticanonical_cone.m2": {
+   "bytes": 5851,
+   "sha256": "32b87caa0ea1b94a3a6ca2170ada34ac7e1f77417587d91b455c5b10eb5cd6be"
+  },
+  "scripts/c03_projected_surface_QQ.m2": {
+   "bytes": 1800,
+   "sha256": "66b02f4aeec427140de54b1eb34665143a777c15957c0d3d24af10406255f702"
+  },
+  "scripts/c04_ybar_charts_F32003.m2": {
+   "bytes": 2080,
+   "sha256": "0b708361ce313c48a4903e8ec3f0d3cf3b0a1e56ff539a8d301c229dfa2dc5fb"
+  },
+  "scripts/hash_run.py": {
+   "bytes": 1258,
+   "sha256": "cf8b30cb94da1abb5b5857dd62aa8caa11c70b3b11ec697966b6d76abc5e2937"
+  }
+ },
+ "input_commit": "ff3c5040257cca9161dbb76795b7d9a240f31374",
+ "run": "kapustka-degree20-tangent-space-note-2026-09-18"
+}

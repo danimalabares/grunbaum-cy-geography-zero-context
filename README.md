@@ -128,6 +128,26 @@ Gorenstein family in `P⁷`, so the question reduces to whether Kapustka's gener
 is arithmetically Gorenstein in `P⁷` — which fails to first order. Nothing in §1–§7 of
 `PROOFS.md` changes.
 
+### Kapustka degree-20: tangent-space note (2026-09-18)
+
+Directory: [`runs/kapustka-degree20-tangent-space-note-2026-09-18/`](runs/kapustka-degree20-tangent-space-note-2026-09-18/) —
+[`DANI_NOTE.pdf`](runs/kapustka-degree20-tangent-space-note-2026-09-18/DANI_NOTE.pdf) (4 pages),
+[`SOURCES.md`](runs/kapustka-degree20-tangent-space-note-2026-09-18/SOURCES.md),
+[`CHECKS.md`](runs/kapustka-degree20-tangent-space-note-2026-09-18/CHECKS.md),
+[`CORRECTIONS.md`](runs/kapustka-degree20-tangent-space-note-2026-09-18/CORRECTIONS.md),
+[`HP_SECTIONS.md`](runs/kapustka-degree20-tangent-space-note-2026-09-18/HP_SECTIONS.md).
+
+A short self-contained note on one question of the previous run: why the contracted threefold
+`Ȳ` has a singular point with nine-dimensional Zariski tangent space and therefore no embedding
+into `P⁷`. The lower bound `≥ 9` is proved from the theorem on formal functions; equality, the
+multiplicity 8 and the analytic model `{xy = zw}/±1` are Gross's Prop. 5.4 (the published theorem
+the earlier run did not name). The image of the eight sections is non-normal with Hilbert
+polynomial `P(n) − 2`, so the singular models of the two constructions are incomparable in `P⁷`;
+tangent dimension drops to 3 on every smooth fibre, and the decisive property `(★)` of the smooth
+fibres is untouched. All supporting computations are exact over `QQ` except one finite-field
+sanity check on the shipped ideals. Seven corrections to the previous run are recorded; none
+reverses a conclusion, and no status label changes.
+
 ### Space groups with quotient S³ and Kummer Calabi–Yau threefolds — stage 1 (2026-09-17)
 
 Directory: [`computations/space-group-cy3/`](https://github.com/danimalabares/crystal/tree/main/computations/space-group-cy3/) —

@@ -1,0 +1,9 @@
+Ybar chart w=1: dim = 3, ideal generators = 21
+Ybar chart w=1: origin lies on Ybar ? true
+Ybar chart w=1: rank of Jacobian at the origin = 0  => dim T_P Ybar = 9
+Ybar chart w=1: tangent cone computation ...
+Ybar chart w=1: tangent cone: dim 3, degree (= multiplicity of Ybar at P) = 8, generator degrees {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2}
+Y chart w=1: origin lies on Y ? true, rank of Jacobian at origin = 0 => dim T_P Y = 7
+Y chart w=1: tangent cone: dim 3, degree (= multiplicity of Y at P) = 8, generator degrees {2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}
+Y in P^7: Hilbert polynomial = (10/3)*i^3+(14/3)*i-2
+M2 --script scripts/c04_ybar_charts_F32003.m2  15.49s user 0.54s system 56% cpu 28.310 total

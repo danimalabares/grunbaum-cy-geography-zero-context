@@ -92,3 +92,23 @@ first batch; this repository's root docs link to Crystal directly. Historical
 mathematical conclusions have not been re-audited or upgraded; the previously
 untracked run's own byte provenance is `SHA-256`-only, recorded in Crystal's
 `migration/source-manifest-2-untracked.json`.
+
+## 2026-09-18 — Kapustka degree-20: tangent-space note (sphere problem)
+
+- `runs/kapustka-degree20-tangent-space-note-2026-09-18/`: `DANI_NOTE.pdf` (4 pages) answers one
+  limited question of the 2026-09-11 run. Proved in characteristic zero: the contracted threefold
+  `Ȳ` has `dim T_P Ȳ ≥ 9` at its singular point (theorem on formal functions,
+  `O_{D'}(−D') = O(2,2)`, `H¹ = 0`), hence no closed embedding into `P⁷` and `T` not very ample.
+  Via Gross, *Deforming Calabi–Yau threefolds*, Prop. 5.4 (+ Reid): `dim T_P Ȳ = 9`, multiplicity 8,
+  `(Ȳ,P) ≅ {xy = zw}/±1`. The `P⁷`-image of the eight sections is non-normal with `δ = 2` and Hilbert
+  polynomial `P(n) − 2`; `h¹(I_S(k)) = 0` for `k ≥ 2` is now verified over `QQ` (`logs/c03`). Kapustka's
+  own Remark 3.3 states the non-normality of the `|G|`-image for the analogous degree-15 row; the
+  primitive contraction is `φ_{|2G|}` (his Thm. 3.4), which corrects the notation `φ_{|G|}` of the
+  earlier run. The reduction for *embedded* smoothings of `SR(M)` is re-proved; the abstract-to-embedded
+  step was not re-verified. Property `(★)` for the smooth fibres is neither implied nor excluded by the
+  singular model; no deformation-equivalence search or second-order computation was run.
+- `CORRECTIONS.md` lists seven corrections/clarifications to the 2026-09-11 run; none reverses a
+  conclusion; `PROOFS.md` §8 labels unchanged; `PROOFS.md` gains §10.
+- `computations/SHA256SUMS` regenerated (`PROOFS.md`, `README.md`, `STATUS.md` changed);
+  `python3 scripts/make_manifest.py --verify` and `python3 scripts/verify_runs.py` pass, the latter now
+  including the new run's `HASH_MANIFEST.json` (18 entries).
